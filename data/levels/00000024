@@ -1,0 +1,1106 @@
+{
+    "levelname": "",
+    "scenetree": [
+        {
+            "type": "entity",
+            "guid": "3f034df0-7713-457e-a29c-e2968047886",
+            "name": "/",
+            "components": [
+                {
+                    "name": "Rendering",
+                    "properties": [
+                        {
+                            "name": "Material",
+                            "type": "material",
+                            "value": 18446744073709551615
+                        },
+                        {
+                            "name": "Mesh",
+                            "type": "mesh",
+                            "value": 18446744073709551615
+                        }
+                    ]
+                },
+                {
+                    "name": "Transform",
+                    "properties": [
+                        {
+                            "name": "Local",
+                            "type": "mat44f",
+                            "value": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "children": [
+                {
+                    "type": "entity",
+                    "guid": "8f79ee19-af77-4967-aebf-80a02192a590",
+                    "name": "floor",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 5
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        100.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        100.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "69e0d90f-b5b8-4710-ced0-50ea9cd51a6",
+                    "name": "front-door",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -0.9999997019767761,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.9999997019767761,
+                                        0.0,
+                                        0.0007961094379425049,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "2e654005-ddd0-4664-9363-b4f42c6330a3",
+                    "name": "front-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 19
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -0.9999997019767761,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.9999997019767761,
+                                        0.0,
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -1.9999994039535523,
+                                        0.0,
+                                        -0.0015922188758850098,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "f9b13287-c85e-486b-fca-6d65b4be55b8",
+                    "name": "front-small-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -0.9999997019767761,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.9999997019767761,
+                                        0.0,
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -1.9999994039535523,
+                                        2.0,
+                                        -0.0015922188758850098,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "79331ba5-a953-4fe8-3419-901ac58c64a7",
+                    "name": "front-small-window_copy",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007961094379425049,
+                                        0.0,
+                                        -0.9999997019767761,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.9999997019767761,
+                                        0.0,
+                                        0.0007961094379425049,
+                                        0.0,
+                                        0.0,
+                                        2.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "df913728-954c-47a8-f5f3-6a0f3203baa0",
+                    "name": "right-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 19
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.9999998807907105,
+                                        0.0,
+                                        -2.086162567138672e-7,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        2.086162567138672e-7,
+                                        0.0,
+                                        0.9999998807907105,
+                                        0.0,
+                                        0.9992040395736694,
+                                        0.0,
+                                        3.000795841217041,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "dd986b2c-8843-4a25-eb1c-4b06fe6be2ae",
+                    "name": "right-wall-1",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.9999998807907105,
+                                        0.0,
+                                        -2.086162567138672e-7,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        2.086162567138672e-7,
+                                        0.0,
+                                        0.9999998807907105,
+                                        0.0,
+                                        0.9992035627365112,
+                                        0.0,
+                                        1.000795841217041,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "e3fb78f5-6ddc-4486-eb5a-882c39e617a3",
+                    "name": "right-wall-2",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.9999998807907105,
+                                        0.0,
+                                        -2.086162567138672e-7,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        2.086162567138672e-7,
+                                        0.0,
+                                        0.9999998807907105,
+                                        0.0,
+                                        0.9992035627365112,
+                                        2.0,
+                                        1.000795841217041,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "9e8697be-d6ea-47ac-97a8-155a8ed61a8",
+                    "name": "right-wall-3",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.9999998807907105,
+                                        0.0,
+                                        -2.086162567138672e-7,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        2.086162567138672e-7,
+                                        0.0,
+                                        0.9999998807907105,
+                                        0.0,
+                                        0.9992040395736694,
+                                        2.0,
+                                        3.000795841217041,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "90212e2-c3e4-47f5-7ce5-f1d0fbb93e99",
+                    "name": "left-wall-1",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -0.0015923678874969483,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0015923678874969483,
+                                        0.0,
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -3.000796318054199,
+                                        0.0,
+                                        1.0007967948913575,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "ee7ab077-1969-4f31-86b2-857aaefe1b96",
+                    "name": "left-wall-2",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -0.0015923678874969483,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0015923678874969483,
+                                        0.0,
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -3.003981113433838,
+                                        0.0,
+                                        3.0007944107055666,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "d16cfe09-fac9-453b-14b9-9b79327f7595",
+                    "name": "left-wall-3",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -0.0015923678874969483,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0015923678874969483,
+                                        0.0,
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -3.000796318054199,
+                                        2.0,
+                                        1.0007967948913575,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "836ac660-86ad-4009-151f-a64834fd8389",
+                    "name": "left-small-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -0.0015923678874969483,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0015923678874969483,
+                                        0.0,
+                                        -0.9999986290931702,
+                                        0.0,
+                                        -3.003981113433838,
+                                        2.0,
+                                        3.0007944107055666,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "1179d57d-917c-4352-dd29-411170cc9fa8",
+                    "name": "back-small-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.002388596534729004,
+                                        0.0,
+                                        0.999997079372406,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        -0.999997079372406,
+                                        0.0,
+                                        -0.002388596534729004,
+                                        0.0,
+                                        -0.006374955177307129,
+                                        2.0,
+                                        4.006364822387695,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "14fcd86d-ec6f-416c-66f5-153056081bf",
+                    "name": "back-wall-1",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.002388596534729004,
+                                        0.0,
+                                        0.999997079372406,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        -0.999997079372406,
+                                        0.0,
+                                        -0.002388596534729004,
+                                        0.0,
+                                        -2.006369113922119,
+                                        2.0,
+                                        4.001587867736816,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "f9213ded-36d7-49d5-cb7f-bcda5ee6c983",
+                    "name": "back-wall-2",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 16
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.002388596534729004,
+                                        0.0,
+                                        0.999997079372406,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        -0.999997079372406,
+                                        0.0,
+                                        -0.002388596534729004,
+                                        0.0,
+                                        -0.006374835968017578,
+                                        0.0,
+                                        4.006364822387695,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "a3e4eb2d-ac2e-4ffa-7dc2-5931330f578c",
+                    "name": "back-window",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 19
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.002388596534729004,
+                                        0.0,
+                                        0.999997079372406,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        -0.999997079372406,
+                                        0.0,
+                                        -0.002388596534729004,
+                                        0.0,
+                                        -2.006369113922119,
+                                        0.0,
+                                        4.001587867736816,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "90571f8-f203-4a84-a32e-5b911b626da2",
+                    "name": "roof-1",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 17
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007242197752930224,
+                                        -0.4087110757827759,
+                                        -0.9126593470573425,
+                                        0.0,
+                                        0.00032561886473558843,
+                                        0.9126594662666321,
+                                        -0.40871086716651919,
+                                        0.0,
+                                        0.9999899864196777,
+                                        -0.000001192081299450365,
+                                        0.0007940453360788524,
+                                        0.0,
+                                        0.00007368119258899242,
+                                        3.969600200653076,
+                                        -0.09306231141090393,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "6f96ff6-4b79-44aa-13e5-45e08455b18f",
+                    "name": "roof-2",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 17
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.0021846999879926445,
+                                        -0.40516990423202517,
+                                        0.9129400849342346,
+                                        0.0,
+                                        -0.0009473735117353499,
+                                        0.9129387736320496,
+                                        0.4051671028137207,
+                                        0.0,
+                                        -0.9999842643737793,
+                                        0.000020295119611546398,
+                                        -0.0023839762434363367,
+                                        0.0,
+                                        -0.009959036484360695,
+                                        3.97904109954834,
+                                        4.028636455535889,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "6eaba5fd-a194-423b-acae-1fa52b66ab9d",
+                    "name": "roof-3",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 17
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        0.0007242197752930224,
+                                        -0.4087110757827759,
+                                        -0.9126593470573425,
+                                        0.0,
+                                        0.00032561886473558843,
+                                        0.9126594662666321,
+                                        -0.40871086716651919,
+                                        0.0,
+                                        0.9999899864196777,
+                                        -0.000001192081299450365,
+                                        0.0007940453360788524,
+                                        0.0,
+                                        -1.9999256134033204,
+                                        3.969602584838867,
+                                        -0.09465041756629944,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "498a9fa-a0ec-45e5-8b56-704923b1af8e",
+                    "name": "roof-4",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 17
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        -0.0021846999879926445,
+                                        -0.40516990423202517,
+                                        0.9129400849342346,
+                                        0.0,
+                                        -0.0009473735117353499,
+                                        0.9129387736320496,
+                                        0.4051671028137207,
+                                        0.0,
+                                        -0.9999842643737793,
+                                        0.000020295119611546398,
+                                        -0.0023839762434363367,
+                                        0.0,
+                                        -2.009953498840332,
+                                        3.979081630706787,
+                                        4.023868083953857,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

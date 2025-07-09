@@ -1,0 +1,178 @@
+{
+    "levelname": "",
+    "scenetree": [
+        {
+            "type": "entity",
+            "guid": "3d4c6501-71ff-4a7e-fad1-c29535ea0f81",
+            "name": "/",
+            "components": [],
+            "children": [
+                {
+                    "type": "entity",
+                    "guid": "6e172c17-7a15-4ad9-aa1b-d4b3d487ef96",
+                    "name": "plan",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 4
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        100.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        100.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        100.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "type": "entity",
+                            "guid": "728b631c-57a5-4291-3f7c-3ace3feda5a2",
+                            "name": "dummy1",
+                            "components": [],
+                            "children": []
+                        },
+                        {
+                            "type": "entity",
+                            "guid": "42133061-aab3-4644-a432-6eb39af45ea1",
+                            "name": "dummy2",
+                            "components": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "type": "entity",
+                    "guid": "3111b87b-40db-4470-74f9-6b8ac5cc3c9b",
+                    "name": "cube",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 5
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        -5.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "type": "entity",
+                    "guid": "a8a2bd3e-a621-4350-948d-1b014f175496",
+                    "name": "torus",
+                    "components": [
+                        {
+                            "name": "Rendering",
+                            "properties": [
+                                {
+                                    "name": "Material",
+                                    "type": "material",
+                                    "value": 6
+                                },
+                                {
+                                    "name": "Mesh",
+                                    "type": "mesh",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Transform",
+                            "properties": [
+                                {
+                                    "name": "Local",
+                                    "type": "mat44f",
+                                    "value": [
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        5.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

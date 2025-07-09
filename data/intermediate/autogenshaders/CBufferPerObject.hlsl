@@ -1,5 +1,5 @@
 /********************************************************************/
-/* Â© 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
+/* © 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
 #ifndef CBUFFER_PER_OBJECT_HLSL
@@ -10,10 +10,6 @@
 cbuffer PerObject
 {
 	matrix worldMatrix;
-	
-	//matrix worldMatrix;
-	//matrix viewMatrix;
-	//matrix projMatrix;
 };
 
 #endif // ifndef CBUFFER_PER_OBJECT_HLSL 

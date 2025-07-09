@@ -2,9 +2,9 @@
 /* © 2021 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
-#include "../includes/BaseTypes.hlsl"
-#include "../includes/CBufferLights.hlsl"
-#include "../includes/CBufferPerFrame.hlsl"
+#include "BaseTypes.hlsl"
+#include "CBufferLights.hlsl"
+#include "CBufferPerFrame.hlsl"
 
 cbuffer PerMaterial
 {

@@ -1,5 +1,5 @@
 /********************************************************************/
-/* Â© 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
+/* © 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
 #ifndef BASE_TYPE_HLSL
@@ -9,4 +9,4 @@
 
 typedef float4 color;
 
-#endif // ifndef BASE_TYPE_HLSL 
+#endif // ifndef BASE_TYPE_HLSL

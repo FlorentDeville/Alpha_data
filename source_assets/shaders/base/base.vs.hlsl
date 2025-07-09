@@ -2,8 +2,8 @@
 /* © 2021 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
-#include "../includes/CBufferPerObject.hlsl"
-#include "../includes/CBufferPerFrame.hlsl"
+#include "CBufferPerObject.hlsl"
+#include "CBufferPerFrame.hlsl"
 
 struct VS_Input
 {

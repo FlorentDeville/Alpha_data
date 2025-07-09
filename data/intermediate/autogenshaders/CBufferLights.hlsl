@@ -1,5 +1,5 @@
 /********************************************************************/
-/* Â© 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
+/* © 2025 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
 #ifndef CBUFFER_LIGHTS_HLSL

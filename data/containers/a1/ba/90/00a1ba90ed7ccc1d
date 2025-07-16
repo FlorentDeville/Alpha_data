@@ -7,100 +7,11 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::MaterialInstanceAsset_v1"
+				"typename": "Systems::LevelAsset_v1"
 			}, 
 			"object": {
-				"m_id": "00a1ba90ed7ccc1d", 
-				"m_material": "0095f6d901921ae9", 
-				"m_perMaterialParameters": [
-					{
-						"m_name": "ambientColor", 
-						"m_size": 16, 
-						"m_offset": 0, 
-						"m_type": "b0a1a50b1639e8ff", 
-						"m_strType": "color", 
-						"m_value": [
-							0,
-							0,
-							0,
-							63,
-							0,
-							0,
-							0,
-							63,
-							0,
-							0,
-							0,
-							63,
-							0,
-							0,
-							0,
-							0
- 						]
-					},
-					{
-						"m_name": "diffuseColor", 
-						"m_size": 16, 
-						"m_offset": 16, 
-						"m_type": "b0a1a50b1639e8ff", 
-						"m_strType": "color", 
-						"m_value": [
-							0,
-							0,
-							0,
-							0,
-							88,
-							-72,
-							30,
-							63,
-							-92,
-							112,
-							61,
-							63,
-							0,
-							0,
-							0,
-							0
- 						]
-					},
-					{
-						"m_name": "specularColor", 
-						"m_size": 16, 
-						"m_offset": 32, 
-						"m_type": "b0a1a50b1639e8ff", 
-						"m_strType": "color", 
-						"m_value": [
-							0,
-							0,
-							-128,
-							63,
-							0,
-							0,
-							-128,
-							63,
-							0,
-							0,
-							-128,
-							63,
-							0,
-							0,
-							0,
-							0
- 						]
-					},
-					{
-						"m_name": "specularPower", 
-						"m_size": 4, 
-						"m_offset": 48, 
-						"m_type": "9917117270b7f823", 
-						"m_strType": "float", 
-						"m_value": [
-							0,
-							0,
-							-56,
-							66
- 						]
-					}
+				"m_gameObjectsArray": [
+
  				]
 			}
 		}

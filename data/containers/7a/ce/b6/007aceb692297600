@@ -1,7 +1,7 @@
 {
 	"header": {
 		"header-version": 1, 
-		"id": "00fd1c8eb777882a"
+		"id": "007aceb692297600"
 	}, 
 	"objects": [
 		{
@@ -17,14 +17,14 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "310cb214-4642-65de-7366-0424fa9f251b", 
+							"m_guid": "4cfc1992-53a7-3cb1-aa87-21abc33e902e", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
 									"typename": "Systems::TransformComponent"
 								}, 
 								"object": {
-									"m_guid": "e6b8c39c-a689-53fb-65b8-c4528ae8fd2c", 
+									"m_guid": "6492691f-368c-107-3ab-833f301c67fd", 
 									"m_localTransform": [
 										1,
 										0,

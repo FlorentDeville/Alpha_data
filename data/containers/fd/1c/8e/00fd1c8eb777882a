@@ -49,7 +49,7 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
+							"m_name": "player", 
 							"m_components": [
 
  							]
@@ -93,7 +93,7 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
+							"m_name": "testentity", 
 							"m_components": [
 
  							]

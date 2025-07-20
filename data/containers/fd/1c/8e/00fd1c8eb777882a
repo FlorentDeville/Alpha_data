@@ -45,7 +45,8 @@
  									], 
 									"m_parent": "0-0-0-0-00000", 
 									"m_children": [
-
+										"9ece1765-3a0f-5264-7a88-194087fdc44",
+										"f01f15f9-7949-c061-1ab6-34eef5e1d9a2"
  									]
 								}
 							}, 
@@ -87,13 +88,101 @@
 										0,
 										1
  									], 
-									"m_parent": "0-0-0-0-00000", 
+									"m_parent": "310cb214-4642-65de-7366-0424fa9f251b", 
 									"m_children": [
 
  									]
 								}
 							}, 
 							"m_name": "testentity", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "f01f15f9-7949-c061-1ab6-34eef5e1d9a2", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "ab58cd1-ea1f-ed8a-5250-e4cb6f25aa7c", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "310cb214-4642-65de-7366-0424fa9f251b", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "child2", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "7780051-dab3-26b0-d79c-414c70beb34f", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "31a93a90-414-203d-b0b-d6939abc5690", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "newentity", 
 							"m_components": [
 
  							]

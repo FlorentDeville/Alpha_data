@@ -90,7 +90,7 @@
  									], 
 									"m_parent": "310cb214-4642-65de-7366-0424fa9f251b", 
 									"m_children": [
-
+										"7780051-dab3-26b0-d79c-414c70beb34f"
  									]
 								}
 							}, 
@@ -158,6 +158,94 @@
 								}, 
 								"object": {
 									"m_guid": "31a93a90-414-203d-b0b-d6939abc5690", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "9ece1765-3a0f-5264-7a88-194087fdc44", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "newentity", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "f6e003f4-fc2f-ea7-d993-a2bd8a758419", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "9a4f88e8-e8cc-75e8-9adc-85e2193f3a30", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "newentity", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "7f88f2b-f38a-1e04-e719-976281a4ef58", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "173b23ed-4e2c-b64f-a6a2-26b9ed10f33", 
 									"m_localTransform": [
 										1,
 										0,

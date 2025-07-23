@@ -134,7 +134,7 @@
  									], 
 									"m_parent": "310cb214-4642-65de-7366-0424fa9f251b", 
 									"m_children": [
-
+										"659ec5d4-7533-2e-c88e-b4e727e648b2"
  									]
 								}
 							}, 
@@ -182,7 +182,7 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
+							"m_name": "childOfChild", 
 							"m_components": [
 
  							]
@@ -222,7 +222,7 @@
  									], 
 									"m_parent": "0-0-0-0-00000", 
 									"m_children": [
-
+										"1b17573c-4e63-f0c2-7d18-60e353ff687c"
  									]
 								}
 							}, 
@@ -266,11 +266,143 @@
  									], 
 									"m_parent": "0-0-0-0-00000", 
 									"m_children": [
+										"67ffe8b9-9913-1a96-6016-5c58c260f038"
+ 									]
+								}
+							}, 
+							"m_name": "test666", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "659ec5d4-7533-2e-c88e-b4e727e648b2", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "60ad0d71-a603-c8a0-107b-d61191a778e", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "f01f15f9-7949-c061-1ab6-34eef5e1d9a2", 
+									"m_children": [
 
  									]
 								}
 							}, 
 							"m_name": "newentity", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "67ffe8b9-9913-1a96-6016-5c58c260f038", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "816fa980-f768-612c-c5f5-8ac61db56306", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "7f88f2b-f38a-1e04-e719-976281a4ef58", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "newentity", 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "1b17573c-4e63-f0c2-7d18-60e353ff687c", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "21995b02-fb6e-dc6e-f09f-00c9e9cc59e5", 
+									"m_localTransform": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1
+ 									], 
+									"m_parent": "f6e003f4-fc2f-ea7-d993-a2bd8a758419", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_name": "toto", 
 							"m_components": [
 
  							]

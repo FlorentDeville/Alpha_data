@@ -18,6 +18,7 @@
 						}, 
 						"object": {
 							"m_guid": "310cb214-4642-65de-7366-0424fa9f251b", 
+							"m_name": "player", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -50,9 +51,60 @@
  									]
 								}
 							}, 
-							"m_name": "player", 
 							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "3f8bc5d-f849-9601-cc4d-59371bf521e6", 
+										"m_meshId": "ffffffffffffffff", 
+										"m_materialId": "ffffffffffffffff"
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::TransformComponent"
+									}, 
+									"object": {
+										"m_guid": "121d3133-84-3ebd-27af-b9ee239faa28", 
+										"m_localTransform": [
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_parent": "0-0-0-0-00000", 
+										"m_children": [
 
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "8f0fff78-4298-e49-2318-fe07d8ad5563", 
+										"m_meshId": "ffffffffffffffff", 
+										"m_materialId": "ffffffffffffffff"
+									}
+								}
  							]
 						}
 					},
@@ -63,6 +115,7 @@
 						}, 
 						"object": {
 							"m_guid": "9ece1765-3a0f-5264-7a88-194087fdc44", 
+							"m_name": "testentity", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -94,7 +147,6 @@
  									]
 								}
 							}, 
-							"m_name": "testentity", 
 							"m_components": [
 
  							]
@@ -107,6 +159,7 @@
 						}, 
 						"object": {
 							"m_guid": "f01f15f9-7949-c061-1ab6-34eef5e1d9a2", 
+							"m_name": "child2", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -138,7 +191,6 @@
  									]
 								}
 							}, 
-							"m_name": "child2", 
 							"m_components": [
 
  							]
@@ -151,6 +203,7 @@
 						}, 
 						"object": {
 							"m_guid": "7780051-dab3-26b0-d79c-414c70beb34f", 
+							"m_name": "childOfChild", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -182,7 +235,6 @@
  									]
 								}
 							}, 
-							"m_name": "childOfChild", 
 							"m_components": [
 
  							]
@@ -195,6 +247,7 @@
 						}, 
 						"object": {
 							"m_guid": "f6e003f4-fc2f-ea7-d993-a2bd8a758419", 
+							"m_name": "newentity", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -226,7 +279,6 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
 							"m_components": [
 
  							]
@@ -239,6 +291,7 @@
 						}, 
 						"object": {
 							"m_guid": "7f88f2b-f38a-1e04-e719-976281a4ef58", 
+							"m_name": "test666", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -270,7 +323,6 @@
  									]
 								}
 							}, 
-							"m_name": "test666", 
 							"m_components": [
 
  							]
@@ -283,6 +335,7 @@
 						}, 
 						"object": {
 							"m_guid": "659ec5d4-7533-2e-c88e-b4e727e648b2", 
+							"m_name": "newentity", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -314,7 +367,6 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
 							"m_components": [
 
  							]
@@ -327,6 +379,7 @@
 						}, 
 						"object": {
 							"m_guid": "67ffe8b9-9913-1a96-6016-5c58c260f038", 
+							"m_name": "newentity", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -335,7 +388,7 @@
 								"object": {
 									"m_guid": "816fa980-f768-612c-c5f5-8ac61db56306", 
 									"m_localTransform": [
-										1,
+										2,
 										0,
 										0,
 										0,
@@ -358,7 +411,6 @@
  									]
 								}
 							}, 
-							"m_name": "newentity", 
 							"m_components": [
 
  							]
@@ -371,6 +423,7 @@
 						}, 
 						"object": {
 							"m_guid": "1b17573c-4e63-f0c2-7d18-60e353ff687c", 
+							"m_name": "toto", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -402,7 +455,6 @@
  									]
 								}
 							}, 
-							"m_name": "toto", 
 							"m_components": [
 
  							]

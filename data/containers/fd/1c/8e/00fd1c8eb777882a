@@ -59,39 +59,8 @@
 									}, 
 									"object": {
 										"m_guid": "3f8bc5d-f849-9601-cc4d-59371bf521e6", 
-										"m_meshId": "ffffffffffffffff", 
-										"m_materialId": "ffffffffffffffff"
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::TransformComponent"
-									}, 
-									"object": {
-										"m_guid": "121d3133-84-3ebd-27af-b9ee239faa28", 
-										"m_localTransform": [
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0,
-											0
- 										], 
-										"m_parent": "0-0-0-0-00000", 
-										"m_children": [
-
- 										]
+										"m_meshId": "004623dafccd16f8", 
+										"m_materialId": "00a3a6d60416ebbe"
 									}
 								},
 								{
@@ -101,8 +70,8 @@
 									}, 
 									"object": {
 										"m_guid": "8f0fff78-4298-e49-2318-fe07d8ad5563", 
-										"m_meshId": "ffffffffffffffff", 
-										"m_materialId": "ffffffffffffffff"
+										"m_meshId": "00f466f608e059d8", 
+										"m_materialId": "009020f7feaaaff0"
 									}
 								}
  							]

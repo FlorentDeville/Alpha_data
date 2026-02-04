@@ -3,6 +3,12 @@
 		"header-version": 1, 
 		"id": "00fd1c8eb777882a"
 	}, 
+	"hard-asset-refs": [
+		"00f466f608e059d8",
+		"00a3a6d60416ebbe",
+		"00101a3766d17550",
+		"009020f7feaaaff0"
+ 	], 
 	"objects": [
 		{
 			"header": {
@@ -59,8 +65,12 @@
 									}, 
 									"object": {
 										"m_guid": "3f8bc5d-f849-9601-cc4d-59371bf521e6", 
-										"m_meshId": "004623dafccd16f8", 
-										"m_materialId": "00a3a6d60416ebbe"
+										"m_mesh": {
+											"m_id": "00f466f608e059d8"
+										}, 
+										"m_material": {
+											"m_id": "00a3a6d60416ebbe"
+										}
 									}
 								},
 								{
@@ -70,8 +80,12 @@
 									}, 
 									"object": {
 										"m_guid": "8f0fff78-4298-e49-2318-fe07d8ad5563", 
-										"m_meshId": "00f466f608e059d8", 
-										"m_materialId": "009020f7feaaaff0"
+										"m_mesh": {
+											"m_id": "00101a3766d17550"
+										}, 
+										"m_material": {
+											"m_id": "009020f7feaaaff0"
+										}
 									}
 								}
  							]

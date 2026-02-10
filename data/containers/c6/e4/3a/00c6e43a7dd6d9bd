@@ -208,12 +208,179 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "414da61f-6dcc-757b-33ab-af9add4d1533", 
+							"m_name": "pointlight", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "8de5ddf1-a23f-213b-c5d6-59a025187629", 
+									"m_localTx": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										-0.123918,
+										3.22893,
+										2.71242,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::PointLightComponent"
+									}, 
+									"object": {
+										"m_guid": "f27397-c8ab-f8b4-ae65-57613661ca51", 
+										"m_position": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_ambient": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_diffuse": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_specular": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_constant": 1, 
+										"m_linear": 0.22, 
+										"m_quadratic": 0.2
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "34bbe096-6829-d91e-93a4-f1fbd674aa8f", 
+							"m_name": "spotlight", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "b5ec8446-5555-bb89-7bf1-aed155fe1213", 
+									"m_localTx": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										-2.4334,
+										3.6717,
+										0,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::SpotLightComponent"
+									}, 
+									"object": {
+										"m_guid": "926dc311-44c3-acf-96a7-bba234ad3257", 
+										"m_position": [
+											0,
+											0,
+											0,
+											1
+ 										], 
+										"m_direction": [
+											0,
+											-1,
+											0,
+											0
+ 										], 
+										"m_ambient": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_diffuse": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_specular": [
+											1,
+											1,
+											1,
+											1
+ 										], 
+										"m_constant": 1, 
+										"m_linear": 0.22, 
+										"m_quadratic": 0.2, 
+										"m_cutOff": 0.34
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
 					"95151391-6638-50f1-370e-e796809c7ac4",
 					"c7a3ac79-e5aa-c617-dcd7-79bc47253f3b",
-					"8fc286c0-11fd-9f18-eaa0-2e63226a5bdc"
+					"8fc286c0-11fd-9f18-eaa0-2e63226a5bdc",
+					"414da61f-6dcc-757b-33ab-af9add4d1533",
+					"34bbe096-6829-d91e-93a4-f1fbd674aa8f"
  				]
 			}
 		}

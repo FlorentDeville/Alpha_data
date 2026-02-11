@@ -63,8 +63,13 @@ float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
 	//float4 finalColor = float4(totalLight, 1.0) * textureColor;
 }
 
-float4 CalculatePointLight(Light pointLight, float4 fragPosition)
+float4 CalculatePointLight(Light pointLight, float4 fragPosition, float3 normal)
 {
+	//backface detection
+	float3 lightDir = normalize(fragPosition.xyz - pointLight.position); //vector from the light source to the fragment
+	float NDotL = dot(lightDir, normal);
+	float backfaceIntensity = clamp(NDotL, -1, 0) * -1;
+
 	//attenuation
 	float distance = length(pointLight.position - fragPosition.xyz);
 	float attenuation = 1.0 / (pointLight.constantAttenuation + pointLight.linearAttenuation * distance + 
@@ -73,22 +78,26 @@ float4 CalculatePointLight(Light pointLight, float4 fragPosition)
 	//TODO : specular
 	
 	//final color
-    float3 finalAmbient = pointLight.ambient * ambientColor.xyz * attenuation;
-    float3 finalDiffuse = pointLight.diffuse * diffuseColor.xyz * attenuation;
+    float3 finalAmbient = pointLight.ambient * ambientColor.xyz * attenuation * backfaceIntensity;
+    float3 finalDiffuse = pointLight.diffuse * diffuseColor.xyz * attenuation * backfaceIntensity;
 	
     return float4(finalAmbient + finalDiffuse, 1);
 }
 
-float4 CalculateSpotLight(Light spotLight, float4 fragPosition)
+float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal)
 {
 	float3 lightDir = normalize(fragPosition.xyz - spotLight.position); //vector from the light source to the fragment
+
+	float NDotL = dot(lightDir, normal);
+	float backfaceIntensity = clamp(NDotL, -1, 0) * -1;
+
 	float theta = dot(lightDir, normalize(spotLight.direction)); //cos of the angle between the light direction and the fragment
 
 	//cutoff intensity
 	float cosOuterCutOff = cos(spotLight.outerCutOff);
 	float deltaCutOff = cos(spotLight.cutOff) - cosOuterCutOff;
 	float intensity = clamp((theta - cosOuterCutOff) / deltaCutOff, 0.0, 1.0); //interpolate between cutOff and outerCutOff
-	intensity = EaseOutQuad(intensity);
+	intensity = EaseOutQuad(intensity) * backfaceIntensity;
 
 	//attenuation
 	float distance = length(spotLight.position - fragPosition.xyz);
@@ -112,22 +121,22 @@ float4 main(VS_Output input) : SV_TARGET
 	if(numLights == 0)
 		color = ambientColor;
 	
-	float3 normalDir = normalize(normal);
+	//float3 normalDir = normalize(normal);
 	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
 	
 	for(int ii = 0; ii < numLights; ++ii)
 	{
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
-			color += CalculateDirectionalLight(lightArray[ii], normalDir, viewDir);
+			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir);
 		}
 		else if(lightArray[ii].type == POINT_LIGHT)
 		{
-			color += CalculatePointLight(lightArray[ii], input.worldPosition);
+			color += CalculatePointLight(lightArray[ii], input.worldPosition, normal);
 		}
 		else if(lightArray[ii].type == SPOT_LIGHT)
 		{
-			color += CalculateSpotLight(lightArray[ii], input.worldPosition);
+			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal);
 		}
 	}
 	

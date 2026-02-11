@@ -16,6 +16,7 @@
 struct Light
 {
 	float3 position;
+	float outerCutOff;
 	float3 direction;
 
 	float3 ambient;

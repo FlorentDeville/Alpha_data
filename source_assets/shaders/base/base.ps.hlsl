@@ -23,6 +23,23 @@ struct VS_Output
 	float3 normal : NORMAL;
 };
 
+static const float PI = 3.14159265359f;
+
+float EaseInSine(float x)
+{
+  return 1 - cos((x * PI) / 2);
+}
+
+float EaseOutSine(float x)
+{
+  return sin((x * PI) / 2);
+}
+
+float EaseOutQuad(float x)
+{
+	return 1 - (1 - x) * (1 - x);
+}
+
 float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
 {
 	float3 lightVec = normalize(-dirLight.direction); // Invert the light direction to get L
@@ -53,12 +70,36 @@ float4 CalculatePointLight(Light pointLight, float4 fragPosition)
 	float attenuation = 1.0 / (pointLight.constantAttenuation + pointLight.linearAttenuation * distance + 
     		    pointLight.quadraticAttenuation * (distance * distance));
 				
-	//TODO specular
+	//TODO : specular
 	
 	//final color
     float3 finalAmbient = pointLight.ambient * ambientColor.xyz * attenuation;
     float3 finalDiffuse = pointLight.diffuse * diffuseColor.xyz * attenuation;
 	
+    return float4(finalAmbient + finalDiffuse, 1);
+}
+
+float4 CalculateSpotLight(Light spotLight, float4 fragPosition)
+{
+	float3 lightDir = normalize(fragPosition.xyz - spotLight.position); //vector from the light source to the fragment
+	float theta = dot(lightDir, normalize(spotLight.direction)); //cos of the angle between the light direction and the fragment
+
+	//cutoff intensity
+	float cosOuterCutOff = cos(spotLight.outerCutOff);
+	float deltaCutOff = cos(spotLight.cutOff) - cosOuterCutOff;
+	float intensity = clamp((theta - cosOuterCutOff) / deltaCutOff, 0.0, 1.0); //interpolate between cutOff and outerCutOff
+	intensity = EaseOutQuad(intensity);
+
+	//attenuation
+	float distance = length(spotLight.position - fragPosition.xyz);
+	float attenuation = 1.0 / (spotLight.constantAttenuation + spotLight.linearAttenuation * distance + 
+    		    spotLight.quadraticAttenuation * (distance * distance));
+
+	//final color
+    float3 finalAmbient = spotLight.ambient * ambientColor.xyz * attenuation * intensity;
+    float3 finalDiffuse = spotLight.diffuse * diffuseColor.xyz * attenuation * intensity;
+	//TODO : specular	
+
     return float4(finalAmbient + finalDiffuse, 1);
 }
 
@@ -84,22 +125,10 @@ float4 main(VS_Output input) : SV_TARGET
 		{
 			color += CalculatePointLight(lightArray[ii], input.worldPosition);
 		}
-		
-		//float3 lightDir = normalize(lightArray[ii].direction - input.vertex.xyz);
-		//float3 lightDir = normalize(lightArray[ii].direction);
-		//float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
-		//float3 reflectionDir = reflect(-lightArray[ii].direction, normal);
-		//reflectionDir = normalize(reflectionDir);
-		
-		//float NdotL = max(0.0f, dot(normal, lightDir));
-		//float RdotV = max(0.0f, dot(reflectionDir, viewDir));
-
-		//float4 ambient = ambientColor;
-		//float4 diffuse = diffuseColor * NdotL;
-		//float4 specular = specularColor * pow(RdotV, specularPower);
-
-		//color += ambient + diffuse + specular;
-		//color += diffuse + specular;
+		else if(lightArray[ii].type == SPOT_LIGHT)
+		{
+			color += CalculateSpotLight(lightArray[ii], input.worldPosition);
+		}
 	}
 	
     return diffuseColor * color;

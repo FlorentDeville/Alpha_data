@@ -1,5 +1,5 @@
 /********************************************************************/
-/* © 2021 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
+/* ï¿½ 2021 Florent Devillechabrol <florent.devillechabrol@gmail.com>	*/
 /********************************************************************/
 
 #include "BaseTypes.hlsl"
@@ -16,7 +16,8 @@ cbuffer PerMaterial
 
 struct VS_Output
 {
-	float4 vertex : SV_Position;
+	float4 vertex : SV_Position; //screen space
+	float4 worldPosition : TEXCOORD0; //world space
 	float3 color : COLOR;
 	float2 uv : UV;
 	float3 normal : NORMAL;
@@ -24,14 +25,12 @@ struct VS_Output
 
 float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
 {
-	//float3 normal = normalize(normal); // Ensure the interpolated normal is a unit vector
 	float3 lightVec = normalize(-dirLight.direction); // Invert the light direction to get L
 
 	// Calculate the dot product and clamp it to a non-negative value using saturate()
-	float diffuseStrength = saturate(dot(normal, lightVec)); //
+	float diffuseStrength = saturate(dot(normal, lightVec));
 	float3 finaDiffuseColor = diffuseStrength * dirLight.diffuse * diffuseColor.xyz;
 	
-	//float3 viewVec = normalize(eyePos - input.worldPos); // Eye position passed from CPU
 	float3 halfVec = normalize(lightVec + view); // Calculate the halfway vector
 
 	// Calculate the dot product of the normal and the halfway vector
@@ -45,6 +44,22 @@ float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
 	return float4(totalLight, 1);
 
 	//float4 finalColor = float4(totalLight, 1.0) * textureColor;
+}
+
+float4 CalculatePointLight(Light pointLight, float4 fragPosition)
+{
+	//attenuation
+	float distance = length(pointLight.position - fragPosition.xyz);
+	float attenuation = 1.0 / (pointLight.constantAttenuation + pointLight.linearAttenuation * distance + 
+    		    pointLight.quadraticAttenuation * (distance * distance));
+				
+	//TODO specular
+	
+	//final color
+    float3 finalAmbient = pointLight.ambient * ambientColor.xyz * attenuation;
+    float3 finalDiffuse = pointLight.diffuse * diffuseColor.xyz * attenuation;
+	
+    return float4(finalAmbient + finalDiffuse, 1);
 }
 
 float4 main(VS_Output input) : SV_TARGET
@@ -64,6 +79,10 @@ float4 main(VS_Output input) : SV_TARGET
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
 			color += CalculateDirectionalLight(lightArray[ii], normalDir, viewDir);
+		}
+		else if(lightArray[ii].type == POINT_LIGHT)
+		{
+			color += CalculatePointLight(lightArray[ii], input.worldPosition);
 		}
 		
 		//float3 lightDir = normalize(lightArray[ii].direction - input.vertex.xyz);

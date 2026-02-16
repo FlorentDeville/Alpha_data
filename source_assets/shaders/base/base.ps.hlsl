@@ -138,12 +138,27 @@ float4 main(VS_Output input) : SV_TARGET
 			//here projCoords.x is in [-1, 1]. But projCoords.y is in [1, -1]
 			projCoords.x = projCoords.x * 0.5 + 0.5;
 			projCoords.y = (projCoords.y * -1) * 0.5 + 0.5;
-			float shadowCasterDepth = shadowMap.Sample(shadowMapSampler, projCoords.xy).r;
 
 			float3 lightVec = normalize(-lightArray[ii].direction);
-			const float bias = max(0.05 * (1 - dot(normal, lightVec)), 0.005);
-			float shadowIntensity = currentDepth - bias > shadowCasterDepth ? 0 :1;
-	
+			const float bias = max(0.05 * (1 - dot(normal, lightVec)), 0.005); //bias to avoid self detection
+
+			//percentage-closer filtering : sample values around the location nd average the values
+			float shadowIntensity = 0.0;
+			uint2 shadowMapSize;
+			shadowMap.GetDimensions(shadowMapSize.x, shadowMapSize.y);
+			float2 texelSize = 1.0 / shadowMapSize;
+
+			for(int x = -1; x <= 1; ++x)
+			{
+				for(int y = -1; y <= 1; ++y)
+				{
+					float2 shadowUV = projCoords.xy + float2(x, y) * texelSize;
+					float shadowCasterDepth = shadowMap.SampleLevel(shadowMapSampler, shadowUV, 0).r;
+					shadowIntensity += currentDepth - bias > shadowCasterDepth ? 0 : 1;        
+				}    
+			}
+			shadowIntensity /= 9.0;
+
 			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir, shadowIntensity);
 		}
 		else if(lightArray[ii].type == POINT_LIGHT)

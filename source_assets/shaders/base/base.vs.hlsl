@@ -17,6 +17,7 @@ struct VS_Output
 {
 	float4 vertex : SV_Position; //screen space position
 	float4 worldPosition : TEXCOORD0; //world space
+	float4 lightSpacePosition : TEXCOORD1; //light space
 	float3 color : COLOR;
 	float2 uv : UV;
 	float3 normal : NORMAL;
@@ -37,5 +38,8 @@ VS_Output main( VS_Input input )
 	
 	float4 normal = float4(input.normal, 0);
 	output.normal = mul(normal, worldMatrix).xyz;
+
+	output.lightSpacePosition = mul(output.worldPosition, lightSpaceMatrix);
+
 	return output;
 }

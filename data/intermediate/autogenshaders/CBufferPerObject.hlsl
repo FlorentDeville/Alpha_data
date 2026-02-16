@@ -10,6 +10,7 @@
 cbuffer PerObject
 {
 	matrix worldMatrix;
+	matrix lightSpaceMatrix;
 };
 
 #endif // ifndef CBUFFER_PER_OBJECT_HLSL 

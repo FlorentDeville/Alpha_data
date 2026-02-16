@@ -18,10 +18,14 @@ struct VS_Output
 {
 	float4 vertex : SV_Position; //screen space
 	float4 worldPosition : TEXCOORD0; //world space
+	float4 lightSpacePosition : TEXCOORD1; //light space
 	float3 color : COLOR;
 	float2 uv : UV;
 	float3 normal : NORMAL;
 };
+
+Texture2D shadowMap : register(t0);
+SamplerState shadowMapSampler : register(s0);
 
 static const float PI = 3.14159265359f;
 
@@ -40,7 +44,7 @@ float EaseOutQuad(float x)
 	return 1 - (1 - x) * (1 - x);
 }
 
-float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
+float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view, float shadowIntensity)
 {
 	float3 lightVec = normalize(-dirLight.direction); // Invert the light direction to get L
 
@@ -56,7 +60,7 @@ float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view)
 	
 	float3 finalAmbientColor = dirLight.ambient * ambientColor.xyz;
 	//float3 totalLight = finalAmbientColor + finaDiffuseColor + finalSpecularColor;
-	float3 totalLight = finalAmbientColor + finaDiffuseColor;
+	float3 totalLight = finalAmbientColor + (finaDiffuseColor * shadowIntensity);
 
 	return float4(totalLight, 1);
 
@@ -120,15 +124,27 @@ float4 main(VS_Output input) : SV_TARGET
 	
 	if(numLights == 0)
 		color = ambientColor;
-	
-	//float3 normalDir = normalize(normal);
+
 	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
 	
 	for(int ii = 0; ii < numLights; ++ii)
 	{
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
-			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir);
+			float4 lightSpacePos = input.lightSpacePosition;
+			float3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
+			float currentDepth = projCoords.z;
+
+			//here projCoords.x is in [-1, 1]. But projCoords.y is in [1, -1]
+			projCoords.x = projCoords.x * 0.5 + 0.5;
+			projCoords.y = (projCoords.y * -1) * 0.5 + 0.5;
+			float shadowCasterDepth = shadowMap.Sample(shadowMapSampler, projCoords.xy).r;
+
+			float3 lightVec = normalize(-lightArray[ii].direction);
+			const float bias = max(0.05 * (1 - dot(normal, lightVec)), 0.005);
+			float shadowIntensity = currentDepth - bias > shadowCasterDepth ? 0 :1;
+	
+			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir, shadowIntensity);
 		}
 		else if(lightArray[ii].type == POINT_LIGHT)
 		{
@@ -139,6 +155,8 @@ float4 main(VS_Output input) : SV_TARGET
 			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal);
 		}
 	}
-	
+
+	//float4 dummy = shadowMap.Sample(shadowMapSampler, float2(0, 0));
+	//return (diffuseColor * color) + (dummy * 0);
     return diffuseColor * color;
 }

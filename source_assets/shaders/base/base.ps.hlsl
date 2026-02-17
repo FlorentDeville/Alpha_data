@@ -24,7 +24,7 @@ struct VS_Output
 	float3 normal : NORMAL;
 };
 
-Texture2D shadowMap : register(t0);
+Texture2D shadowMap[MAX_LIGHT_COUNT] : register(t0);
 SamplerState shadowMapSampler : register(s0);
 
 static const float PI = 3.14159265359f;
@@ -145,7 +145,7 @@ float4 main(VS_Output input) : SV_TARGET
 			//percentage-closer filtering : sample values around the location nd average the values
 			float shadowIntensity = 0.0;
 			uint2 shadowMapSize;
-			shadowMap.GetDimensions(shadowMapSize.x, shadowMapSize.y);
+			shadowMap[ii].GetDimensions(shadowMapSize.x, shadowMapSize.y);
 			float2 texelSize = 1.0 / shadowMapSize;
 
 			for(int x = -1; x <= 1; ++x)
@@ -153,7 +153,7 @@ float4 main(VS_Output input) : SV_TARGET
 				for(int y = -1; y <= 1; ++y)
 				{
 					float2 shadowUV = projCoords.xy + float2(x, y) * texelSize;
-					float shadowCasterDepth = shadowMap.SampleLevel(shadowMapSampler, shadowUV, 0).r;
+					float shadowCasterDepth = shadowMap[ii].SampleLevel(shadowMapSampler, shadowUV, 0).r;
 					shadowIntensity += currentDepth - bias > shadowCasterDepth ? 0 : 1;        
 				}    
 			}

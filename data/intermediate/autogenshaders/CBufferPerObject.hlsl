@@ -7,10 +7,12 @@
 
 #pragma pack_matrix(row_major)
 
+#include "LightTypes.hlsl"
+
 cbuffer PerObject
 {
 	matrix worldMatrix;
-	matrix lightSpaceMatrix;
+	matrix lightSpaceMatrix[MAX_LIGHT_COUNT];
 };
 
 #endif // ifndef CBUFFER_PER_OBJECT_HLSL 

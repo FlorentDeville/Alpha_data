@@ -18,7 +18,7 @@ struct VS_Output
 {
 	float4 vertex : SV_Position; //screen space
 	float4 worldPosition : TEXCOORD0; //world space
-	float4 lightSpacePosition : TEXCOORD1; //light space
+	float4 lightSpacePosition[MAX_LIGHT_COUNT] : TEXCOORD1; //light space
 	float3 color : COLOR;
 	float2 uv : UV;
 	float3 normal : NORMAL;
@@ -131,7 +131,7 @@ float4 main(VS_Output input) : SV_TARGET
 	{
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
-			float4 lightSpacePos = input.lightSpacePosition;
+			float4 lightSpacePos = input.lightSpacePosition[ii];
 			float3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
 			float currentDepth = projCoords.z;
 

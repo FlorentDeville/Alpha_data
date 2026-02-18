@@ -130,6 +130,39 @@ float CalculateSpotLightShadowIntensity(int lightIndex, float4 lightSpacePos, fl
 	return shadowIntensity;
 }
 
+float CalculateDirLightShadowIntensity(int lightIndex, float4 lightSpacePos)
+{
+	float3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
+	float currentDepth = projCoords.z;
+
+	//here projCoords.x is in [-1, 1]. But projCoords.y is in [1, -1]
+	projCoords.x = projCoords.x * 0.5 + 0.5;
+	projCoords.y = (projCoords.y * -1) * 0.5 + 0.5;
+
+	//float3 lightVec = normalize(-lightArray[ii].direction);
+	//const float bias = max(0.009 * (1 - dot(normal, -lightVec)), 0.00005); //bias to avoid self detection
+	const float bias = -0.0001;
+
+	//percentage-closer filtering : sample values around the location nd average the values
+	uint2 shadowMapSize;
+	shadowMap[lightIndex].GetDimensions(shadowMapSize.x, shadowMapSize.y);
+	float2 texelSize = 1.0 / shadowMapSize;
+
+	float shadowIntensity = 0;
+	for(int x = -1; x <= 1; ++x)
+	{
+		for(int y = -1; y <= 1; ++y)
+		{
+			float2 shadowUV = projCoords.xy + float2(x, y) * texelSize;
+			float shadowCasterDepth = shadowMap[lightIndex].SampleLevel(shadowMapSampler, shadowUV, 0).r;
+			shadowIntensity += currentDepth - bias > shadowCasterDepth ? 0 : 1;        
+		}    
+	}
+	shadowIntensity /= 9.0;
+
+	return shadowIntensity;
+}
+
 float4 main(VS_Output input) : SV_TARGET
 {
 	float3 normal = normalize(input.normal);
@@ -143,48 +176,19 @@ float4 main(VS_Output input) : SV_TARGET
 	
 	for(int ii = 0; ii < numLights; ++ii)
 	{
-		float shadowIntensity = 0;
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
-			float4 lightSpacePos = input.lightSpacePosition[ii];
-			float3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
-			float currentDepth = projCoords.z;
-
-			//here projCoords.x is in [-1, 1]. But projCoords.y is in [1, -1]
-			projCoords.x = projCoords.x * 0.5 + 0.5;
-			projCoords.y = (projCoords.y * -1) * 0.5 + 0.5;
-
-			float3 lightVec = normalize(-lightArray[ii].direction);
-			const float bias = max(0.05 * (1 - dot(normal, lightVec)), 0.005); //bias to avoid self detection
-
-			//percentage-closer filtering : sample values around the location nd average the values
-			uint2 shadowMapSize;
-			shadowMap[ii].GetDimensions(shadowMapSize.x, shadowMapSize.y);
-			float2 texelSize = 1.0 / shadowMapSize;
-
-			for(int x = -1; x <= 1; ++x)
-			{
-				for(int y = -1; y <= 1; ++y)
-				{
-					float2 shadowUV = projCoords.xy + float2(x, y) * texelSize;
-					float shadowCasterDepth = shadowMap[ii].SampleLevel(shadowMapSampler, shadowUV, 0).r;
-					shadowIntensity += currentDepth - bias > shadowCasterDepth ? 0 : 1;        
-				}    
-			}
-			shadowIntensity /= 9.0;
-		}
-
-		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
-		{
+			float shadowIntensity = CalculateDirLightShadowIntensity(ii, input.lightSpacePosition[ii]);
 			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir, shadowIntensity);
 		}
 		else if(lightArray[ii].type == POINT_LIGHT)
 		{
+			float shadowIntensity = 0;
 			color += CalculatePointLight(lightArray[ii], input.worldPosition, normal);
 		}
 		else if(lightArray[ii].type == SPOT_LIGHT)
 		{
-			shadowIntensity = CalculateSpotLightShadowIntensity(ii, input.lightSpacePosition[ii], input.worldPosition.xyz);
+			float shadowIntensity = CalculateSpotLightShadowIntensity(ii, input.lightSpacePosition[ii], input.worldPosition.xyz);
 			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal, shadowIntensity);
 		}
 	}

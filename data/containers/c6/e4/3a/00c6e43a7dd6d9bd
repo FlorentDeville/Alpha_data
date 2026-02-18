@@ -7,7 +7,8 @@
 		"00b428810c2cb614",
 		"00c85b6f9d871df0",
 		"00101a3766d17550",
-		"009020f7feaaaff0"
+		"009020f7feaaaff0",
+		"00a3a6d60416ebbe"
  	], 
 	"objects": [
 		{
@@ -104,7 +105,7 @@
 										1,
 										0,
 										4.97869,
-										2.39556,
+										0.944646,
 										0,
 										1
  									], 
@@ -139,155 +140,6 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "8fc286c0-11fd-9f18-eaa0-2e63226a5bdc", 
-							"m_name": "dirlight", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "8abe984e-8873-3958-11b4-07ba630c0006", 
-									"m_localTx": [
-										1,
-										0,
-										0,
-										0,
-										0,
-										0.99999,
-										-0.000302732,
-										0,
-										0,
-										0.000302732,
-										0.99999,
-										0,
-										2.73036,
-										5.61651,
-										1.20607,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::DirectionalLightComponent"
-									}, 
-									"object": {
-										"m_guid": "ecdcd2d8-ab67-b495-783d-999ba4266b5f", 
-										"m_direction": [
-											0,
-											-0.5,
-											0,
-											0
- 										], 
-										"m_ambient": [
-											0.5,
-											0.5,
-											0.5
- 										], 
-										"m_diffuse": [
-											0.5,
-											0.5,
-											0.5
- 										], 
-										"m_specular": [
-											1,
-											1,
-											1
- 										]
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
-							"m_guid": "414da61f-6dcc-757b-33ab-af9add4d1533", 
-							"m_name": "pointlight", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "8de5ddf1-a23f-213b-c5d6-59a025187629", 
-									"m_localTx": [
-										1,
-										0,
-										0,
-										0,
-										0,
-										1,
-										0,
-										0,
-										0,
-										0,
-										1,
-										0,
-										6.16395,
-										2.40435,
-										4.37691,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::PointLightComponent"
-									}, 
-									"object": {
-										"m_guid": "f27397-c8ab-f8b4-ae65-57613661ca51", 
-										"m_position": [
-											0,
-											0,
-											0,
-											0
- 										], 
-										"m_ambient": [
-											1,
-											0,
-											0
- 										], 
-										"m_diffuse": [
-											1,
-											0.08,
-											0
- 										], 
-										"m_specular": [
-											1,
-											1,
-											1
- 										], 
-										"m_constant": 1, 
-										"m_linear": 0.22, 
-										"m_quadratic": 0.2
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
 							"m_guid": "34bbe096-6829-d91e-93a4-f1fbd674aa8f", 
 							"m_name": "spotlight", 
 							"m_transform": {
@@ -298,21 +150,21 @@
 								"object": {
 									"m_guid": "b5ec8446-5555-bb89-7bf1-aed155fe1213", 
 									"m_localTx": [
-										1,
+										0.952286,
+										0.3052,
+										0,
+										0,
+										-0.3052,
+										0.952286,
 										0,
 										0,
 										0,
 										0,
 										1,
 										0,
-										0,
-										0,
-										0,
-										1,
-										0,
-										-4.24082,
-										6.97551,
-										-2.39183,
+										1.84494,
+										6.95026,
+										-0.0482334,
 										1
  									], 
 									"m_parent": "0-0-0-0-00000", 
@@ -336,18 +188,18 @@
 											1
  										], 
 										"m_direction": [
-											0.25,
+											0,
 											-1,
 											0,
 											0
  										], 
 										"m_ambient": [
-											0,
-											0,
+											1,
+											1,
 											1
  										], 
 										"m_diffuse": [
-											0,
+											1,
 											1,
 											1
  										], 
@@ -365,14 +217,71 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "b3e7925f-e441-7c39-b4f1-c6d3a3019330", 
+							"m_name": "newentity", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "197ca9ea-a2d5-b5f5-c383-82b9632e0f2c", 
+									"m_localTx": [
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										0,
+										0,
+										0,
+										1,
+										0,
+										3.5557,
+										1.92768,
+										-2.1729,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "309140e2-2f08-5401-8758-5cf4975d1eae", 
+										"m_mesh": {
+											"m_id": "00b428810c2cb614"
+										}, 
+										"m_material": {
+											"m_id": "00a3a6d60416ebbe"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
 					"95151391-6638-50f1-370e-e796809c7ac4",
 					"c7a3ac79-e5aa-c617-dcd7-79bc47253f3b",
-					"8fc286c0-11fd-9f18-eaa0-2e63226a5bdc",
-					"414da61f-6dcc-757b-33ab-af9add4d1533",
-					"34bbe096-6829-d91e-93a4-f1fbd674aa8f"
+					"34bbe096-6829-d91e-93a4-f1fbd674aa8f",
+					"b3e7925f-e441-7c39-b4f1-c6d3a3019330"
  				]
 			}
 		}

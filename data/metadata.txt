@@ -1,6 +1,7 @@
 00101a3766d17550,C:\Workspace\Alpha_data\source_assets\base_sphere.fbx,Mesh
 004623dafccd16f8,C:\Workspace\Alpha_data\source_assets\chimney.fbx,Mesh
 0057ccdf7c7bb74f,test7,Level
+0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0095f6d901921ae9,base-phong,Material
 00a3a6d60416ebbe,blue-phong,MaterialInstance

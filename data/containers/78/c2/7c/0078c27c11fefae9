@@ -92,17 +92,17 @@
 								"object": {
 									"m_guid": "5db50021-e230-1254-b816-1475b6bdf0cd", 
 									"m_localTx": [
-										1,
+										0.863319,
+										0.390136,
+										-0.320086,
 										0,
+										-0.50462,
+										0.671501,
+										-0.542576,
 										0,
-										0,
-										0,
-										1,
-										0,
-										0,
-										0,
-										0,
-										1,
+										0.00325983,
+										0.629954,
+										0.776611,
 										0,
 										0,
 										5.45785,
@@ -178,7 +178,7 @@
 										1,
 										0,
 										-4.00685,
-										2.82102,
+										1.1669,
 										0,
 										1
  									], 
@@ -236,7 +236,7 @@
 										1,
 										0,
 										3.30401,
-										3.0502,
+										1.7043,
 										0,
 										1
  									], 
@@ -264,13 +264,72 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "e162bb01-3ec2-d368-88b8-daac9d1845d0", 
+							"m_name": "shadow proxy", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "c22aee39-3167-3d2c-d01c-76efbbf3c6b5", 
+									"m_localTx": [
+										0.979026,
+										0,
+										0,
+										0,
+										0,
+										0.391262,
+										0,
+										0,
+										0,
+										0,
+										0.975317,
+										0,
+										3.31889,
+										1.52701,
+										0,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "5235611a-75d8-fd0a-7dad-174df6fba656", 
+										"m_mesh": {
+											"m_id": "00b428810c2cb614"
+										}, 
+										"m_material": {
+											"m_id": "00c85b6f9d871df0"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
 					"f4d51920-6e9f-f0f3-bc32-a9cb2e398031",
 					"d0f48626-3b9d-cdad-6e9b-4af1c2184d59",
 					"735dd19f-be03-9c8d-ddf6-68be5d7d344a",
-					"1f969ebd-7322-8834-d4d0-228342324c3b"
+					"1f969ebd-7322-8834-d4d0-228342324c3b",
+					"e162bb01-3ec2-d368-88b8-daac9d1845d0"
  				]
 			}
 		}

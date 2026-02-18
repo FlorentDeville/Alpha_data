@@ -88,7 +88,7 @@ float4 CalculatePointLight(Light pointLight, float4 fragPosition, float3 normal)
     return float4(finalAmbient + finalDiffuse, 1);
 }
 
-float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal)
+float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal, float shadowIntensity)
 {
 	float3 lightDir = normalize(fragPosition.xyz - spotLight.position); //vector from the light source to the fragment
 
@@ -113,7 +113,21 @@ float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal)
     float3 finalDiffuse = spotLight.diffuse * diffuseColor.xyz * attenuation * intensity;
 	//TODO : specular	
 
-    return float4(finalAmbient + finalDiffuse, 1);
+    return float4(finalAmbient + (finalDiffuse * shadowIntensity), 1);
+}
+
+float CalculateSpotLightShadowIntensity(int lightIndex, float4 lightSpacePos, float3 fragWorldPos)
+{
+	float3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
+
+	//here projCoords.x is in [-1, 1]. But projCoords.y is in [1, -1]
+	projCoords.x = projCoords.x * 0.5 + 0.5;
+	projCoords.y = (projCoords.y * -1) * 0.5 + 0.5;
+
+	float shadowCasterDistance = shadowMap[lightIndex].SampleLevel(shadowMapSampler, projCoords.xy, 0).r;
+	float fragDistance = distance(lightArray[lightIndex].position, fragWorldPos);
+	float shadowIntensity = fragDistance > shadowCasterDistance ? 0 : 1;
+	return shadowIntensity;
 }
 
 float4 main(VS_Output input) : SV_TARGET
@@ -129,6 +143,7 @@ float4 main(VS_Output input) : SV_TARGET
 	
 	for(int ii = 0; ii < numLights; ++ii)
 	{
+		float shadowIntensity = 0;
 		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
 		{
 			float4 lightSpacePos = input.lightSpacePosition[ii];
@@ -143,7 +158,6 @@ float4 main(VS_Output input) : SV_TARGET
 			const float bias = max(0.05 * (1 - dot(normal, lightVec)), 0.005); //bias to avoid self detection
 
 			//percentage-closer filtering : sample values around the location nd average the values
-			float shadowIntensity = 0.0;
 			uint2 shadowMapSize;
 			shadowMap[ii].GetDimensions(shadowMapSize.x, shadowMapSize.y);
 			float2 texelSize = 1.0 / shadowMapSize;
@@ -158,7 +172,10 @@ float4 main(VS_Output input) : SV_TARGET
 				}    
 			}
 			shadowIntensity /= 9.0;
+		}
 
+		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
+		{
 			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir, shadowIntensity);
 		}
 		else if(lightArray[ii].type == POINT_LIGHT)
@@ -167,7 +184,8 @@ float4 main(VS_Output input) : SV_TARGET
 		}
 		else if(lightArray[ii].type == SPOT_LIGHT)
 		{
-			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal);
+			shadowIntensity = CalculateSpotLightShadowIntensity(ii, input.lightSpacePosition[ii], input.worldPosition.xyz);
+			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal, shadowIntensity);
 		}
 	}
 

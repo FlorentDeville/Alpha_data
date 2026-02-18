@@ -225,7 +225,7 @@
 						}, 
 						"object": {
 							"m_guid": "b3e7925f-e441-7c39-b4f1-c6d3a3019330", 
-							"m_name": "newentity", 
+							"m_name": "cube", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 

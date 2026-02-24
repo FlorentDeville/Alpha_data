@@ -1,5 +1,5 @@
 00101a3766d17550,C:\Workspace\Alpha_data\source_assets\base_sphere.fbx,Mesh
-004623dafccd16f8,C:\Workspace\Alpha_data\source_assets\chimney.fbx,Mesh
+004623dafccd16f8,chimney,Mesh
 0057ccdf7c7bb74f,test7,Level
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
@@ -9,4 +9,4 @@
 00c6e43a7dd6d9bd,test_spotlight,Level
 00c85b6f9d871df0,yellow-phong,MaterialInstance
 00ddc79f89f2bdc3,C:\Workspace\Alpha_data\source_assets\small_window.fbx,Mesh
-00f466f608e059d8,C:\Workspace\Alpha_data\source_assets\dormer.fbx,Mesh
+00f466f608e059d8,dormer,Mesh

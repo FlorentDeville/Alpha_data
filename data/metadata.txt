@@ -1,6 +1,7 @@
 00101a3766d17550,C:\Workspace\Alpha_data\source_assets\base_sphere.fbx,Mesh
 004623dafccd16f8,chimney,Mesh
 0057ccdf7c7bb74f,test7,Level
+0060b30b294538e9,brick_wall,Texture
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0095f6d901921ae9,base-phong,Material
@@ -8,5 +9,6 @@
 00b428810c2cb614,C:\Workspace\Alpha_data\source_assets\base_cube.fbx,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
 00c85b6f9d871df0,yellow-phong,MaterialInstance
+00dd777612e662e3,ground,Texture
 00ddc79f89f2bdc3,C:\Workspace\Alpha_data\source_assets\small_window.fbx,Mesh
 00f466f608e059d8,dormer,Mesh

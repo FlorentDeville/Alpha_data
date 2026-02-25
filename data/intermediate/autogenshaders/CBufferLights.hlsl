@@ -15,4 +15,7 @@ cbuffer CBufferLights
 	Light lightArray[MAX_LIGHT_COUNT];
 };
 
+Texture2D shadowMap[MAX_LIGHT_COUNT];
+SamplerState shadowMapSampler;
+
 #endif // ifndef CBUFFER_LIGHTS_HLSL 

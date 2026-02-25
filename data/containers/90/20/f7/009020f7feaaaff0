@@ -3,6 +3,9 @@
 		"header-version": 1, 
 		"id": "009020f7feaaaff0"
 	}, 
+	"hard-asset-refs": [
+
+ 	], 
 	"objects": [
 		{
 			"header": {
@@ -27,11 +30,11 @@
 							0,
 							0,
 							0,
-							63,
 							0,
 							0,
 							0,
-							63,
+							0,
+							0,
 							0,
 							0,
 							0,

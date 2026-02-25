@@ -44,30 +44,28 @@ float EaseOutQuad(float x)
 	return 1 - (1 - x) * (1 - x);
 }
 
-float4 CalculateDirectionalLight(Light dirLight, float3 normal, float3 view, float shadowIntensity)
+float4 CalculateDirectionalLight(float3 ambient, float3 diffuse, Light dirLight, float3 normal, float3 view, float shadowIntensity)
 {
 	float3 lightVec = normalize(-dirLight.direction); // Invert the light direction to get L
 
 	// Calculate the dot product and clamp it to a non-negative value using saturate()
 	float diffuseStrength = saturate(dot(normal, lightVec));
-	float3 finaDiffuseColor = diffuseStrength * dirLight.diffuse * diffuseColor.xyz;
+	float3 finaDiffuseColor = diffuseStrength * dirLight.diffuse * diffuse;
 	
-	float3 halfVec = normalize(lightVec + view); // Calculate the halfway vector
-
 	// Calculate the dot product of the normal and the halfway vector
+	float3 halfVec = normalize(lightVec + view); // Calculate the halfway vector
 	float specularStrength = pow(saturate(dot(normal, halfVec)), specularPower);
 	float3 finalSpecularColor = specularStrength * dirLight.specular * specularColor.xyz;
 	
-	float3 finalAmbientColor = dirLight.ambient * ambientColor.xyz;
-	//float3 totalLight = finalAmbientColor + finaDiffuseColor + finalSpecularColor;
+	//calculate ambient
+	float3 finalAmbientColor = dirLight.ambient * ambient;
+
 	float3 totalLight = finalAmbientColor + (finaDiffuseColor * shadowIntensity);
 
 	return float4(totalLight, 1);
-
-	//float4 finalColor = float4(totalLight, 1.0) * textureColor;
 }
 
-float4 CalculatePointLight(Light pointLight, float4 fragPosition, float3 normal)
+float4 CalculatePointLight(float3 ambient, float3 diffuse, Light pointLight, float4 fragPosition, float3 normal)
 {
 	//backface detection
 	float3 lightDir = normalize(fragPosition.xyz - pointLight.position); //vector from the light source to the fragment
@@ -82,13 +80,13 @@ float4 CalculatePointLight(Light pointLight, float4 fragPosition, float3 normal)
 	//TODO : specular
 	
 	//final color
-    float3 finalAmbient = pointLight.ambient * ambientColor.xyz * attenuation * backfaceIntensity;
-    float3 finalDiffuse = pointLight.diffuse * diffuseColor.xyz * attenuation * backfaceIntensity;
+    float3 finalAmbient = pointLight.ambient * ambient * attenuation * backfaceIntensity;
+    float3 finalDiffuse = pointLight.diffuse * diffuse * attenuation * backfaceIntensity;
 	
     return float4(finalAmbient + finalDiffuse, 1);
 }
 
-float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal, float shadowIntensity)
+float4 CalculateSpotLight(float3 ambient, float3 diffuse, Light spotLight, float4 fragPosition, float3 normal, float shadowIntensity)
 {
 	float3 lightDir = normalize(fragPosition.xyz - spotLight.position); //vector from the light source to the fragment
 
@@ -109,8 +107,8 @@ float4 CalculateSpotLight(Light spotLight, float4 fragPosition, float3 normal, f
     		    spotLight.quadraticAttenuation * (distance * distance));
 
 	//final color
-    float3 finalAmbient = spotLight.ambient * ambientColor.xyz * attenuation * intensity;
-    float3 finalDiffuse = spotLight.diffuse * diffuseColor.xyz * attenuation * intensity;
+    float3 finalAmbient = spotLight.ambient * ambient * attenuation * intensity;
+    float3 finalDiffuse = spotLight.diffuse * diffuse * attenuation * intensity;
 	//TODO : specular	
 
     return float4(finalAmbient + (finalDiffuse * shadowIntensity), 1);
@@ -163,6 +161,36 @@ float CalculateDirLightShadowIntensity(int lightIndex, float4 lightSpacePos)
 	return shadowIntensity;
 }
 
+/*
+Apply all the lights and shadow maps to the ambient and diffuse color
+*/
+float4 CalculateLitColor(float4 ambient, float4 diffuse, Light lightArray[MAX_LIGHT_COUNT], float4 lightSpacePosition[MAX_LIGHT_COUNT], 
+						float4 fragWorldPos, float3 normal, float3 viewDir)
+{
+	float4 color = float4(0, 0, 0, 1);
+
+	for(int ii = 0; ii < numLights; ++ii)
+	{
+		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
+		{
+			float shadowIntensity = CalculateDirLightShadowIntensity(ii, lightSpacePosition[ii]);
+			color += CalculateDirectionalLight(ambientColor.xyz, diffuseColor.xyz, lightArray[ii], normal, viewDir, shadowIntensity);
+		}
+		else if(lightArray[ii].type == POINT_LIGHT)
+		{
+			float shadowIntensity = 0;
+			color += CalculatePointLight(ambientColor.xyz, diffuseColor.xyz, lightArray[ii], fragWorldPos, normal);
+		}
+		else if(lightArray[ii].type == SPOT_LIGHT)
+		{
+			float shadowIntensity = CalculateSpotLightShadowIntensity(ii, lightSpacePosition[ii], fragWorldPos.xyz);
+			color += CalculateSpotLight(ambientColor.xyz, diffuseColor.xyz, lightArray[ii], fragWorldPos, normal, shadowIntensity);
+		}
+	}
+
+	return color;
+}
+
 float4 main(VS_Output input) : SV_TARGET
 {
 	float3 normal = normalize(input.normal);
@@ -170,30 +198,15 @@ float4 main(VS_Output input) : SV_TARGET
 	float4 color = float4(0, 0, 0, 1);
 	
 	if(numLights == 0)
+	{
 		color = ambientColor;
+		return color;
+	}
 
 	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
 	
-	for(int ii = 0; ii < numLights; ++ii)
-	{
-		if(lightArray[ii].type == DIRECTIONAL_LIGHT)
-		{
-			float shadowIntensity = CalculateDirLightShadowIntensity(ii, input.lightSpacePosition[ii]);
-			color += CalculateDirectionalLight(lightArray[ii], normal, viewDir, shadowIntensity);
-		}
-		else if(lightArray[ii].type == POINT_LIGHT)
-		{
-			float shadowIntensity = 0;
-			color += CalculatePointLight(lightArray[ii], input.worldPosition, normal);
-		}
-		else if(lightArray[ii].type == SPOT_LIGHT)
-		{
-			float shadowIntensity = CalculateSpotLightShadowIntensity(ii, input.lightSpacePosition[ii], input.worldPosition.xyz);
-			color += CalculateSpotLight(lightArray[ii], input.worldPosition, normal, shadowIntensity);
-		}
-	}
+	color = CalculateLitColor(ambientColor, diffuseColor, lightArray, input.lightSpacePosition, input.worldPosition, input.normal, viewDir);
 
-	//float4 dummy = shadowMap.Sample(shadowMapSampler, float2(0, 0));
-	//return (diffuseColor * color) + (dummy * 0);
-    return diffuseColor * color;
+	return color;
+    //return diffuseColor * color;
 }

@@ -28,7 +28,6 @@ struct VS_Output
 
 SamplerState s1;
 Texture2D t1;
-Texture2D t2;
 
 float4 main(VS_Output input) : SV_TARGET
 {
@@ -45,17 +44,12 @@ float4 main(VS_Output input) : SV_TARGET
 
 	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
 	
-	float4 diffuse = t1.SampleLevel(s1, input.uv, 0);
+	float4 texColor = t1.SampleLevel(s1, input.uv, 0);
 
-	float4 ambient = ambientColor * diffuse;
-	diffuse = diffuse * diffuseColor;
+	float4 ambient = ambientColor * texColor;
+	float4 diffuse = diffuseColor * texColor;
 	
 	color = CalculateLitColor(ambient, diffuse, lightArray, input.lightSpacePosition, input.worldPosition, input.normal, viewDir, shadowMap, shadowMapSampler, numLights);
-
-	
-	float4 texel2 = t2.SampleLevel(s1, float2(0, 0), 0);
-	//float4 texel2 = float4(0, 0, 0, 0);
-	color = color + texel2;
 
 	return color;
 }

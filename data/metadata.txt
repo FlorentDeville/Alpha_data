@@ -2,6 +2,7 @@
 003640a7245eb601,base_texture,Material
 004623dafccd16f8,chimney,Mesh
 0057ccdf7c7bb74f,test7,Level
+005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance

@@ -1,0 +1,29 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "0031f1cdf7867d6c"
+	}, 
+	"hard-asset-refs": [
+
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::CubemapAsset_v1"
+			}, 
+			"object": {
+				"m_id": "0031f1cdf7867d6c", 
+				"m_leftSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\left.png", 
+				"m_rightSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\right.png", 
+				"m_topSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\top.png", 
+				"m_bottomSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\bottom.png", 
+				"m_frontSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\front.png", 
+				"m_backSourceFilename": "C:\\Workspace\\Alpha_data\\source_assets\\textures\\back.png", 
+				"m_blob": [
+
+ 				]
+			}
+		}
+ 	]
+}

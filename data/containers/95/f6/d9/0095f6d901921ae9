@@ -10,7 +10,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::MaterialAsset_v1"
+				"typename": "Systems::MaterialAsset_v2"
 			}, 
 			"object": {
 				"m_id": "0095f6d901921ae9", 
@@ -9857,7 +9857,11 @@
 							66
  						]
 					}
- 				]
+ 				], 
+				"m_texturesBindingInfo": [
+
+ 				], 
+				"m_cullMode": 2
 			}
 		}
  	]

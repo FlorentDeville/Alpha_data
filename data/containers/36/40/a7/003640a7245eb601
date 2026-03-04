@@ -10174,7 +10174,8 @@
 						"m_name": "t1", 
 						"m_sigRootIndex": 5
 					}
- 				]
+ 				], 
+				"m_cullMode": 2
 			}
 		}
  	]

@@ -111,7 +111,8 @@
 							"m_id": "0060b30b294538e9"
 						}, 
 						"m_name": "t1", 
-						"m_sigRootIndex": 5
+						"m_sigRootIndex": 5, 
+						"m_type": 0
 					}
  				]
 			}

@@ -45,6 +45,7 @@ VS_Output main( VS_Input input )
     output.vertex = mul(pos, translation);
 	output.vertex = mul(output.vertex, viewMatrix);
 	output.vertex = mul(output.vertex, projMatrix);
+    output.vertex.z = output.vertex.w;
     output.uvw = input.vertex.xyz;
 
 	return output;

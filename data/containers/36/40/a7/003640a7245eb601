@@ -138,6 +138,7 @@
 					}
  				], 
 				"m_cullMode": 2, 
+				"m_depthFunction": 1, 
 				"m_shadowMapsRootSigIndex": 4
 			}
 		}

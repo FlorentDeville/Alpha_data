@@ -42,15 +42,10 @@ VS_Output main( VS_Input input )
 	float4 pos = float4(input.vertex, 1.f);
 	
     matrix translation = makeTranslationMatrix(cameraPosition);
-    matrix scale = makeUniformScaleMatrix(10000);
-
-    output.worldPosition = mul(pos, scale);
-    output.worldPosition = mul(output.worldPosition, translation);
-
-	output.vertex = mul(output.worldPosition, viewMatrix);
+    output.vertex = mul(pos, translation);
+	output.vertex = mul(output.vertex, viewMatrix);
 	output.vertex = mul(output.vertex, projMatrix);
-    //output.vertex.z = output.vertex.w; //trick to put the skybox as far away as possible
-	output.uv = input.uv;
+    output.uvw = input.vertex.xyz;
 
 	return output;
 }

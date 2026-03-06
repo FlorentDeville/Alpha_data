@@ -8,8 +8,7 @@
 struct VS_Output
 {
 	float4 vertex : SV_Position; //screen space position
-	float4 worldPosition : TEXCOORD0; //world space
-	float2 uv : UV;
+	float3 uvw : UV;
 };
 
 #endif // ifndef SKYBOX_BASE_HLSLI

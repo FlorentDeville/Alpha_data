@@ -9,8 +9,6 @@ SamplerState samplerCubemap : register(s0);
 
 float4 main(VS_Output input) : SV_TARGET
 {
-    float3 dir = input.worldPosition.xyz;
-    float3 uvw = normalize(dir);
-    float4 color = cubemap.Sample(samplerCubemap, uvw);
+    float4 color = cubemap.Sample(samplerCubemap, input.uvw);
     return color;
 }

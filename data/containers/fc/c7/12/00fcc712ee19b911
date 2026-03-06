@@ -10,7 +10,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::MaterialAsset_v2"
+				"typename": "Systems::MaterialAsset"
 			}, 
 			"object": {
 				"m_id": "00fcc712ee19b911", 

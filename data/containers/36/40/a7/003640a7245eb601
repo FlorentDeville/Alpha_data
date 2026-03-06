@@ -137,7 +137,8 @@
 						"m_type": 0
 					}
  				], 
-				"m_cullMode": 2
+				"m_cullMode": 2, 
+				"m_shadowMapsRootSigIndex": 4
 			}
 		}
  	]

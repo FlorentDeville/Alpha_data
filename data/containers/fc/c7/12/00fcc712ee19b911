@@ -38,7 +38,8 @@
 						"m_type": 1
 					}
  				], 
-				"m_cullMode": 1
+				"m_cullMode": 1, 
+				"m_shadowMapsRootSigIndex": -1
 			}
 		}
  	]

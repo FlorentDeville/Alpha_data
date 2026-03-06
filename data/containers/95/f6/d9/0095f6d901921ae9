@@ -130,7 +130,8 @@
 				"m_texturesBindingInfo": [
 
  				], 
-				"m_cullMode": 2
+				"m_cullMode": 2, 
+				"m_shadowMapsRootSigIndex": 4
 			}
 		}
  	]

@@ -1,6 +1,6 @@
 00096fc7832ff926,skybox_bluesky,MaterialInstance
 00101a3766d17550,base_sphere,Mesh
-0031f1cdf7867d6c,test,Cubemap
+0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
 004623dafccd16f8,chimney,Mesh
 0057ccdf7c7bb74f,test7,Level

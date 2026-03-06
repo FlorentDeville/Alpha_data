@@ -9,6 +9,7 @@
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0095f6d901921ae9,base-phong,Material
+009931a0171760b0,skybox_arid,Cubemap
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00b428810c2cb614,C:\Workspace\Alpha_data\source_assets\base_cube.fbx,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
@@ -16,5 +17,6 @@
 00cb6038b35525af,wood_floor,Texture
 00dd777612e662e3,ground,Texture
 00ddc79f89f2bdc3,C:\Workspace\Alpha_data\source_assets\small_window.fbx,Mesh
+00f039614ac02c85,skybox_arid,MaterialInstance
 00f466f608e059d8,dormer,Mesh
 00fcc712ee19b911,skybox_base,Material

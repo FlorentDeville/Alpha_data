@@ -15,7 +15,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::LevelAsset_v1"
+				"typename": "Systems::LevelAsset"
 			}, 
 			"object": {
 				"m_gameObjectsArray": [

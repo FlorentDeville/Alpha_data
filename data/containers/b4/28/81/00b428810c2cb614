@@ -10,7 +10,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::MeshAsset_v2"
+				"typename": "Systems::MeshAsset"
 			}, 
 			"object": {
 				"m_id": "00b428810c2cb614", 

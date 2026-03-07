@@ -10,7 +10,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::TextureAsset_v2"
+				"typename": "Systems::Texture2DAsset"
 			}, 
 			"object": {
 				"m_id": "00dd777612e662e3", 

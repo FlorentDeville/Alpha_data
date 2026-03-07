@@ -10,7 +10,7 @@
 		{
 			"header": {
 				"header-version": 1, 
-				"typename": "Systems::CubemapAsset_v2"
+				"typename": "Systems::CubemapAsset"
 			}, 
 			"object": {
 				"m_id": "0031f1cdf7867d6c", 

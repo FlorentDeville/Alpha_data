@@ -1,0 +1,27 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00ddcdadc03f7503"
+	}, 
+	"hard-asset-refs": [
+
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "00ddcdadc03f7503", 
+				"m_material": "0055655d550e0258", 
+				"m_perMaterialParameters": [
+
+ 				], 
+				"m_texturesBindingInfo": [
+
+ 				]
+			}
+		}
+ 	]
+}

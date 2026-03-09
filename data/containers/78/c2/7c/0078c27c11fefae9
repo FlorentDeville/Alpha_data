@@ -367,10 +367,10 @@
 								{
 									"header": {
 										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
+										"typename": "Systems::SkyboxComponent"
 									}, 
 									"object": {
-										"m_guid": "fd21d594-9717-fccd-9211-b5aa868c1b0", 
+										"m_guid": "f6cdc736-57fd-4aa7-9ee8-3f6830f41e4e", 
 										"m_mesh": {
 											"m_id": "00b428810c2cb614"
 										}, 

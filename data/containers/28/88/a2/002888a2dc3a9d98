@@ -6,7 +6,7 @@
 	"hard-asset-refs": [
 		"00b428810c2cb614",
 		"00c85b6f9d871df0",
-		"00c4ecf385b6c211",
+		"0074b6fe630be29d",
 		"00ccb518144a2399"
  	], 
 	"objects": [
@@ -123,7 +123,7 @@
 									"object": {
 										"m_guid": "bbe4767a-bab7-ab6e-d05c-6421c989f3cb", 
 										"m_mesh": {
-											"m_id": "00c4ecf385b6c211"
+											"m_id": "0074b6fe630be29d"
 										}, 
 										"m_material": {
 											"m_id": "00ccb518144a2399"

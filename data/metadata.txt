@@ -11,6 +11,7 @@
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
 0062934049c293b8,narshe_Roof_3x3,Mesh
+0065b8586f879429,narshe_Ground_3x3_B,Mesh
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0094ff67bb933a47,narshe-tileset,Texture

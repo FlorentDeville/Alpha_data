@@ -9,7 +9,6 @@
 0057ccdf7c7bb74f,test7,Level
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
-0074b6fe630be29d,test_export,Mesh
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0094ff67bb933a47,narshe-tileset,Texture
@@ -25,5 +24,4 @@
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00e7f780deb91722,Brick_Wall_1x3,Mesh
 00f039614ac02c85,skybox_arid,MaterialInstance
-00f466f608e059d8,dormer,Mesh
 00fcc712ee19b911,skybox_base,Material

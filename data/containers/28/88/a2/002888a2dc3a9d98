@@ -330,8 +330,7 @@
 										"a5889618-b410-b3cd-a899-12e3c437e3e3",
 										"5fb9fe6b-f83f-3ee8-9834-d2cddcde83a4",
 										"8a1f2d1e-8db6-728e-352d-4e6fbfda6e26",
-										"7d7fe0-d94-233d-1a19-fe7fa33046b0",
-										"64720e1f-4260-7352-8a55-50263ed23110"
+										"1b6cbf0-98f7-fac7-68a0-041797273587"
  									]
 								}
 							}, 
@@ -1785,9 +1784,9 @@
 								"object": {
 									"m_guid": "a237296-56-c2a3-b4dc-57e06cb6827d", 
 									"m_localSqt": [
-										13.5522,
-										4.47035e-07,
-										-7.5996e-07,
+										13.6,
+										4.32134e-07,
+										-7.5549e-07,
 										1,
 										3.68785e-08,
 										-2.23518e-08,
@@ -1838,9 +1837,9 @@
 								"object": {
 									"m_guid": "c6a76df2-664b-d498-fee1-33908780fe6a", 
 									"m_localSqt": [
-										13.5522,
+										13.6,
 										2.5,
-										-5.75567e-07,
+										-5.66244e-07,
 										1,
 										3.68785e-08,
 										-2.23518e-08,
@@ -1944,7 +1943,7 @@
 								"object": {
 									"m_guid": "3b072656-82c6-b4ed-d613-6d69e547ae6f", 
 									"m_localSqt": [
-										13.5522,
+										13.6,
 										2.5,
 										3,
 										1,
@@ -2792,7 +2791,7 @@
 								"object": {
 									"m_guid": "39e766a2-f883-b72e-1c7f-428da062c947", 
 									"m_localSqt": [
-										-1,
+										0,
 										0,
 										0,
 										1,
@@ -2809,7 +2808,8 @@
 										"49fe6a0-fd9e-59d5-2b15-449373950dfe",
 										"be62f225-a76f-e3e6-dfea-9af9e762ed63",
 										"6582fa6e-da47-e7a5-efad-a74acbfe0f6e",
-										"8e413e20-1aed-831e-b432-eb6b1578c830"
+										"8e413e20-1aed-831e-b432-eb6b1578c830",
+										"581b37b4-6f63-9586-8110-dacda4272210"
  									]
 								}
 							}, 
@@ -2834,7 +2834,7 @@
 								"object": {
 									"m_guid": "7c06f164-3668-d609-922c-f41a21dfafd2", 
 									"m_localSqt": [
-										12.0522,
+										11.1,
 										2.5,
 										4.5,
 										1,
@@ -3046,7 +3046,7 @@
 								"object": {
 									"m_guid": "bd4bd570-5c9d-2f32-e5f7-3befb56d08ed", 
 									"m_localSqt": [
-										10.5522,
+										9.6,
 										2.5,
 										4,
 										1,
@@ -3099,14 +3099,14 @@
 								"object": {
 									"m_guid": "a8ae325b-77e3-c012-daee-337076a9fa5d", 
 									"m_localSqt": [
-										9.55219,
+										8.6,
 										2.5,
 										3.5,
 										1,
-										1.31974e-07,
-										0.707107,
-										1.84128e-07,
+										-1.31974e-07,
 										-0.707107,
+										-1.84128e-07,
+										0.707107,
 										0.999993,
 										0.999999,
 										0.999998
@@ -3152,7 +3152,7 @@
 								"object": {
 									"m_guid": "6077ae3d-ae74-f8d6-3328-6bfcab41e300", 
 									"m_localSqt": [
-										8.55219,
+										7.6,
 										2.5,
 										5,
 										1,
@@ -3195,15 +3195,68 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "7d7fe0-d94-233d-1a19-fe7fa33046b0", 
-							"m_name": "wall_61", 
+							"m_guid": "581b37b4-6f63-9586-8110-dacda4272210", 
+							"m_name": "wall_brick_63", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
 									"typename": "Systems::TransformComponent"
 								}, 
 								"object": {
-									"m_guid": "303497a3-2592-de9e-bccb-76fabd5eee74", 
+									"m_guid": "517cf422-aba6-6b3a-5485-a373b4f7827", 
+									"m_localSqt": [
+										4.6522,
+										2.5,
+										3.5,
+										1,
+										1.31974e-07,
+										0.707107,
+										1.84128e-07,
+										-0.707107,
+										0.999993,
+										0.999999,
+										0.999998
+ 									], 
+									"m_parent": "3072df53-8657-b844-38e0-c1bf713f7af2", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "a04b9df-b884-5921-88e5-8d5038fe1214", 
+										"m_mesh": {
+											"m_id": "006248fa3c67fc25"
+										}, 
+										"m_material": {
+											"m_id": "00ccb518144a2399"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "1b6cbf0-98f7-fac7-68a0-041797273587", 
+							"m_name": "wall_62", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "4833c40a-c6b0-237b-8a91-5cb7dd7049df", 
 									"m_localSqt": [
 										1.5,
 										1.5,
@@ -3233,59 +3286,6 @@
 										"m_guid": "bbe4767a-bab7-ab6e-d05c-6421c989f3cb", 
 										"m_mesh": {
 											"m_id": "0052a33e26d8f44a"
-										}, 
-										"m_material": {
-											"m_id": "00ccb518144a2399"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
-							"m_guid": "64720e1f-4260-7352-8a55-50263ed23110", 
-							"m_name": "roof_62", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "6431099f-314d-bb5-dde7-dce0133153fd", 
-									"m_localSqt": [
-										0.054651,
-										3,
-										2.99978,
-										1,
-										0.707094,
-										-0.00431933,
-										-0.00431952,
-										-0.707093,
-										0.999999,
-										1,
-										1
- 									], 
-									"m_parent": "d748cba6-e028-20e6-24a2-e0c3203c4209", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "bbe4767a-bab7-ab6e-d05c-6421c989f3cb", 
-										"m_mesh": {
-											"m_id": "0062934049c293b8"
 										}, 
 										"m_material": {
 											"m_id": "00ccb518144a2399"

@@ -4,7 +4,6 @@
 002888a2dc3a9d98,narshe,Level
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
-004623dafccd16f8,chimney,Mesh
 0052a33e26d8f44a,Wall_3x3,Mesh
 0055655d550e0258,vertex_color_base,Material
 0057ccdf7c7bb74f,test7,Level
@@ -16,7 +15,6 @@
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
-00a2744bbb1a9844,axis,Mesh
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00b428810c2cb614,cube,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
@@ -28,5 +26,4 @@
 00e7f780deb91722,Brick_Wall_1x3,Mesh
 00f039614ac02c85,skybox_arid,MaterialInstance
 00f466f608e059d8,dormer,Mesh
-00fb4554bb3e9b6b,Brick_Wall_1x3,Mesh
 00fcc712ee19b911,skybox_base,Material

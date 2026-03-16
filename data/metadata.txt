@@ -1,4 +1,5 @@
 00096fc7832ff926,skybox_bluesky,MaterialInstance
+000effdaacf4cf4f,narshe_Gabe_3,Mesh
 00101a3766d17550,base_sphere,Mesh
 00170c0e43ea2227,narshe_Door_3x3,Mesh
 002888a2dc3a9d98,narshe,Level
@@ -9,6 +10,7 @@
 0057ccdf7c7bb74f,test7,Level
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
+0062934049c293b8,narshe_Roof_3x3,Mesh
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
 0094ff67bb933a47,narshe-tileset,Texture

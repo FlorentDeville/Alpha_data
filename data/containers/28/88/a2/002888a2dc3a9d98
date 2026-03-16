@@ -511,7 +511,7 @@
 						}, 
 						"object": {
 							"m_guid": "6e9f7b04-b3c7-620f-7cf0-033b55b09c52", 
-							"m_name": "ground_new", 
+							"m_name": "ground_6", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -564,7 +564,7 @@
 						}, 
 						"object": {
 							"m_guid": "5fb93657-91ff-59b5-dd7-9522ff5d62e0", 
-							"m_name": "ground_new_new", 
+							"m_name": "ground_5", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -617,7 +617,7 @@
 						}, 
 						"object": {
 							"m_guid": "4ac9931-8a42-6d6-ac75-d64976f9ad36", 
-							"m_name": "ground_new_new_new", 
+							"m_name": "ground_4", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -670,7 +670,7 @@
 						}, 
 						"object": {
 							"m_guid": "4b16e6c9-401d-b030-8259-4f24572cae51", 
-							"m_name": "ground_new_new_new_new", 
+							"m_name": "ground_3", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -723,7 +723,7 @@
 						}, 
 						"object": {
 							"m_guid": "f71019b1-725f-644-2ef0-73ec31af637b", 
-							"m_name": "ground_new_new", 
+							"m_name": "ground", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -828,7 +828,7 @@
 						}, 
 						"object": {
 							"m_guid": "5287ae28-d35f-74ec-1bb5-fd4d40397f37", 
-							"m_name": "ground_new_new_new", 
+							"m_name": "ground_7", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -881,7 +881,7 @@
 						}, 
 						"object": {
 							"m_guid": "f525e62e-5722-fa19-9a89-52243ed99355", 
-							"m_name": "ground_new_new_new_new", 
+							"m_name": "ground_8", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -934,7 +934,7 @@
 						}, 
 						"object": {
 							"m_guid": "5be218b7-cd65-3d62-5a0f-015a2c438946", 
-							"m_name": "ground_new_new_new_new_new", 
+							"m_name": "ground_9", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -987,7 +987,7 @@
 						}, 
 						"object": {
 							"m_guid": "b002669c-9156-280f-9425-7843d2edce3f", 
-							"m_name": "ground_new_19", 
+							"m_name": "ground_19", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -1093,7 +1093,7 @@
 						}, 
 						"object": {
 							"m_guid": "54ea5735-a957-496c-3d1d-fcff2a8f5301", 
-							"m_name": "ground_new_new_new_21", 
+							"m_name": "ground_21", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -1146,7 +1146,7 @@
 						}, 
 						"object": {
 							"m_guid": "784fe001-fe8d-e1e0-e80b-e875666f5808", 
-							"m_name": "ground_new_new_new_21_22", 
+							"m_name": "ground_22", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -1199,7 +1199,7 @@
 						}, 
 						"object": {
 							"m_guid": "2096dcf3-b88-1844-d518-db26f4ac01b2", 
-							"m_name": "ground_20_23", 
+							"m_name": "ground_23", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -1252,7 +1252,7 @@
 						}, 
 						"object": {
 							"m_guid": "a988864-8383-b0b2-f0de-cfe57f140d47", 
-							"m_name": "ground_21_22_24", 
+							"m_name": "ground_24", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 

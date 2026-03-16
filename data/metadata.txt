@@ -4,7 +4,7 @@
 002888a2dc3a9d98,narshe,Level
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
-0052a33e26d8f44a,Wall_3x3,Mesh
+0052a33e26d8f44a,narshe_Wall_3x3,Mesh
 0055655d550e0258,vertex_color_base,Material
 0057ccdf7c7bb74f,test7,Level
 005ffe8a2ca06c2e,stone,MaterialInstance

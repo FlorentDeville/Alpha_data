@@ -1,4 +1,6 @@
+00032e55c19b562c,narshe_Roof_1x3,Mesh
 00096fc7832ff926,skybox_bluesky,MaterialInstance
+000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
 000effdaacf4cf4f,narshe_Gabe_3,Mesh
 00101a3766d17550,base_sphere,Mesh
 00170c0e43ea2227,narshe_Door_3x3,Mesh
@@ -8,9 +10,11 @@
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
 0055655d550e0258,vertex_color_base,Material
 0057ccdf7c7bb74f,test7,Level
+005c855069d71d7c,narshe_Roof_half,Mesh
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
 0062934049c293b8,narshe_Roof_3x3,Mesh
+00632c1762b4fb29,narshe_Window_3x3,Mesh
 006366f945e4cfce,narshe_Ground_3x3_D,Mesh
 0065b8586f879429,narshe_Ground_3x3_B,Mesh
 0078c27c11fefae9,test_dirlight,Level

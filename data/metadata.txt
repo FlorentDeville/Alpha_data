@@ -11,6 +11,7 @@
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
 0062934049c293b8,narshe_Roof_3x3,Mesh
+006366f945e4cfce,narshe_Ground_3x3_D,Mesh
 0065b8586f879429,narshe_Ground_3x3_B,Mesh
 0078c27c11fefae9,test_dirlight,Level
 009020f7feaaaff0,red-phong,MaterialInstance
@@ -18,6 +19,7 @@
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
 00a3a6d60416ebbe,blue-phong,MaterialInstance
+00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
 00c85b6f9d871df0,yellow-phong,MaterialInstance
@@ -27,4 +29,5 @@
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00f039614ac02c85,skybox_arid,MaterialInstance
+00fa53ec049bf0aa,narshe_Ground_3x3_C,Mesh
 00fcc712ee19b911,skybox_base,Material

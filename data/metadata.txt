@@ -1,3 +1,4 @@
+00018efe0709a9bd,narshe_Wall_2x2_B,Mesh
 00032e55c19b562c,narshe_Roof_1x3,Mesh
 00096fc7832ff926,skybox_bluesky,MaterialInstance
 000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
@@ -19,9 +20,13 @@
 0062934049c293b8,narshe_Roof_3x3,Mesh
 00632c1762b4fb29,narshe_Window_3x3,Mesh
 006366f945e4cfce,narshe_Ground_3x3_D,Mesh
+00649688e8699026,narshe_Wall_3x1_B,Mesh
 0065b8586f879429,narshe_Ground_3x3_B,Mesh
 0066a779d25f9168,narshe_Brick_Wall_3x3,Mesh
+00781e3d89bd9f93,narshe_Wall_3x1_C,Mesh
 0078c27c11fefae9,test_dirlight,Level
+0080e7038df640ea,narshe_Wall_3x1_A,Mesh
+008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 009020f7feaaaff0,red-phong,MaterialInstance
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
@@ -35,6 +40,7 @@
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance
+00dfe8bb44487971,narshe_Window_1x3,Mesh
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00f039614ac02c85,skybox_arid,MaterialInstance
 00fa53ec049bf0aa,narshe_Ground_3x3_C,Mesh

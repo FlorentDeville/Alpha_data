@@ -25,7 +25,11 @@
 		"00dfe8bb44487971",
 		"001a615b9e9dcfce",
 		"0045e10300a5c40a",
-		"00018efe0709a9bd"
+		"00018efe0709a9bd",
+		"006998f059dc240b",
+		"00aa81cda786f341",
+		"00b428810c2cb614",
+		"005ffe8a2ca06c2e"
  	], 
 	"objects": [
 		{
@@ -1717,7 +1721,10 @@
 										"3fac080b-9878-ea28-6814-0879896ba567",
 										"e95977ad-7178-a93a-c4a9-4022ab7d2d91",
 										"b47c84a7-ef1c-5ccf-d21f-0ab75f2c628",
-										"6f47bd80-f88f-8237-7e12-62c8982ad15e"
+										"6f47bd80-f88f-8237-7e12-62c8982ad15e",
+										"41b28895-4ab0-ef90-47a5-6c7cda4ced8f",
+										"83613ba5-90de-a8a-f8-d95932aa6df9",
+										"b2ebb684-903c-e5d9-23c6-c71ebe2c8af8"
  									]
 								}
 							}, 
@@ -1742,17 +1749,17 @@
 								"object": {
 									"m_guid": "80290510-5548-c886-3d6e-50e4d649fcb8", 
 									"m_localSqt": [
-										15.0522,
-										2.23517e-07,
+										15.1,
+										2.0124e-07,
 										-1.5,
 										1,
 										5.26835e-08,
 										0.707107,
 										1.04838e-07,
 										-0.707107,
-										0.999995,
+										0.999996,
 										1,
-										0.999999
+										1
  									], 
 									"m_parent": "f708264-ac6-3c6c-2777-8e746f576ac", 
 									"m_children": [
@@ -1901,7 +1908,7 @@
 								"object": {
 									"m_guid": "6bbf6e4b-4ca4-3fd2-fc71-e55e934598e", 
 									"m_localSqt": [
-										15.0522,
+										15.1,
 										2.5,
 										-1.5,
 										1,
@@ -2007,7 +2014,7 @@
 								"object": {
 									"m_guid": "1720705d-528a-ced0-8b91-0e6b899e00d9", 
 									"m_localSqt": [
-										15.0522,
+										15.1,
 										4,
 										-1.5,
 										1,
@@ -2060,9 +2067,9 @@
 								"object": {
 									"m_guid": "46cfbe82-9e45-5142-f528-e6925058c98f", 
 									"m_localSqt": [
-										13.5522,
+										13.6,
 										4,
-										-4.64931e-07,
+										-4.60461e-07,
 										1,
 										3.68785e-08,
 										-2.23518e-08,
@@ -4867,6 +4874,311 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "41b28895-4ab0-ef90-47a5-6c7cda4ced8f", 
+							"m_name": "wall_brick_92", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "df8a30a7-7c7c-b007-a668-ee4b976ba075", 
+									"m_localSqt": [
+										15.1,
+										5,
+										2.23517e-07,
+										1,
+										1.04838e-07,
+										0.707107,
+										-5.26835e-08,
+										0.707107,
+										0.999995,
+										1,
+										0.999999
+ 									], 
+									"m_parent": "f708264-ac6-3c6c-2777-8e746f576ac", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "a04b9df-b884-5921-88e5-8d5038fe1214", 
+										"m_mesh": {
+											"m_id": "006998f059dc240b"
+										}, 
+										"m_material": {
+											"m_id": "00ccb518144a2399"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "83613ba5-90de-a8a-f8-d95932aa6df9", 
+							"m_name": "wall_brick_93", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "d48322a2-617-3889-f27f-968e95c7e966", 
+									"m_localSqt": [
+										15.1,
+										5,
+										3,
+										1,
+										1.11384e-07,
+										1,
+										3.68788e-08,
+										1.63913e-07,
+										0.999995,
+										1,
+										0.999999
+ 									], 
+									"m_parent": "f708264-ac6-3c6c-2777-8e746f576ac", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "a04b9df-b884-5921-88e5-8d5038fe1214", 
+										"m_mesh": {
+											"m_id": "00aa81cda786f341"
+										}, 
+										"m_material": {
+											"m_id": "00ccb518144a2399"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "b2ebb684-903c-e5d9-23c6-c71ebe2c8af8", 
+							"m_name": "wall_brick_94", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "ba2c6a93-83dc-cee0-a84-8c3a3988728f", 
+									"m_localSqt": [
+										15.1,
+										5,
+										6,
+										1,
+										1.11384e-07,
+										1,
+										3.68788e-08,
+										1.63913e-07,
+										0.999995,
+										1,
+										0.999999
+ 									], 
+									"m_parent": "f708264-ac6-3c6c-2777-8e746f576ac", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "a04b9df-b884-5921-88e5-8d5038fe1214", 
+										"m_mesh": {
+											"m_id": "00aa81cda786f341"
+										}, 
+										"m_material": {
+											"m_id": "00ccb518144a2399"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "ad25aeea-ac6-e298-b101-2c6c7c848c78", 
+							"m_name": "rocks", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "551d04aa-995a-95e-f43a-7935f0df268e", 
+									"m_localSqt": [
+										0,
+										0,
+										0,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+										"d3f9d77f-ba4e-4cd9-c6b-b784adfcc6ca",
+										"9c347ec-ab76-ad26-b999-b2df7457b184"
+ 									]
+								}
+							}, 
+							"m_components": [
+
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "d3f9d77f-ba4e-4cd9-c6b-b784adfcc6ca", 
+							"m_name": "rock_1", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "482310ff-3287-2f6c-e1c3-3d97c47afa8c", 
+									"m_localSqt": [
+										16.6,
+										4.6,
+										6.7,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										4,
+										4,
+										2
+ 									], 
+									"m_parent": "ad25aeea-ac6-e298-b101-2c6c7c848c78", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "1ecace1e-5a8-358e-4d98-63f728c06d9c", 
+										"m_mesh": {
+											"m_id": "00b428810c2cb614"
+										}, 
+										"m_material": {
+											"m_id": "005ffe8a2ca06c2e"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "9c347ec-ab76-ad26-b999-b2df7457b184", 
+							"m_name": "rock_97", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "9b338a1f-c542-ba6d-d74a-27c1c3108e22", 
+									"m_localSqt": [
+										-6.19999,
+										4.6,
+										5.4,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										4,
+										4,
+										2
+ 									], 
+									"m_parent": "ad25aeea-ac6-e298-b101-2c6c7c848c78", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "1ecace1e-5a8-358e-4d98-63f728c06d9c", 
+										"m_mesh": {
+											"m_id": "00b428810c2cb614"
+										}, 
+										"m_material": {
+											"m_id": "005ffe8a2ca06c2e"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
@@ -4875,7 +5187,8 @@
 					"f591f1bc-80eb-e234-96fb-79d27e51f7dd",
 					"a554d90a-5539-9b2b-bd8c-e7f31999ce76",
 					"f708264-ac6-3c6c-2777-8e746f576ac",
-					"3072df53-8657-b844-38e0-c1bf713f7af2"
+					"3072df53-8657-b844-38e0-c1bf713f7af2",
+					"ad25aeea-ac6-e298-b101-2c6c7c848c78"
  				]
 			}
 		}

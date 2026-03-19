@@ -5,11 +5,13 @@
 000effdaacf4cf4f,narshe_Gabe_3,Mesh
 00101a3766d17550,base_sphere,Mesh
 00170c0e43ea2227,narshe_Door_3x3,Mesh
+001a615b9e9dcfce,narshe_Gabe_2,Mesh
 001a75a8231520c9,narshe_Brick_Wall_3x1,Mesh
 002888a2dc3a9d98,narshe,Level
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
+0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
 0055655d550e0258,vertex_color_base,Material
 0057ccdf7c7bb74f,test7,Level
@@ -32,9 +34,11 @@
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
 00a3a6d60416ebbe,blue-phong,MaterialInstance
+00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
+00c8042a4b688cec,narshe_Wall_2x1_B,Mesh
 00c85b6f9d871df0,yellow-phong,MaterialInstance
 00cb6038b35525af,wood_floor,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance

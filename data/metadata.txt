@@ -37,6 +37,7 @@
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh
+00aa8feaec98cc42,narshe_ground,MaterialInstance
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
@@ -49,6 +50,7 @@
 00dfe8bb44487971,narshe_Window_1x3,Mesh
 00e34a07e1772bd9,narshe_Snow_2x2_A,Mesh
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
+00e804431d4933e2,world-axis-aligned,Material
 00f039614ac02c85,skybox_arid,MaterialInstance
 00fa53ec049bf0aa,narshe_Ground_3x3_C,Mesh
 00fcc712ee19b911,skybox_base,Material

@@ -1,0 +1,34 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00aa8feaec98cc42"
+	}, 
+	"hard-asset-refs": [
+		"00dd777612e662e3"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "00aa8feaec98cc42", 
+				"m_material": "00e804431d4933e2", 
+				"m_perMaterialParameters": [
+
+ 				], 
+				"m_texturesBindingInfo": [
+					{
+						"m_texture": {
+							"m_id": "00dd777612e662e3"
+						}, 
+						"m_name": "t1", 
+						"m_sigRootIndex": 4, 
+						"m_type": 0
+					}
+ 				]
+			}
+		}
+ 	]
+}

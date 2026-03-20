@@ -28,6 +28,19 @@
 							0,
 							63
  						]
+					},
+					{
+						"m_name": "ambientIntensity", 
+						"m_size": 4, 
+						"m_offset": 4, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							0,
+							63
+ 						]
 					}
  				], 
 				"m_texturesBindingInfo": [

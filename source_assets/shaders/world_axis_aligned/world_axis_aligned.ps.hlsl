@@ -13,6 +13,7 @@
 cbuffer PerMaterial
 {
 	float scale;
+	float ambientIntensity;
 };
 
 SamplerState s1;
@@ -34,7 +35,7 @@ float4 main(VS_Output input) : SV_TARGET
 
 	float4 texColor = t1.SampleLevel(s1, uv, 0);
 
-	float4 ambient = texColor * 0.5;
+	float4 ambient = texColor * ambientIntensity;
 	float4 diffuse = texColor;
 	
 	float4 color = ambient + diffuse;

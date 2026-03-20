@@ -30,7 +30,7 @@ float4 main(VS_Output input) : SV_TARGET
 	else
 		uv = input.worldPosition.xy;
 
-	uv = uv * 0.3; //scale
+	uv = uv * scale;
 
 	float4 texColor = t1.SampleLevel(s1, uv, 0);
 

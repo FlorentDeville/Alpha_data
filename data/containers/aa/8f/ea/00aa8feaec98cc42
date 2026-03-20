@@ -16,7 +16,19 @@
 				"m_id": "00aa8feaec98cc42", 
 				"m_material": "00e804431d4933e2", 
 				"m_perMaterialParameters": [
-
+					{
+						"m_name": "scale", 
+						"m_size": 4, 
+						"m_offset": 0, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							0,
+							63
+ 						]
+					}
  				], 
 				"m_texturesBindingInfo": [
 					{
@@ -24,7 +36,7 @@
 							"m_id": "00dd777612e662e3"
 						}, 
 						"m_name": "t1", 
-						"m_sigRootIndex": 4, 
+						"m_sigRootIndex": 5, 
 						"m_type": 0
 					}
  				]

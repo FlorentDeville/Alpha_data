@@ -13,6 +13,7 @@
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
 0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
+0054a9eef43292a3,ground_snow,Texture
 0055655d550e0258,vertex_color_base,Material
 0057ccdf7c7bb74f,test7,Level
 00594be5f286cc3a,narshe_Roof_6x3_A,Mesh
@@ -40,6 +41,7 @@
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh
 00aa8feaec98cc42,narshe_ground,MaterialInstance
+00ab1834a3f589d1,narshe_ground_snow,MaterialInstance
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh

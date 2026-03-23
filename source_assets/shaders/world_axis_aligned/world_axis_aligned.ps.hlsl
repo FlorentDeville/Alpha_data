@@ -25,7 +25,7 @@ float4 main(VS_Output input) : SV_TARGET
 
 	float2 uv;
 	if(abs(normal.x) > max(abs(normal.y), abs(normal.z)))
-		uv = input.worldPosition.yz;
+		uv = input.worldPosition.zy;
 	else if(abs(normal.y) > max(abs(normal.x), abs(normal.z)))
 		uv = input.worldPosition.xz;
 	else

@@ -29,6 +29,7 @@
 0065b8586f879429,narshe_Ground_3x3_B,Mesh
 0066a779d25f9168,narshe_Brick_Wall_3x3,Mesh
 006998f059dc240b,narshe_Snow_Corner_3x3_A,Mesh
+0070b0c53157c8c7,test-emissive,Material
 00781e3d89bd9f93,narshe_Wall_3x1_C,Mesh
 0078c27c11fefae9,test_dirlight,Level
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh

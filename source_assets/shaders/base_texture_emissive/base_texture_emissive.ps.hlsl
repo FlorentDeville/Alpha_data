@@ -41,14 +41,13 @@ float4 main(VS_Output input) : SV_TARGET
 
 	float4 glowMask = emissiveMask.SampleLevel(emissiveSampler, input.uv, 0);
 
-	float glowAmplitudeRange = glowAmplitudeMax - glowAmplitudeMin;
-	float4 glowFactor = glowMask * ((sin(time * glowFrequency) * glowAmplitudeRange) + glowAmplitudeMin);
+	float glowAmplitudeRange = (glowAmplitudeMax - glowAmplitudeMin) * 0.5f;
+	float4 glowFactor = glowMask * ((sin(time * glowFrequency) * glowAmplitudeRange) + glowAmplitudeMin + glowAmplitudeRange);
 
 	float4 emissive = glowFactor * glowColor;
 
 	float4 ambient = texColor * ambientIntensity;
 	float4 diffuse = texColor;
-	//float4 color = ambient + diffuse + emissive;
 
 	if(numLights == 0)
 	{

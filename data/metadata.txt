@@ -35,6 +35,7 @@
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 009020f7feaaaff0,red-phong,MaterialInstance
+0091191a2e7d8b94,test_time_animation,Material
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
@@ -47,6 +48,7 @@
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
+00bff898d9314574,test_time_animation_instance,MaterialInstance
 00c6e43a7dd6d9bd,test_spotlight,Level
 00c8042a4b688cec,narshe_Wall_2x1_B,Mesh
 00c85b6f9d871df0,yellow-phong,MaterialInstance

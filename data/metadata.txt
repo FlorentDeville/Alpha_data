@@ -39,12 +39,14 @@
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
+009b41b3eaddce0e,tileset-narshe-emissive-mask,Texture
 00a042ca152ee229,red-emissive,MaterialInstance
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh
 00aa8feaec98cc42,narshe_ground,MaterialInstance
 00ab1834a3f589d1,narshe_ground_snow,MaterialInstance
+00b1ecdffc1a66f1,base_texture_emissive,Material
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
@@ -54,6 +56,7 @@
 00c85b6f9d871df0,yellow-phong,MaterialInstance
 00cb6038b35525af,wood_floor,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance
+00cd3bded6d1fddd,narshe_tileset_emissive,MaterialInstance
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00dfe8bb44487971,narshe_Window_1x3,Mesh

@@ -12,6 +12,7 @@ cbuffer PerFrame
 	matrix viewMatrix;
 	matrix projMatrix;
 	float3 cameraPosition;
+	float time;
 };
 
 #endif // ifndef CBUFFER_PER_FRAME_HLSL 

@@ -38,6 +38,7 @@
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap
+00a042ca152ee229,red-emissive,MaterialInstance
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh

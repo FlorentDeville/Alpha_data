@@ -4,7 +4,7 @@
 		"id": "0021162eee167a3e"
 	}, 
 	"hard-asset-refs": [
-		"00d77c03cc79d276"
+
  	], 
 	"objects": [
 		{
@@ -43,15 +43,9 @@
 					}
  				], 
 				"m_texturesBindingInfo": [
-					{
-						"m_texture": {
-							"m_id": "00d77c03cc79d276"
-						}, 
-						"m_name": "alpha", 
-						"m_sigRootIndex": 5, 
-						"m_type": 0
-					}
- 				]
+
+ 				], 
+				"m_parametersSchemaHash": "9f11895e62f9f2f2"
 			}
 		}
  	]

@@ -57,6 +57,7 @@
 00cb6038b35525af,wood_floor,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00cd3bded6d1fddd,narshe_tileset_emissive,MaterialInstance
+00db09877247f9cb,test_translucent,Material
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00dfe8bb44487971,narshe_Window_1x3,Mesh

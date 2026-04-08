@@ -66,5 +66,6 @@
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00e804431d4933e2,world-axis-aligned,Material
 00f039614ac02c85,skybox_arid,MaterialInstance
+00f5426355d6d082,test_translucent_instance,MaterialInstance
 00fa53ec049bf0aa,narshe_Ground_3x3_C,Mesh
 00fcc712ee19b911,skybox_base,Material

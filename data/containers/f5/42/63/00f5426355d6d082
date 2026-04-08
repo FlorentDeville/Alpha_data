@@ -1,0 +1,46 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00f5426355d6d082"
+	}, 
+	"hard-asset-refs": [
+		"0054a9eef43292a3"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "00f5426355d6d082", 
+				"m_material": "00db09877247f9cb", 
+				"m_perMaterialParameters": [
+					{
+						"m_name": "alpha", 
+						"m_size": 4, 
+						"m_offset": 0, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							51,
+							51,
+							51,
+							63
+ 						]
+					}
+ 				], 
+				"m_texturesBindingInfo": [
+					{
+						"m_texture": {
+							"m_id": "0054a9eef43292a3"
+						}, 
+						"m_name": "diffuse", 
+						"m_sigRootIndex": 5, 
+						"m_type": 0
+					}
+ 				]
+			}
+		}
+ 	]
+}

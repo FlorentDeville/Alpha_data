@@ -7,9 +7,11 @@
 00170c0e43ea2227,narshe_Door_3x3,Mesh
 001a615b9e9dcfce,narshe_Gabe_2,Mesh
 001a75a8231520c9,narshe_Brick_Wall_3x1,Mesh
+0021162eee167a3e,god_ray_instance,MaterialInstance
 002888a2dc3a9d98,narshe,Level
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
+0036ea306ecbcba1,god_ray,Material
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
 0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
@@ -49,6 +51,7 @@
 00b1ecdffc1a66f1,base_texture_emissive,Material
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh
+00b6e55fae2e12b7,base_cylinder,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
 00bff898d9314574,test_time_animation_instance,MaterialInstance
 00c6e43a7dd6d9bd,test_spotlight,Level
@@ -57,6 +60,7 @@
 00cb6038b35525af,wood_floor,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00cd3bded6d1fddd,narshe_tileset_emissive,MaterialInstance
+00d77c03cc79d276,godray_mask,Texture
 00db09877247f9cb,test_translucent,Material
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance

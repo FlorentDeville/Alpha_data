@@ -4,7 +4,7 @@
 		"id": "0021162eee167a3e"
 	}, 
 	"hard-asset-refs": [
-
+		"00d77c03cc79d276"
  	], 
 	"objects": [
 		{
@@ -23,29 +23,62 @@
 						"m_type": "b0a1a50b1639e8ff", 
 						"m_strType": "color", 
 						"m_value": [
-							0,
-							0,
-							-128,
+							50,
+							51,
+							-77,
+							62,
+							61,
+							10,
+							-41,
+							62,
+							-105,
+							-103,
+							25,
 							63,
 							0,
 							0,
 							-128,
-							63,
+							63
+ 						]
+					},
+					{
+						"m_name": "frequency", 
+						"m_size": 4, 
+						"m_offset": 16, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							-51,
+							-52,
+							-52,
+							61
+ 						]
+					},
+					{
+						"m_name": "amplitude", 
+						"m_size": 4, 
+						"m_offset": 20, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
 							0,
 							0,
-							-128,
-							63,
 							0,
-							0,
-							0,
-							0
+							63
  						]
 					}
  				], 
 				"m_texturesBindingInfo": [
-
+					{
+						"m_texture": {
+							"m_id": "00d77c03cc79d276"
+						}, 
+						"m_name": "alpha", 
+						"m_sigRootIndex": 6, 
+						"m_type": 0
+					}
  				], 
-				"m_parametersSchemaHash": "9f11895e62f9f2f2"
+				"m_parametersSchemaHash": "d9f4c1cc6db52b8d"
 			}
 		}
  	]

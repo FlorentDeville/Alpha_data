@@ -54,6 +54,7 @@
 00b6e55fae2e12b7,base_cylinder,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
 00bff898d9314574,test_time_animation_instance,MaterialInstance
+00c50261b5ea66a9,base_quad,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level
 00c8042a4b688cec,narshe_Wall_2x1_B,Mesh
 00c85b6f9d871df0,yellow-phong,MaterialInstance
@@ -70,6 +71,7 @@
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00e804431d4933e2,world-axis-aligned,Material
 00f039614ac02c85,skybox_arid,MaterialInstance
+00f10938ce06e248,godray_color_intensity,Texture
 00f5426355d6d082,test_translucent_instance,MaterialInstance
 00fa53ec049bf0aa,narshe_Ground_3x3_C,Mesh
 00fcc712ee19b911,skybox_base,Material

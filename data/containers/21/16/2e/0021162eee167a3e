@@ -4,7 +4,8 @@
 		"id": "0021162eee167a3e"
 	}, 
 	"hard-asset-refs": [
-		"00d77c03cc79d276"
+		"00d77c03cc79d276",
+		"00f10938ce06e248"
  	], 
 	"objects": [
 		{
@@ -31,9 +32,9 @@
 							10,
 							-41,
 							62,
-							-105,
-							-103,
-							25,
+							-24,
+							81,
+							56,
 							63,
 							0,
 							0,
@@ -74,11 +75,19 @@
 							"m_id": "00d77c03cc79d276"
 						}, 
 						"m_name": "alpha", 
-						"m_sigRootIndex": 6, 
+						"m_sigRootIndex": 3, 
+						"m_type": 0
+					},
+					{
+						"m_texture": {
+							"m_id": "00f10938ce06e248"
+						}, 
+						"m_name": "rayIntensity", 
+						"m_sigRootIndex": 4, 
 						"m_type": 0
 					}
  				], 
-				"m_parametersSchemaHash": "d9f4c1cc6db52b8d"
+				"m_parametersSchemaHash": "f4cd3100b9dc6027"
 			}
 		}
  	]

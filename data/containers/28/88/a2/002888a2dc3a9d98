@@ -21278,7 +21278,7 @@
 						}, 
 						"object": {
 							"m_guid": "5815a558-d122-8d1b-b13f-5eccc70e67c2", 
-							"m_name": "translucent_sphere_399", 
+							"m_name": "god_ray", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -21287,17 +21287,70 @@
 								"object": {
 									"m_guid": "260d322-386f-a003-4553-5f37ec9b624d", 
 									"m_localSqt": [
-										4.5667,
-										6.8618,
-										-2.42844,
+										6.4188,
+										11.1523,
+										34.8604,
 										1,
-										-0,
-										0,
-										0.332805,
-										0.942996,
-										1.44592,
-										5.83573,
-										1
+										-0.0115074,
+										-0.0342312,
+										0.344603,
+										0.938054,
+										2.82119,
+										9.49675,
+										0.99997
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "e789ae73-95b6-fc02-299f-7a0c52bcfcc2", 
+										"m_mesh": {
+											"m_id": "00b6e55fae2e12b7"
+										}, 
+										"m_material": {
+											"m_id": "0021162eee167a3e"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "b2cc3371-656-42e8-95d4-63626cf745fd", 
+							"m_name": "god_ray_400", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "b451efb0-d277-2ce2-cf72-09bbddcbd71", 
+									"m_localSqt": [
+										-4.81099,
+										12.9225,
+										19.0321,
+										1,
+										-0.0125686,
+										-0.0338559,
+										0.373669,
+										0.926859,
+										2.82119,
+										9.49676,
+										0.999969
  									], 
 									"m_parent": "0-0-0-0-00000", 
 									"m_children": [
@@ -21347,7 +21400,8 @@
 					"58f928d3-d789-86a1-7a55-dcba394a9115",
 					"e7292259-1f7b-bb17-1332-bc95d64ae34",
 					"c9085758-e010-2f9a-bfe6-31a0aa642487",
-					"5815a558-d122-8d1b-b13f-5eccc70e67c2"
+					"5815a558-d122-8d1b-b13f-5eccc70e67c2",
+					"b2cc3371-656-42e8-95d4-63626cf745fd"
  				]
 			}
 		}

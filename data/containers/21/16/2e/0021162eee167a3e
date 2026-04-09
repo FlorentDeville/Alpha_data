@@ -24,17 +24,17 @@
 						"m_type": "b0a1a50b1639e8ff", 
 						"m_strType": "color", 
 						"m_value": [
-							50,
-							51,
-							-77,
-							62,
-							61,
+							-87,
+							71,
+							97,
+							63,
+							-108,
+							-103,
+							89,
+							63,
+							58,
 							10,
-							-41,
-							62,
-							-24,
-							81,
-							56,
+							87,
 							63,
 							0,
 							0,
@@ -51,8 +51,8 @@
 						"m_value": [
 							-51,
 							-52,
-							-52,
-							61
+							76,
+							62
  						]
 					},
 					{
@@ -62,10 +62,36 @@
 						"m_type": "9917117270b7f823", 
 						"m_strType": "float", 
 						"m_value": [
+							10,
+							-41,
+							-93,
+							60
+ 						]
+					},
+					{
+						"m_name": "colorFrequency", 
+						"m_size": 4, 
+						"m_offset": 24, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
 							0,
 							0,
 							0,
 							63
+ 						]
+					},
+					{
+						"m_name": "colorAmplitude", 
+						"m_size": 4, 
+						"m_offset": 28, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							-51,
+							-52,
+							76,
+							62
  						]
 					}
  				], 
@@ -75,7 +101,7 @@
 							"m_id": "00d77c03cc79d276"
 						}, 
 						"m_name": "alpha", 
-						"m_sigRootIndex": 3, 
+						"m_sigRootIndex": 4, 
 						"m_type": 0
 					},
 					{
@@ -83,11 +109,11 @@
 							"m_id": "00f10938ce06e248"
 						}, 
 						"m_name": "rayIntensity", 
-						"m_sigRootIndex": 4, 
+						"m_sigRootIndex": 5, 
 						"m_type": 0
 					}
  				], 
-				"m_parametersSchemaHash": "f4cd3100b9dc6027"
+				"m_parametersSchemaHash": "8b865bad96373909"
 			}
 		}
  	]

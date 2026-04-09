@@ -15,6 +15,9 @@ cbuffer PerMaterial
 	color diffuse;
 	float frequency;
 	float amplitude;
+
+	float colorFrequency;
+	float colorAmplitude;
 };
 
 SamplerState alphaSample;
@@ -37,16 +40,14 @@ float4 main(VS_Output input) : SV_TARGET
 	float3 fresnel = fresnelSchlick(cosTheta, F0);
 	fresnel = saturate(fresnel);
 
-	float colorIntensity = rayIntensity.Sample(rayIntensitySample, input.uv).r;
-	float4 color = diffuse;// * colorIntensity;
-	
 	float offset = (sin(time * frequency) * amplitude);
+	float colorIntensity = rayIntensity.Sample(rayIntensitySample, input.uv + float2(offset, 0)).r;
 
-	const float PI = 3.14159265;
-
+	float colorOffset = sin(time * colorFrequency) * colorAmplitude;
+	float4 color = diffuse + (diffuse * colorOffset);// * colorIntensity;
+	
 	float alphaValue = alpha.Sample(alphaSample, input.uv).r;
 
-	//color.a = alphaValue * (1 - fresnel.x) * colorIntensity;
 	color.a = alphaValue * colorIntensity;
 	return color;
 }

@@ -1,5 +1,6 @@
 00018efe0709a9bd,narshe_Wall_2x2_B,Mesh
 00032e55c19b562c,narshe_Roof_1x3,Mesh
+000367e7a2346ef2,skybox_nightsky,MaterialInstance
 00096fc7832ff926,skybox_bluesky,MaterialInstance
 000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
 000effdaacf4cf4f,narshe_Gabe_3,Mesh
@@ -53,6 +54,7 @@
 00b428810c2cb614,cube,Mesh
 00b6e55fae2e12b7,base_cylinder,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
+00bfa563dab3d27e,skybox_night,Cubemap
 00bff898d9314574,test_time_animation_instance,MaterialInstance
 00c50261b5ea66a9,base_quad,Mesh
 00c6e43a7dd6d9bd,test_spotlight,Level

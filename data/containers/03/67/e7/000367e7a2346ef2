@@ -1,0 +1,35 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "000367e7a2346ef2"
+	}, 
+	"hard-asset-refs": [
+		"00bfa563dab3d27e"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "000367e7a2346ef2", 
+				"m_material": "00fcc712ee19b911", 
+				"m_perMaterialParameters": [
+
+ 				], 
+				"m_texturesBindingInfo": [
+					{
+						"m_texture": {
+							"m_id": "00bfa563dab3d27e"
+						}, 
+						"m_name": "cubemap", 
+						"m_sigRootIndex": 1, 
+						"m_type": 1
+					}
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
+			}
+		}
+ 	]
+}

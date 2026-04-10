@@ -44,7 +44,8 @@
 		"00bff898d9314574",
 		"00f5426355d6d082",
 		"00c50261b5ea66a9",
-		"0021162eee167a3e"
+		"0021162eee167a3e",
+		"000367e7a2346ef2"
  	], 
 	"objects": [
 		{
@@ -21376,6 +21377,59 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "463bd8e1-d716-c651-b607-9c59fde1ef45", 
+							"m_name": "skybox", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "9abc6bd4-6ab4-6b32-a2c9-b061ae62ff44", 
+									"m_localSqt": [
+										0,
+										0,
+										0,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::SkyboxComponent"
+									}, 
+									"object": {
+										"m_guid": "1a1f7953-9516-7673-ddb3-bb0e7798f4d8", 
+										"m_mesh": {
+											"m_id": "00b428810c2cb614"
+										}, 
+										"m_material": {
+											"m_id": "000367e7a2346ef2"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
@@ -21401,7 +21455,8 @@
 					"e7292259-1f7b-bb17-1332-bc95d64ae34",
 					"c9085758-e010-2f9a-bfe6-31a0aa642487",
 					"5815a558-d122-8d1b-b13f-5eccc70e67c2",
-					"35f331b1-f4e9-2a5-e1ad-3d8f22b4519e"
+					"35f331b1-f4e9-2a5-e1ad-3d8f22b4519e",
+					"463bd8e1-d716-c651-b607-9c59fde1ef45"
  				]
 			}
 		}

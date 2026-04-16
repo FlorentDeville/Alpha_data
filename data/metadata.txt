@@ -63,6 +63,7 @@
 00c8042a4b688cec,narshe_Wall_2x1_B,Mesh
 00c85b6f9d871df0,yellow-phong,MaterialInstance
 00cb6038b35525af,wood_floor,Texture
+00cc393374489b2f,snowflake,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00cd3bded6d1fddd,narshe_tileset_emissive,MaterialInstance
 00d77c03cc79d276,godray_mask,Texture

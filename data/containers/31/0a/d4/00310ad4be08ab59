@@ -1,0 +1,23 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00310ad4be08ab59"
+	}, 
+	"hard-asset-refs": [
+
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::ParticleEffectAsset"
+			}, 
+			"object": {
+				"m_id": "00310ad4be08ab59", 
+				"m_emitters": [
+
+ 				]
+			}
+		}
+ 	]
+}

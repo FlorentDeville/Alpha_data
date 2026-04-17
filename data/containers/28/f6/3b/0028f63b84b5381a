@@ -38,10 +38,10 @@
  					], 
 					"m_acceleration": [
 						0,
-						-9.81,
+						-2,
 						0
  					], 
-					"m_lifetime": 3, 
+					"m_lifetime": 7, 
 					"m_spawnRate": 30
 				}
 			}

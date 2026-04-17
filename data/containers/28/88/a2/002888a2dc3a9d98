@@ -45,7 +45,8 @@
 		"00f5426355d6d082",
 		"00c50261b5ea66a9",
 		"0021162eee167a3e",
-		"000367e7a2346ef2"
+		"000367e7a2346ef2",
+		"0028f63b84b5381a"
  	], 
 	"objects": [
 		{
@@ -21430,6 +21431,56 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "172a7ddd-850d-9807-31fe-a8d9a48bb587", 
+							"m_name": "snow", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "6f5531a9-8238-3a8e-790e-84a9b2395100", 
+									"m_localSqt": [
+										4.40979,
+										31.0717,
+										41.3105,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "efd33173-cfa1-45a6-552e-66f4655636d1", 
+										"m_effect": {
+											"m_id": "0028f63b84b5381a"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
@@ -21456,7 +21507,8 @@
 					"c9085758-e010-2f9a-bfe6-31a0aa642487",
 					"5815a558-d122-8d1b-b13f-5eccc70e67c2",
 					"35f331b1-f4e9-2a5-e1ad-3d8f22b4519e",
-					"463bd8e1-d716-c651-b607-9c59fde1ef45"
+					"463bd8e1-d716-c651-b607-9c59fde1ef45",
+					"172a7ddd-850d-9807-31fe-a8d9a48bb587"
  				]
 			}
 		}

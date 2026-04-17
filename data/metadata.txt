@@ -12,7 +12,7 @@
 0021162eee167a3e,god_ray_instance,MaterialInstance
 002888a2dc3a9d98,narshe,Level
 0028f63b84b5381a,test_snow,ParticleEffect
-00310ad4be08ab59,test,ParticleEffect
+00310ad4be08ab59,smoke,ParticleEffect
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
 0036ea306ecbcba1,god_ray,Material

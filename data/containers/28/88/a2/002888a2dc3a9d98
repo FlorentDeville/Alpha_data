@@ -42,7 +42,6 @@
 		"00ab1834a3f589d1",
 		"00101a3766d17550",
 		"00bff898d9314574",
-		"00f5426355d6d082",
 		"00c50261b5ea66a9",
 		"0021162eee167a3e",
 		"000367e7a2346ef2",
@@ -21226,59 +21225,6 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "c9085758-e010-2f9a-bfe6-31a0aa642487", 
-							"m_name": "translucent_sphere", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "2115ce8d-f79b-c422-a377-44c011f2d127", 
-									"m_localSqt": [
-										4.92844,
-										0.898981,
-										-4.85809,
-										1,
-										-0,
-										0,
-										-0,
-										1,
-										1,
-										1,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "e789ae73-95b6-fc02-299f-7a0c52bcfcc2", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "00f5426355d6d082"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
 							"m_guid": "5815a558-d122-8d1b-b13f-5eccc70e67c2", 
 							"m_name": "god_ray", 
 							"m_transform": {
@@ -21450,7 +21396,7 @@
 									"m_localSqt": [
 										4.40979,
 										31.0717,
-										41.3105,
+										26.2997,
 										1,
 										-0,
 										0,
@@ -21504,7 +21450,6 @@
 					"ac630759-6e1b-8b03-3baf-2b9a8db19545",
 					"58f928d3-d789-86a1-7a55-dcba394a9115",
 					"e7292259-1f7b-bb17-1332-bc95d64ae34",
-					"c9085758-e010-2f9a-bfe6-31a0aa642487",
 					"5815a558-d122-8d1b-b13f-5eccc70e67c2",
 					"35f331b1-f4e9-2a5-e1ad-3d8f22b4519e",
 					"463bd8e1-d716-c651-b607-9c59fde1ef45",

@@ -2,6 +2,7 @@
 00032e55c19b562c,narshe_Roof_1x3,Mesh
 000367e7a2346ef2,skybox_nightsky,MaterialInstance
 00096fc7832ff926,skybox_bluesky,MaterialInstance
+000c16c5f1e0d42e,smoke_texture,Texture
 000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
 000effdaacf4cf4f,narshe_Gabe_3,Mesh
 00101a3766d17550,base_sphere,Mesh

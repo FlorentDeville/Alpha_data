@@ -45,7 +45,8 @@
 		"00c50261b5ea66a9",
 		"0021162eee167a3e",
 		"000367e7a2346ef2",
-		"0028f63b84b5381a"
+		"0028f63b84b5381a",
+		"00310ad4be08ab59"
  	], 
 	"objects": [
 		{
@@ -21427,6 +21428,156 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "8c7fb9c7-b852-1966-50fc-f22485161059", 
+							"m_name": "smoke", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "5311144c-9aa4-ae18-e301-6cf37193eca7", 
+									"m_localSqt": [
+										6.10156,
+										0.564919,
+										-2.33019,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "80a7ddd8-7acc-c101-ff8e-a120f1187f5c", 
+										"m_effect": {
+											"m_id": "00310ad4be08ab59"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "93d34799-1f6b-1d06-fa43-a7391042f157", 
+							"m_name": "smoke_403", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "fe18fff4-4268-e3b5-237b-156211d117e1", 
+									"m_localSqt": [
+										-4.93048,
+										3.38835,
+										33.3267,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "80a7ddd8-7acc-c101-ff8e-a120f1187f5c", 
+										"m_effect": {
+											"m_id": "00310ad4be08ab59"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "6452bafa-1b18-2925-a91a-3704ccd45051", 
+							"m_name": "smoke_404", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "1c43f065-c211-406f-a1fd-20fcc2ddd936", 
+									"m_localSqt": [
+										6.237,
+										3.38835,
+										33.3267,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "80a7ddd8-7acc-c101-ff8e-a120f1187f5c", 
+										"m_effect": {
+											"m_id": "00310ad4be08ab59"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
@@ -21453,7 +21604,10 @@
 					"5815a558-d122-8d1b-b13f-5eccc70e67c2",
 					"35f331b1-f4e9-2a5-e1ad-3d8f22b4519e",
 					"463bd8e1-d716-c651-b607-9c59fde1ef45",
-					"172a7ddd-850d-9807-31fe-a8d9a48bb587"
+					"172a7ddd-850d-9807-31fe-a8d9a48bb587",
+					"8c7fb9c7-b852-1966-50fc-f22485161059",
+					"93d34799-1f6b-1d06-fa43-a7391042f157",
+					"6452bafa-1b18-2925-a91a-3704ccd45051"
  				]
 			}
 		}

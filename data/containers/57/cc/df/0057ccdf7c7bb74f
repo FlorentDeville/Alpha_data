@@ -7,7 +7,10 @@
 		"00b428810c2cb614",
 		"00c85b6f9d871df0",
 		"00c50261b5ea66a9",
-		"0021162eee167a3e"
+		"0021162eee167a3e",
+		"00101a3766d17550",
+		"00f5426355d6d082",
+		"00310ad4be08ab59"
  	], 
 	"objects": [
 		{
@@ -122,11 +125,116 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "c39c4e48-fca6-c925-ed8a-bc78309b0fd9", 
+							"m_name": "newentity", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "2e232129-665f-1e73-2300-fc9ac55236c0", 
+									"m_localSqt": [
+										0,
+										4.80159,
+										0,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "54ee6bf2-3522-8390-9e05-c14953829f5b", 
+										"m_mesh": {
+											"m_id": "00101a3766d17550"
+										}, 
+										"m_material": {
+											"m_id": "00f5426355d6d082"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "7236b698-2f8-a2d1-b646-fbd19a536f68", 
+							"m_name": "newentity", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "aad4046a-8001-98fb-bba-59c065e86dbc", 
+									"m_localSqt": [
+										-4.46175,
+										1.48163,
+										-0.143547,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "f8a2fd3-37a7-7c67-f709-0b07f9ae6018", 
+										"m_effect": {
+											"m_id": "00310ad4be08ab59"
+										}
+									}
+								}
+ 							]
+						}
 					}
  				], 
 				"m_roots": [
 					"cf24f311-ccb9-9567-379e-65a469bbdbb",
-					"a21ac6d2-9928-2202-c592-fc2548189241"
+					"a21ac6d2-9928-2202-c592-fc2548189241",
+					"c39c4e48-fca6-c925-ed8a-bc78309b0fd9",
+					"7236b698-2f8-a2d1-b646-fbd19a536f68"
  				]
 			}
 		}

@@ -42,7 +42,7 @@
 						0
  					], 
 					"m_lifetime": 7, 
-					"m_spawnRate": 50
+					"m_spawnRate": 100
 				}
 			}
 		}

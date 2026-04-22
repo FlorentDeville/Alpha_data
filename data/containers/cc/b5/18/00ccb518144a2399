@@ -4,6 +4,7 @@
 		"id": "00ccb518144a2399"
 	}, 
 	"hard-asset-refs": [
+		"003640a7245eb601",
 		"0094ff67bb933a47"
  	], 
 	"objects": [
@@ -15,6 +16,9 @@
 			"object": {
 				"m_id": "00ccb518144a2399", 
 				"m_material": "003640a7245eb601", 
+				"m_baseMaterial": {
+					"m_id": "003640a7245eb601"
+				}, 
 				"m_perMaterialParameters": [
 					{
 						"m_name": "ambientColor", 
@@ -114,7 +118,8 @@
 						"m_sigRootIndex": 5, 
 						"m_type": 0
 					}
- 				]
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
 			}
 		}
  	]

@@ -4,6 +4,7 @@
 		"id": "0021162eee167a3e"
 	}, 
 	"hard-asset-refs": [
+		"0036ea306ecbcba1",
 		"00d77c03cc79d276",
 		"00f10938ce06e248"
  	], 
@@ -16,6 +17,9 @@
 			"object": {
 				"m_id": "0021162eee167a3e", 
 				"m_material": "0036ea306ecbcba1", 
+				"m_baseMaterial": {
+					"m_id": "0036ea306ecbcba1"
+				}, 
 				"m_perMaterialParameters": [
 					{
 						"m_name": "diffuse", 

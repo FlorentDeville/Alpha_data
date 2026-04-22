@@ -4,6 +4,7 @@
 		"id": "00cd3bded6d1fddd"
 	}, 
 	"hard-asset-refs": [
+		"00b1ecdffc1a66f1",
 		"0094ff67bb933a47",
 		"009b41b3eaddce0e"
  	], 
@@ -15,7 +16,9 @@
 			}, 
 			"object": {
 				"m_id": "00cd3bded6d1fddd", 
-				"m_material": "00b1ecdffc1a66f1", 
+				"m_baseMaterial": {
+					"m_id": "00b1ecdffc1a66f1"
+				}, 
 				"m_perMaterialParameters": [
 					{
 						"m_name": "ambientIntensity", 
@@ -112,7 +115,8 @@
 						"m_sigRootIndex": 7, 
 						"m_type": 0
 					}
- 				]
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
 			}
 		}
  	]

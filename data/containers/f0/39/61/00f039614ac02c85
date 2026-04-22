@@ -4,6 +4,7 @@
 		"id": "00f039614ac02c85"
 	}, 
 	"hard-asset-refs": [
+		"00fcc712ee19b911",
 		"009931a0171760b0"
  	], 
 	"objects": [
@@ -14,7 +15,9 @@
 			}, 
 			"object": {
 				"m_id": "00f039614ac02c85", 
-				"m_material": "00fcc712ee19b911", 
+				"m_baseMaterial": {
+					"m_id": "00fcc712ee19b911"
+				}, 
 				"m_perMaterialParameters": [
 
  				], 
@@ -27,7 +30,8 @@
 						"m_sigRootIndex": 1, 
 						"m_type": 1
 					}
- 				]
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
 			}
 		}
  	]

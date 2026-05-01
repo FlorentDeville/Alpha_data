@@ -1,0 +1,123 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00cd3bded6d1fddd"
+	}, 
+	"hard-asset-refs": [
+		"00b1ecdffc1a66f1",
+		"0094ff67bb933a47",
+		"009b41b3eaddce0e"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "00cd3bded6d1fddd", 
+				"m_baseMaterial": {
+					"m_id": "00b1ecdffc1a66f1"
+				}, 
+				"m_perMaterialParameters": [
+					{
+						"m_name": "ambientIntensity", 
+						"m_size": 4, 
+						"m_offset": 0, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							0,
+							63
+ 						]
+					},
+					{
+						"m_name": "glowFrequency", 
+						"m_size": 4, 
+						"m_offset": 4, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							0,
+							64
+ 						]
+					},
+					{
+						"m_name": "glowAmplitudeMin", 
+						"m_size": 4, 
+						"m_offset": 8, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							112,
+							65
+ 						]
+					},
+					{
+						"m_name": "glowAmplitudeMax", 
+						"m_size": 4, 
+						"m_offset": 12, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							-96,
+							65
+ 						]
+					},
+					{
+						"m_name": "glowColor", 
+						"m_size": 16, 
+						"m_offset": 16, 
+						"m_type": "b0a1a50b1639e8ff", 
+						"m_strType": "color", 
+						"m_value": [
+							0,
+							0,
+							-128,
+							63,
+							-36,
+							-93,
+							48,
+							63,
+							-62,
+							71,
+							97,
+							62,
+							0,
+							0,
+							0,
+							0
+ 						]
+					}
+ 				], 
+				"m_texturesBindingInfo": [
+					{
+						"m_texture": {
+							"m_id": "0094ff67bb933a47"
+						}, 
+						"m_name": "diffuse", 
+						"m_sigRootIndex": 6, 
+						"m_type": 0
+					},
+					{
+						"m_texture": {
+							"m_id": "009b41b3eaddce0e"
+						}, 
+						"m_name": "emissiveMask", 
+						"m_sigRootIndex": 7, 
+						"m_type": 0
+					}
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
+			}
+		}
+ 	]
+}

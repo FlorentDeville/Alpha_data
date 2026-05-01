@@ -4,7 +4,7 @@
 		"id": "00a3a6d60416ebbe"
 	}, 
 	"hard-asset-refs": [
-
+		"0095f6d901921ae9"
  	], 
 	"objects": [
 		{
@@ -14,7 +14,9 @@
 			}, 
 			"object": {
 				"m_id": "00a3a6d60416ebbe", 
-				"m_material": "0095f6d901921ae9", 
+				"m_baseMaterial": {
+					"m_id": "0095f6d901921ae9"
+				}, 
 				"m_perMaterialParameters": [
 					{
 						"m_name": "ambientColor", 
@@ -107,7 +109,8 @@
  				], 
 				"m_texturesBindingInfo": [
 
- 				]
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
 			}
 		}
  	]

@@ -4,12 +4,13 @@
 		"id": "0057ccdf7c7bb74f"
 	}, 
 	"hard-asset-refs": [
-		"00101a3766d17550",
-		"00a3a6d60416ebbe",
-		"00f466f608e059d8",
-		"009020f7feaaaff0",
 		"00b428810c2cb614",
-		"00c85b6f9d871df0"
+		"00c85b6f9d871df0",
+		"00c50261b5ea66a9",
+		"0021162eee167a3e",
+		"00101a3766d17550",
+		"00f5426355d6d082",
+		"00310ad4be08ab59"
  	], 
 	"objects": [
 		{
@@ -25,122 +26,6 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "ab3908e-e716-fc45-a0b2-27cdb43d775a", 
-							"m_name": "root", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "84a461fe-7438-d310-7c38-f95e5da44f66", 
-									"m_localTx": [
-										0.463938,
-										0,
-										0.885861,
-										0,
-										0,
-										1,
-										0,
-										0,
-										-0.885861,
-										0,
-										0.463938,
-										0,
-										4.53782,
-										3.73066,
-										-1.33828,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-										"db1b1934-c244-a5ed-ab6e-72092ce62181"
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "f3802fea-1081-ea26-da86-dfd4e14b6b02", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "00a3a6d60416ebbe"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
-							"m_guid": "db1b1934-c244-a5ed-ab6e-72092ce62181", 
-							"m_name": "newentity", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "974e471a-4ce0-1caa-421f-76a832c7e128", 
-									"m_localTx": [
-										1,
-										0,
-										2.98023e-08,
-										0,
-										0,
-										1,
-										0,
-										0,
-										-2.98023e-08,
-										0,
-										1,
-										0,
-										7.25864,
-										-0.666652,
-										0.838793,
-										1
- 									], 
-									"m_parent": "ab3908e-e716-fc45-a0b2-27cdb43d775a", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "40111f49-fe77-2a92-2e59-43ae69e7b54c", 
-										"m_mesh": {
-											"m_id": "00f466f608e059d8"
-										}, 
-										"m_material": {
-											"m_id": "009020f7feaaaff0"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
 							"m_guid": "cf24f311-ccb9-9567-379e-65a469bbdbb", 
 							"m_name": "ground", 
 							"m_transform": {
@@ -150,23 +35,18 @@
 								}, 
 								"object": {
 									"m_guid": "aacdaaec-adfa-8738-53b3-28c35253ae9a", 
-									"m_localTx": [
-										33.1415,
-										0,
+									"m_localSqt": [
 										0,
 										0,
 										0,
 										1,
+										-0,
 										0,
-										0,
-										0,
-										0,
-										47.7423,
-										0,
-										0,
-										0,
-										0,
-										1
+										-0,
+										1,
+										33.1415,
+										1,
+										47.7423
  									], 
 									"m_parent": "0-0-0-0-00000", 
 									"m_children": [
@@ -199,31 +79,79 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "753caf4c-3015-92a6-424d-4cda178a8193", 
-							"m_name": "dirlight", 
+							"m_guid": "a21ac6d2-9928-2202-c592-fc2548189241", 
+							"m_name": "root2", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
 									"typename": "Systems::TransformComponent"
 								}, 
 								"object": {
-									"m_guid": "4b8bf8ea-b9da-b279-f5ca-7ee2909b7081", 
-									"m_localTx": [
-										1,
-										0,
-										0,
-										0,
+									"m_guid": "fd62a27a-cfa3-a239-21b1-5ac119aeafc7", 
+									"m_localSqt": [
+										-10,
+										16.8894,
 										0,
 										1,
+										1.68121e-05,
+										0.702181,
+										-1.65803e-05,
+										0.711998,
+										3.16223,
+										9.5194,
+										0.999998
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "c586fff0-b054-49b4-24b6-f974ce6f565e", 
+										"m_mesh": {
+											"m_id": "00c50261b5ea66a9"
+										}, 
+										"m_material": {
+											"m_id": "0021162eee167a3e"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "c39c4e48-fca6-c925-ed8a-bc78309b0fd9", 
+							"m_name": "newentity", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "2e232129-665f-1e73-2300-fc9ac55236c0", 
+									"m_localSqt": [
 										0,
-										0,
-										0,
+										4.80159,
 										0,
 										1,
+										-0,
 										0,
-										0,
-										6.28408,
-										0,
+										-0,
+										1,
+										1,
+										1,
 										1
  									], 
 									"m_parent": "0-0-0-0-00000", 
@@ -233,15 +161,80 @@
 								}
 							}, 
 							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "54ee6bf2-3522-8390-9e05-c14953829f5b", 
+										"m_mesh": {
+											"m_id": "00101a3766d17550"
+										}, 
+										"m_material": {
+											"m_id": "00f5426355d6d082"
+										}
+									}
+								}
+ 							]
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::GameObject"
+						}, 
+						"object": {
+							"m_guid": "7236b698-2f8-a2d1-b646-fbd19a536f68", 
+							"m_name": "newentity", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "aad4046a-8001-98fb-bba-59c065e86dbc", 
+									"m_localSqt": [
+										-4.46175,
+										1.48163,
+										-0.143547,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
 
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::ParticleEffectComponent"
+									}, 
+									"object": {
+										"m_guid": "f8a2fd3-37a7-7c67-f709-0b07f9ae6018", 
+										"m_effect": {
+											"m_id": "00310ad4be08ab59"
+										}
+									}
+								}
  							]
 						}
 					}
  				], 
 				"m_roots": [
-					"ab3908e-e716-fc45-a0b2-27cdb43d775a",
 					"cf24f311-ccb9-9567-379e-65a469bbdbb",
-					"753caf4c-3015-92a6-424d-4cda178a8193"
+					"a21ac6d2-9928-2202-c592-fc2548189241",
+					"c39c4e48-fca6-c925-ed8a-bc78309b0fd9",
+					"7236b698-2f8-a2d1-b646-fbd19a536f68"
  				]
 			}
 		}

@@ -33,22 +33,26 @@ float4 main(VS_Output input) : SV_TARGET
 {
 	float3 normal = normalize(input.normal);
 	
-	float4 color = float4(0, 0, 0, 1);
+	float4 color = ambientColor;//float4(0, 0, 0, 1);
 	
 	
-	if(numLights == 0)
-	{
-		color = ambientColor;
-		return color;
-	}
+	// if(numLights == 0)
+	// {
+	// 	color = ambientColor;
+	// 	return color;
+	// }
 
-	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
-	
 	float4 texColor = t1.SampleLevel(s1, input.uv, 0);
 
 	float4 ambient = ambientColor * texColor;
 	float4 diffuse = diffuseColor * texColor;
 	
+	if(numLights == 0)
+	{
+		return ambient + diffuse;
+	}
+
+	float3 viewDir = normalize(cameraPosition - input.vertex.xyz);
 	color = CalculateLitColor(ambient, diffuse, lightArray, input.lightSpacePosition, input.worldPosition, input.normal, viewDir, shadowMap, shadowMapSampler, numLights);
 
 	return color;

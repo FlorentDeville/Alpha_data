@@ -436,11 +436,11 @@
 									}, 
 									"object": {
 										"m_guid": "fb998906-9a09-704f-2aee-863a72b3f69b", 
-										"m_speed": 1, 
+										"m_speed": 10, 
 										"m_cameraOffset": [
 											0,
-											5,
-											-10,
+											50,
+											-30,
 											0
  										]
 									}

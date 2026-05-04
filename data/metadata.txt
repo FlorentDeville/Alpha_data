@@ -1,6 +1,7 @@
 00018efe0709a9bd,narshe_Wall_2x2_B,Mesh
 00032e55c19b562c,narshe_Roof_1x3,Mesh
 000367e7a2346ef2,skybox_nightsky,MaterialInstance
+0005d4e662f41a08,grid,Texture
 00096fc7832ff926,skybox_bluesky,MaterialInstance
 000c16c5f1e0d42e,smoke_texture,Texture
 000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
@@ -18,6 +19,7 @@
 0036ea306ecbcba1,god_ray,Material
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
 0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
+004bbb947b45f653,grid_grey,MaterialInstance
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
 0054a9eef43292a3,ground_snow,Texture
 0055655d550e0258,vertex_color_base,Material

@@ -1,0 +1,63 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "004bbb947b45f653"
+	}, 
+	"hard-asset-refs": [
+		"00e804431d4933e2",
+		"0005d4e662f41a08"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "004bbb947b45f653", 
+				"m_baseMaterial": {
+					"m_id": "00e804431d4933e2"
+				}, 
+				"m_perMaterialParameters": [
+					{
+						"m_name": "scale", 
+						"m_size": 4, 
+						"m_offset": 0, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							-128,
+							63
+ 						]
+					},
+					{
+						"m_name": "ambientIntensity", 
+						"m_size": 4, 
+						"m_offset": 4, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							-128,
+							63
+ 						]
+					}
+ 				], 
+				"m_texturesBindingInfo": [
+					{
+						"m_texture": {
+							"m_id": "0005d4e662f41a08"
+						}, 
+						"m_name": "t1", 
+						"m_sigRootIndex": 5, 
+						"m_type": 0
+					}
+ 				], 
+				"m_parametersSchemaHash": "62253c7fe3d034af"
+			}
+		}
+ 	]
+}

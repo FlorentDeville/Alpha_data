@@ -73,6 +73,7 @@
 00db09877247f9cb,test_translucent,Material
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance
+00de6b7f17dffd61,proto,Level
 00dfe8bb44487971,narshe_Window_1x3,Mesh
 00e2b523867b10f3,narshe_Gable_6,Mesh
 00e34a07e1772bd9,narshe_Snow_2x2_A,Mesh

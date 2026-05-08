@@ -11,7 +11,7 @@
 		"00c85b6f9d871df0",
 		"00101a3766d17550",
 		"00a042ca152ee229",
-		"005ffe8a2ca06c2e"
+		"00cce432d9835173"
  	], 
 	"objects": [
 		{
@@ -524,10 +524,10 @@
 									"object": {
 										"m_guid": "af85c34b-206f-16ec-8c96-c80e9fab0f20", 
 										"m_mesh": {
-											"m_id": "00101a3766d17550"
+											"m_id": "00cce432d9835173"
 										}, 
 										"m_material": {
-											"m_id": "005ffe8a2ca06c2e"
+											"m_id": "00a042ca152ee229"
 										}
 									}
 								}

@@ -40,6 +40,7 @@
 0070b0c53157c8c7,test-emissive,Material
 00781e3d89bd9f93,narshe_Wall_3x1_C,Mesh
 0078c27c11fefae9,test_dirlight,Level
+00799a2117285b99,bullet-emissive,MaterialInstance
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 009020f7feaaaff0,red-phong,MaterialInstance

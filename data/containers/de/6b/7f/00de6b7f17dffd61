@@ -12,7 +12,8 @@
 		"00101a3766d17550",
 		"009020f7feaaaff0",
 		"00cce432d9835173",
-		"00799a2117285b99"
+		"00799a2117285b99",
+		"00ed2a9940c024af"
  	], 
 	"objects": [
 		{
@@ -530,6 +531,27 @@
 										"m_material": {
 											"m_id": "00799a2117285b99"
 										}
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "75ef1228-1f22-c56a-c198-bcbd3f5616d5", 
+										"m_debugName": "total_health", 
+										"m_texture": {
+											"m_id": "00ed2a9940c024af"
+										}, 
+										"m_position": [
+											0,
+											-400
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
 									}
 								}
  							]

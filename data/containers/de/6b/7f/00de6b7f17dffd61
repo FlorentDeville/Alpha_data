@@ -13,7 +13,8 @@
 		"009020f7feaaaff0",
 		"00cce432d9835173",
 		"00799a2117285b99",
-		"00ed2a9940c024af"
+		"00ed2a9940c024af",
+		"00a23e74063b49b6"
  	], 
 	"objects": [
 		{
@@ -547,6 +548,27 @@
 										"m_position": [
 											0,
 											-400
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "fe9f09c0-b50-4e40-870f-eb79fcf06e2e", 
+										"m_debugName": "current_health", 
+										"m_texture": {
+											"m_id": "00a23e74063b49b6"
+										}, 
+										"m_position": [
+											0,
+											-390
  										], 
 										"m_size": [
 											900,

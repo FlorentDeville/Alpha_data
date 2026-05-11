@@ -50,6 +50,7 @@
 009931a0171760b0,skybox_arid,Cubemap
 009b41b3eaddce0e,tileset-narshe-emissive-mask,Texture
 00a042ca152ee229,red-emissive,MaterialInstance
+00a23e74063b49b6,test_ui_current_health_bar,Texture
 00a3a6d60416ebbe,blue-phong,MaterialInstance
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh
@@ -81,6 +82,7 @@
 00e34a07e1772bd9,narshe_Snow_2x2_A,Mesh
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00e804431d4933e2,world-axis-aligned,Material
+00ed2a9940c024af,test_ui_total_health_bar,Texture
 00f039614ac02c85,skybox_arid,MaterialInstance
 00f10938ce06e248,godray_color_intensity,Texture
 00f5426355d6d082,test_translucent_instance,MaterialInstance

@@ -548,7 +548,13 @@
 										"m_material": {
 											"m_id": "00799a2117285b99"
 										}, 
-										"m_maxHP": 1000
+										"m_maxHP": 1000, 
+										"m_currentHealthComp": {
+											"m_guid": "fe9f09c0-b50-4e40-870f-eb79fcf06e2e"
+										}, 
+										"m_collComp": {
+											"m_guid": "fc05b3ca-b056-c325-839e-7938b0169975"
+										}
 									}
 								},
 								{

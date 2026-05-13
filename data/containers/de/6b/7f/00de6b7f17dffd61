@@ -9,12 +9,12 @@
 		"00a3a6d60416ebbe",
 		"00b6e55fae2e12b7",
 		"00c85b6f9d871df0",
+		"00ed2a9940c024af",
+		"00a23e74063b49b6",
 		"00101a3766d17550",
 		"009020f7feaaaff0",
 		"00cce432d9835173",
-		"00799a2117285b99",
-		"00ed2a9940c024af",
-		"00a23e74063b49b6"
+		"00799a2117285b99"
  	], 
 	"objects": [
 		{
@@ -480,6 +480,48 @@
 											0
  										], 
 										"m_radius": 1
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "e57b63c6-a0fb-429-aab2-4d9a99e7d146", 
+										"m_debugName": "total_health_bar", 
+										"m_texture": {
+											"m_id": "00ed2a9940c024af"
+										}, 
+										"m_position": [
+											-850,
+											450
+ 										], 
+										"m_size": [
+											200,
+											10
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "25d0299b-728e-7a4b-97ec-504f277d7c66", 
+										"m_debugName": "current_health_bar", 
+										"m_texture": {
+											"m_id": "00a23e74063b49b6"
+										}, 
+										"m_position": [
+											-850,
+											455
+ 										], 
+										"m_size": [
+											200,
+											10
+ 										]
 									}
 								}
  							]

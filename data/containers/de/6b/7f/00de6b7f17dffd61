@@ -407,7 +407,7 @@
 						}, 
 						"object": {
 							"m_guid": "964e21f4-479-4965-a28b-f96e786cf3b7", 
-							"m_name": "player", 
+							"m_name": "old_player", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -659,13 +659,126 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "PlayerGameObject"
+						}, 
+						"object": {
+							"m_guid": "34243423-e168-3575-7261-efe99e37566b", 
+							"m_name": "player", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "d717cec2-484b-2255-a82a-f4359757d9b8", 
+									"m_localSqt": [
+										2.21152,
+										2.11437,
+										-0.974817,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "fb0e68d3-25a9-6776-46f3-01167ccea4cb", 
+										"m_mesh": {
+											"m_id": "00b6e55fae2e12b7"
+										}, 
+										"m_material": {
+											"m_id": "00c85b6f9d871df0"
+										}
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "bc5b6cc9-36d9-aeff-bdb1-09918806b3f6", 
+										"m_debugName": "total_health_bar", 
+										"m_texture": {
+											"m_id": "00ed2a9940c024af"
+										}, 
+										"m_position": [
+											-850,
+											450
+ 										], 
+										"m_size": [
+											200,
+											10
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "9d476a91-e92f-7455-d0bd-0d4ea27768f", 
+										"m_debugName": "current_health_bar", 
+										"m_texture": {
+											"m_id": "00a23e74063b49b6"
+										}, 
+										"m_position": [
+											-850,
+											455
+ 										], 
+										"m_size": [
+											200,
+											10
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "51ab94d-de26-52d0-8d2f-e7abf3d31228", 
+										"m_center": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_radius": 1
+									}
+								}
+ 							], 
+							"m_test": 0
+						}
 					}
  				], 
 				"m_roots": [
 					"35e52773-75ce-2b56-18b8-4ceb4e0ed0ab",
 					"7729ae69-6f9a-cb5f-2eb-50f5b9215d4b",
 					"964e21f4-479-4965-a28b-f96e786cf3b7",
-					"33a115a6-cdc0-cca7-cfe5-9784c814cec4"
+					"33a115a6-cdc0-cca7-cfe5-9784c814cec4",
+					"34243423-e168-3575-7261-efe99e37566b"
  				]
 			}
 		}

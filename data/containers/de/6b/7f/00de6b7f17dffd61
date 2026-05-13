@@ -465,6 +465,22 @@
 											"m_id": "00c85b6f9d871df0"
 										}
 									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "dcabe27f-365e-cf01-7d11-ed53a9b4a188", 
+										"m_center": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_radius": 1
+									}
 								}
  							]
 						}
@@ -531,7 +547,8 @@
 										}, 
 										"m_material": {
 											"m_id": "00799a2117285b99"
-										}
+										}, 
+										"m_maxHP": 1000
 									}
 								},
 								{
@@ -574,6 +591,22 @@
 											900,
 											20
  										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "fc05b3ca-b056-c325-839e-7938b0169975", 
+										"m_center": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_radius": 1
 									}
 								}
  							]

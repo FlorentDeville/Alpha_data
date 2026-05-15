@@ -408,7 +408,7 @@
 						}, 
 						"object": {
 							"m_guid": "33a115a6-cdc0-cca7-cfe5-9784c814cec4", 
-							"m_name": "boss", 
+							"m_name": "old_boss", 
 							"m_transform": {
 								"header": {
 									"header-version": 1, 
@@ -661,13 +661,141 @@
 								"m_guid": "bc5b6cc9-36d9-aeff-bdb1-09918806b3f6"
 							}
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "BossGameObject"
+						}, 
+						"object": {
+							"m_guid": "a056b834-6414-fc0a-a46e-8a11bd992aad", 
+							"m_name": "boss", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "e5f63b12-5c3a-a623-417f-3990defb5eff", 
+									"m_localSqt": [
+										0,
+										2.17306,
+										14.2796,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::StaticMeshComponent"
+									}, 
+									"object": {
+										"m_guid": "756faff3-d646-499c-40d1-6317fd83c59a", 
+										"m_mesh": {
+											"m_id": "00101a3766d17550"
+										}, 
+										"m_material": {
+											"m_id": "009020f7feaaaff0"
+										}
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "c58ddcaa-bb3d-c44-f447-59ab7b24cb55", 
+										"m_debugName": "total_health", 
+										"m_texture": {
+											"m_id": "00ed2a9940c024af"
+										}, 
+										"m_position": [
+											0,
+											-400
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "8a6ec3e4-f379-606f-3b37-23e3cb228895", 
+										"m_debugName": "current_health", 
+										"m_texture": {
+											"m_id": "00a23e74063b49b6"
+										}, 
+										"m_position": [
+											0,
+											-390
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "f1237634-b4c8-a76a-a0c7-e92e2f77d1b9", 
+										"m_center": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_radius": 1
+									}
+								}
+ 							], 
+							"m_mesh": {
+								"m_id": "00cce432d9835173"
+							}, 
+							"m_material": {
+								"m_id": "00799a2117285b99"
+							}, 
+							"m_counterBulletMaterial": {
+								"m_id": "00070fcbe9871480"
+							}, 
+							"m_maxHP": 1000, 
+							"m_currentHealthComp": {
+								"m_guid": "8a6ec3e4-f379-606f-3b37-23e3cb228895"
+							}, 
+							"m_collComp": {
+								"m_guid": "f1237634-b4c8-a76a-a0c7-e92e2f77d1b9"
+							}
+						}
 					}
  				], 
 				"m_roots": [
 					"35e52773-75ce-2b56-18b8-4ceb4e0ed0ab",
 					"7729ae69-6f9a-cb5f-2eb-50f5b9215d4b",
 					"33a115a6-cdc0-cca7-cfe5-9784c814cec4",
-					"34243423-e168-3575-7261-efe99e37566b"
+					"34243423-e168-3575-7261-efe99e37566b",
+					"a056b834-6414-fc0a-a46e-8a11bd992aad"
  				]
 			}
 		}

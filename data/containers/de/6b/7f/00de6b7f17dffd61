@@ -7,15 +7,15 @@
 		"00b428810c2cb614",
 		"004bbb947b45f653",
 		"00a3a6d60416ebbe",
+		"00b6e55fae2e12b7",
+		"00c85b6f9d871df0",
+		"00ed2a9940c024af",
+		"00a23e74063b49b6",
 		"00101a3766d17550",
 		"009020f7feaaaff0",
 		"00cce432d9835173",
 		"00799a2117285b99",
-		"00070fcbe9871480",
-		"00ed2a9940c024af",
-		"00a23e74063b49b6",
-		"00b6e55fae2e12b7",
-		"00c85b6f9d871df0"
+		"00070fcbe9871480"
  	], 
 	"objects": [
 		{
@@ -404,142 +404,6 @@
 					{
 						"header": {
 							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
-							"m_guid": "33a115a6-cdc0-cca7-cfe5-9784c814cec4", 
-							"m_name": "old_boss", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "f13bfce-e144-36e-8c2-4c7411c7099c", 
-									"m_localSqt": [
-										0,
-										1.74696,
-										17.9116,
-										1,
-										-0,
-										0,
-										-0,
-										1,
-										1,
-										1,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "cc820516-6c2c-b1ab-29c9-b4443e5432bb", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "009020f7feaaaff0"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "BossComponent"
-									}, 
-									"object": {
-										"m_guid": "af85c34b-206f-16ec-8c96-c80e9fab0f20", 
-										"m_mesh": {
-											"m_id": "00cce432d9835173"
-										}, 
-										"m_material": {
-											"m_id": "00799a2117285b99"
-										}, 
-										"m_counterBulletMaterial": {
-											"m_id": "00070fcbe9871480"
-										}, 
-										"m_maxHP": 1000, 
-										"m_currentHealthComp": {
-											"m_guid": "fe9f09c0-b50-4e40-870f-eb79fcf06e2e"
-										}, 
-										"m_collComp": {
-											"m_guid": "fc05b3ca-b056-c325-839e-7938b0169975"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::UIBaseComponent"
-									}, 
-									"object": {
-										"m_guid": "75ef1228-1f22-c56a-c198-bcbd3f5616d5", 
-										"m_debugName": "total_health", 
-										"m_texture": {
-											"m_id": "00ed2a9940c024af"
-										}, 
-										"m_position": [
-											0,
-											-400
- 										], 
-										"m_size": [
-											900,
-											20
- 										]
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::UIBaseComponent"
-									}, 
-									"object": {
-										"m_guid": "fe9f09c0-b50-4e40-870f-eb79fcf06e2e", 
-										"m_debugName": "current_health", 
-										"m_texture": {
-											"m_id": "00a23e74063b49b6"
-										}, 
-										"m_position": [
-											0,
-											-390
- 										], 
-										"m_size": [
-											900,
-											20
- 										]
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::CollisionSphereComponent"
-									}, 
-									"object": {
-										"m_guid": "fc05b3ca-b056-c325-839e-7938b0169975", 
-										"m_center": [
-											0,
-											0,
-											0,
-											0
- 										], 
-										"m_radius": 1
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
 							"typename": "PlayerGameObject"
 						}, 
 						"object": {
@@ -793,7 +657,6 @@
 				"m_roots": [
 					"35e52773-75ce-2b56-18b8-4ceb4e0ed0ab",
 					"7729ae69-6f9a-cb5f-2eb-50f5b9215d4b",
-					"33a115a6-cdc0-cca7-cfe5-9784c814cec4",
 					"34243423-e168-3575-7261-efe99e37566b",
 					"a056b834-6414-fc0a-a46e-8a11bd992aad"
  				]

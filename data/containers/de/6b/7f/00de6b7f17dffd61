@@ -648,6 +648,9 @@
 							"m_currentHealthComp": {
 								"m_guid": "8a6ec3e4-f379-606f-3b37-23e3cb228895"
 							}, 
+							"m_totalHealthComp": {
+								"m_guid": "c58ddcaa-bb3d-c44-f447-59ab7b24cb55"
+							}, 
 							"m_collComp": {
 								"m_guid": "f1237634-b4c8-a76a-a0c7-e92e2f77d1b9"
 							}

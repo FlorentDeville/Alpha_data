@@ -4,10 +4,10 @@
 		"id": "00de6b7f17dffd61"
 	}, 
 	"hard-asset-refs": [
-		"00b6e55fae2e12b7",
-		"00c85b6f9d871df0",
 		"00ed2a9940c024af",
 		"00a23e74063b49b6",
+		"00b6e55fae2e12b7",
+		"00c85b6f9d871df0",
 		"00101a3766d17550",
 		"009020f7feaaaff0",
 		"00cce432d9835173",
@@ -174,21 +174,6 @@
 								{
 									"header": {
 										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "fb0e68d3-25a9-6776-46f3-01167ccea4cb", 
-										"m_mesh": {
-											"m_id": "00b6e55fae2e12b7"
-										}, 
-										"m_material": {
-											"m_id": "00c85b6f9d871df0"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
 										"typename": "Systems::UIBaseComponent"
 									}, 
 									"object": {
@@ -242,6 +227,21 @@
 											0
  										], 
 										"m_radius": 1
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::MeshComponent"
+									}, 
+									"object": {
+										"m_guid": "11538b88-b173-d5f-b3a2-20217946ecd3", 
+										"m_mesh": {
+											"m_id": "00b6e55fae2e12b7"
+										}, 
+										"m_material": {
+											"m_id": "00c85b6f9d871df0"
+										}
 									}
 								}
  							], 
@@ -299,21 +299,6 @@
 								{
 									"header": {
 										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "756faff3-d646-499c-40d1-6317fd83c59a", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "009020f7feaaaff0"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
 										"typename": "Systems::UIBaseComponent"
 									}, 
 									"object": {
@@ -367,6 +352,21 @@
 											0
  										], 
 										"m_radius": 1
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::MeshComponent"
+									}, 
+									"object": {
+										"m_guid": "2a02dd99-7285-ce6c-4836-6b69863dc942", 
+										"m_mesh": {
+											"m_id": "00101a3766d17550"
+										}, 
+										"m_material": {
+											"m_id": "009020f7feaaaff0"
+										}
 									}
 								}
  							], 

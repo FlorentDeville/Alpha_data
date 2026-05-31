@@ -24,112 +24,6 @@
 							"typename": "Systems::GameObject"
 						}, 
 						"object": {
-							"m_guid": "95151391-6638-50f1-370e-e796809c7ac4", 
-							"m_name": "ground", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "7aafd6e6-39f4-c8ff-5aa6-49746ed498d2", 
-									"m_localSqt": [
-										0,
-										0,
-										0,
-										1,
-										-0,
-										0,
-										-0,
-										1,
-										10,
-										1,
-										10
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "e56e553d-9f0c-9e62-9ad-50c946b57089", 
-										"m_mesh": {
-											"m_id": "00b428810c2cb614"
-										}, 
-										"m_material": {
-											"m_id": "00c85b6f9d871df0"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
-							"m_guid": "c7a3ac79-e5aa-c617-dcd7-79bc47253f3b", 
-							"m_name": "sphere", 
-							"m_transform": {
-								"header": {
-									"header-version": 1, 
-									"typename": "Systems::TransformComponent"
-								}, 
-								"object": {
-									"m_guid": "5611b2a1-c7a4-18e6-b477-4c3148c16363", 
-									"m_localSqt": [
-										4.97869,
-										0.944646,
-										0,
-										1,
-										-0,
-										0,
-										-0,
-										1,
-										1,
-										1,
-										1
- 									], 
-									"m_parent": "0-0-0-0-00000", 
-									"m_children": [
-
- 									]
-								}
-							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "46fcf965-e6d4-ea4-91d0-c947c66d9451", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "009020f7feaaaff0"
-										}
-									}
-								}
- 							]
-						}
-					},
-					{
-						"header": {
-							"header-version": 1, 
-							"typename": "Systems::GameObject"
-						}, 
-						"object": {
 							"m_guid": "34bbe096-6829-d91e-93a4-f1fbd674aa8f", 
 							"m_name": "spotlight", 
 							"m_transform": {
@@ -206,10 +100,100 @@
 					{
 						"header": {
 							"header-version": 1, 
-							"typename": "Systems::GameObject"
+							"typename": "Systems::StaticMesh"
 						}, 
 						"object": {
-							"m_guid": "b3e7925f-e441-7c39-b4f1-c6d3a3019330", 
+							"m_guid": "525156a8-e8f6-4069-8894-0f4149ee34a7", 
+							"m_name": "ground", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "bf6afed6-feeb-e0f6-e8d4-bcbeeee52f6a", 
+									"m_localSqt": [
+										0,
+										0,
+										0,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										10,
+										1,
+										10
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+
+ 							], 
+							"m_mesh": {
+								"m_id": "00b428810c2cb614"
+							}, 
+							"m_material": {
+								"m_id": "00c85b6f9d871df0"
+							}
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::StaticMesh"
+						}, 
+						"object": {
+							"m_guid": "2c456f4b-ed80-e0f8-e028-8eecf504ecc8", 
+							"m_name": "sphere", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "f4178ea8-9dba-dd0a-cc72-fa4f5f59c76b", 
+									"m_localSqt": [
+										4.97869,
+										0.944646,
+										0,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+
+ 							], 
+							"m_mesh": {
+								"m_id": "00101a3766d17550"
+							}, 
+							"m_material": {
+								"m_id": "009020f7feaaaff0"
+							}
+						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Systems::StaticMesh"
+						}, 
+						"object": {
+							"m_guid": "b6f32c59-bf75-be35-ac30-4eefc8f35701", 
 							"m_name": "cube", 
 							"m_transform": {
 								"header": {
@@ -217,7 +201,7 @@
 									"typename": "Systems::TransformComponent"
 								}, 
 								"object": {
-									"m_guid": "197ca9ea-a2d5-b5f5-c383-82b9632e0f2c", 
+									"m_guid": "2c91338d-3618-63d-85f3-08f94984d1c6", 
 									"m_localSqt": [
 										3.5557,
 										1.92768,
@@ -238,30 +222,22 @@
 								}
 							}, 
 							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "309140e2-2f08-5401-8758-5cf4975d1eae", 
-										"m_mesh": {
-											"m_id": "00b428810c2cb614"
-										}, 
-										"m_material": {
-											"m_id": "00a3a6d60416ebbe"
-										}
-									}
-								}
- 							]
+
+ 							], 
+							"m_mesh": {
+								"m_id": "00b428810c2cb614"
+							}, 
+							"m_material": {
+								"m_id": "00a3a6d60416ebbe"
+							}
 						}
 					}
  				], 
 				"m_roots": [
-					"95151391-6638-50f1-370e-e796809c7ac4",
-					"c7a3ac79-e5aa-c617-dcd7-79bc47253f3b",
 					"34bbe096-6829-d91e-93a4-f1fbd674aa8f",
-					"b3e7925f-e441-7c39-b4f1-c6d3a3019330"
+					"525156a8-e8f6-4069-8894-0f4149ee34a7",
+					"2c456f4b-ed80-e0f8-e028-8eecf504ecc8",
+					"b6f32c59-bf75-be35-ac30-4eefc8f35701"
  				]
 			}
 		}

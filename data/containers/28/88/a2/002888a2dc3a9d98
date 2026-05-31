@@ -21185,39 +21185,7 @@
  									]
 								}
 							}, 
-							"m_components": [
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "PlayerComponent"
-									}, 
-									"object": {
-										"m_guid": "f83c5d6b-a100-6dfd-dec9-9fb928a308a8", 
-										"m_speed": 5, 
-										"m_cameraOffset": [
-											0,
-											10,
-											-15,
-											0
- 										]
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
-										"typename": "Systems::StaticMeshComponent"
-									}, 
-									"object": {
-										"m_guid": "e789ae73-95b6-fc02-299f-7a0c52bcfcc2", 
-										"m_mesh": {
-											"m_id": "00101a3766d17550"
-										}, 
-										"m_material": {
-											"m_id": "00bff898d9314574"
-										}
-									}
-								}
- 							]
+							"m_components": [	]
 						}
 					},
 					{

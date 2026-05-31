@@ -1,0 +1,67 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "00070fcbe9871480"
+	}, 
+	"hard-asset-refs": [
+		"0070b0c53157c8c7"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "00070fcbe9871480", 
+				"m_baseMaterial": {
+					"m_id": "0070b0c53157c8c7"
+				}, 
+				"m_perMaterialParameters": [
+					{
+						"m_name": "ambientColor", 
+						"m_size": 16, 
+						"m_offset": 0, 
+						"m_type": "b0a1a50b1639e8ff", 
+						"m_strType": "color", 
+						"m_value": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							-128,
+							63,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							-128,
+							63
+ 						]
+					},
+					{
+						"m_name": "intensity", 
+						"m_size": 4, 
+						"m_offset": 16, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							-96,
+							64
+ 						]
+					}
+ 				], 
+				"m_texturesBindingInfo": [
+
+ 				], 
+				"m_parametersSchemaHash": "0000000000000000"
+			}
+		}
+ 	]
+}

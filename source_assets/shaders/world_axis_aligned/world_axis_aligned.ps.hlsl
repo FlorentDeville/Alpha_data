@@ -33,7 +33,7 @@ float4 main(VS_Output input) : SV_TARGET
 
 	uv = uv * scale;
 
-	float4 texColor = t1.SampleLevel(s1, uv, 0);
+	float4 texColor = t1.Sample(s1, uv);
 
 	float4 ambient = texColor * ambientIntensity;
 	float4 diffuse = texColor;

@@ -27,6 +27,7 @@
 0057ccdf7c7bb74f,test7,Level
 00594be5f286cc3a,narshe_Roof_6x3_A,Mesh
 005b05c4ec2c6524,narshe_Roof_3x1_A,Mesh
+005b3ed4d69e11ed,ichi_phase3,Texture
 005c855069d71d7c,narshe_Roof_half,Mesh
 005ffe8a2ca06c2e,stone,MaterialInstance
 0060b30b294538e9,brick_wall,Texture
@@ -53,10 +54,12 @@
 00a042ca152ee229,red-emissive,MaterialInstance
 00a23e74063b49b6,test_ui_current_health_bar,Texture
 00a3a6d60416ebbe,blue-phong,MaterialInstance
+00a58eac530a61e6,ichi_phase1,Texture
 00a9a30406e28cae,narshe_Wall_2x1_A,Mesh
 00aa81cda786f341,narshe_Snow_Bottom_3x3_A,Mesh
 00aa8feaec98cc42,narshe_ground,MaterialInstance
 00ab1834a3f589d1,narshe_ground_snow,MaterialInstance
+00af9ef9e864e04f,ichi_phase2,Texture
 00b1ecdffc1a66f1,base_texture_emissive,Material
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh

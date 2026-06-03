@@ -8,6 +8,7 @@
 000ecb5a9ce1a410,narshe_Window_Light_3x3,Mesh
 000effdaacf4cf4f,narshe_Gabe_3,Mesh
 00101a3766d17550,base_sphere,Mesh
+0011a1a348ac2be5,ichi_phase3,Mesh
 00170c0e43ea2227,narshe_Door_3x3,Mesh
 001a615b9e9dcfce,narshe_Gabe_2,Mesh
 001a75a8231520c9,narshe_Brick_Wall_3x1,Mesh
@@ -48,6 +49,7 @@
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 009020f7feaaaff0,red-phong,MaterialInstance
 0091191a2e7d8b94,test_time_animation,Material
+0094b547d587bbaf,ichi_phase2,Mesh
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
 009931a0171760b0,skybox_arid,Cubemap

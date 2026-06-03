@@ -18,6 +18,7 @@
 0031f1cdf7867d6c,skybox_daylight,Cubemap
 003640a7245eb601,base_texture,Material
 0036ea306ecbcba1,god_ray,Material
+00385246407c6392,ichi_phase1,Mesh
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
 0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
 004bbb947b45f653,grid_grey,MaterialInstance

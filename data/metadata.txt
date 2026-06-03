@@ -52,6 +52,7 @@
 0094b547d587bbaf,ichi_phase2,Mesh
 0094ff67bb933a47,narshe-tileset,Texture
 0095f6d901921ae9,base-phong,Material
+00978f445e8ae739,ichi_phase3,MaterialInstance
 009931a0171760b0,skybox_arid,Cubemap
 009b41b3eaddce0e,tileset-narshe-emissive-mask,Texture
 00a042ca152ee229,red-emissive,MaterialInstance
@@ -85,8 +86,10 @@
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00de6b7f17dffd61,proto,Level
 00dfe8bb44487971,narshe_Window_1x3,Mesh
+00e2709146873d55,ichi_phase1,MaterialInstance
 00e2b523867b10f3,narshe_Gable_6,Mesh
 00e34a07e1772bd9,narshe_Snow_2x2_A,Mesh
+00e6b88258049e89,ichi_phase2,MaterialInstance
 00e7f780deb91722,narshe_Brick_Wall_1x3,Mesh
 00e804431d4933e2,world-axis-aligned,Material
 00ed2a9940c024af,test_ui_total_health_bar,Texture

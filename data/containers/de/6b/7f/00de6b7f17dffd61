@@ -370,6 +370,7 @@
 									}
 								}
  							], 
+							"m_maxHP": 1000, 
 							"m_mesh": {
 								"m_id": "00cce432d9835173"
 							}, 
@@ -379,7 +380,6 @@
 							"m_counterBulletMaterial": {
 								"m_id": "00070fcbe9871480"
 							}, 
-							"m_maxHP": 1000, 
 							"m_currentHealthComp": {
 								"m_guid": "8a6ec3e4-f379-606f-3b37-23e3cb228895"
 							}, 

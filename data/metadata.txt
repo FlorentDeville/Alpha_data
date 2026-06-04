@@ -64,6 +64,7 @@
 00aa8feaec98cc42,narshe_ground,MaterialInstance
 00ab1834a3f589d1,narshe_ground_snow,MaterialInstance
 00af9ef9e864e04f,ichi_phase2,Texture
+00b11578fbf762ab,boss_ichi,Level
 00b1ecdffc1a66f1,base_texture_emissive,Material
 00b3fac26e0260cf,narshe_Ground_3x3_A,Mesh
 00b428810c2cb614,cube,Mesh

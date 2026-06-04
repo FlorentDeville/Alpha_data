@@ -5,11 +5,11 @@
 	}, 
 	"hard-asset-refs": [
 		"00b428810c2cb614",
-		"00c85b6f9d871df0",
+		"004bbb947b45f653",
 		"00a23e74063b49b6",
 		"00ed2a9940c024af",
-		"00101a3766d17550",
-		"009020f7feaaaff0"
+		"00b6e55fae2e12b7",
+		"00c85b6f9d871df0"
  	], 
 	"objects": [
 		{
@@ -60,7 +60,7 @@
 								"m_id": "00b428810c2cb614"
 							}, 
 							"m_material": {
-								"m_id": "00c85b6f9d871df0"
+								"m_id": "004bbb947b45f653"
 							}
 						}
 					},
@@ -149,10 +149,10 @@
 									"object": {
 										"m_guid": "e626eea-d7b3-7f81-8471-17cff7412925", 
 										"m_mesh": {
-											"m_id": "00101a3766d17550"
+											"m_id": "00b6e55fae2e12b7"
 										}, 
 										"m_material": {
-											"m_id": "009020f7feaaaff0"
+											"m_id": "00c85b6f9d871df0"
 										}
 									}
 								}

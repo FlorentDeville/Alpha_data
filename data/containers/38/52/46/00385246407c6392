@@ -8517,6 +8517,74 @@
  						], 
 						"m_name": "gun3", 
 						"m_nameSid": "a5c7fa3c907338b6"
+					},
+					{
+						"m_locator": [
+							1.39265,
+							0,
+							0,
+							1,
+							0,
+							0,
+							0,
+							1,
+							1,
+							1,
+							1
+ 						], 
+						"m_name": "engine0", 
+						"m_nameSid": "b9629288e5cba206"
+					},
+					{
+						"m_locator": [
+							-1.48042,
+							0,
+							0,
+							1,
+							0,
+							0,
+							0,
+							1,
+							1,
+							1,
+							1
+ 						], 
+						"m_name": "engine1", 
+						"m_nameSid": "c1064bd90280d257"
+					},
+					{
+						"m_locator": [
+							0,
+							0,
+							1.41856,
+							1,
+							0,
+							0,
+							0,
+							1,
+							1,
+							1,
+							1
+ 						], 
+						"m_name": "engine2", 
+						"m_nameSid": "a0676395a9e1f329"
+					},
+					{
+						"m_locator": [
+							0,
+							0,
+							-1.39683,
+							1,
+							0,
+							0,
+							0,
+							1,
+							1,
+							1,
+							1
+ 						], 
+						"m_name": "engine3", 
+						"m_nameSid": "90d2deef67b0e84b"
 					}
  				], 
 				"m_importUvMirrorVertical": true

@@ -47,6 +47,7 @@
 00799a2117285b99,bullet-emissive,MaterialInstance
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
+008fbe89ece4fa7c,ichi_engine,ParticleEffect
 009020f7feaaaff0,red-phong,MaterialInstance
 0091191a2e7d8b94,test_time_animation,Material
 0094b547d587bbaf,ichi_phase2,Mesh

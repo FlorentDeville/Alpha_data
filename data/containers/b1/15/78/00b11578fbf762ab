@@ -9,7 +9,14 @@
 		"00a23e74063b49b6",
 		"00ed2a9940c024af",
 		"00b6e55fae2e12b7",
-		"00c85b6f9d871df0"
+		"00c85b6f9d871df0",
+		"00385246407c6392",
+		"00e2709146873d55",
+		"0094b547d587bbaf",
+		"00e6b88258049e89",
+		"0011a1a348ac2be5",
+		"00978f445e8ae739",
+		"ffffffffffffffff"
  	], 
 	"objects": [
 		{
@@ -36,7 +43,7 @@
 									"m_guid": "61430962-ac8c-2881-434d-8e27ce7ab6c2", 
 									"m_localSqt": [
 										0,
-										0,
+										-1,
 										0,
 										1,
 										-0,
@@ -81,7 +88,7 @@
 									"m_guid": "3d5d926-cc13-bc08-167f-50c28110e9b4", 
 									"m_localSqt": [
 										0,
-										2.70069,
+										1,
 										0,
 										1,
 										-0,
@@ -240,12 +247,97 @@
 								}
  							]
 						}
+					},
+					{
+						"header": {
+							"header-version": 1, 
+							"typename": "Ichi"
+						}, 
+						"object": {
+							"m_guid": "88c846fa-a186-b847-5ab5-a15698fe9d0", 
+							"m_name": "ichi", 
+							"m_transform": {
+								"header": {
+									"header-version": 1, 
+									"typename": "Systems::TransformComponent"
+								}, 
+								"object": {
+									"m_guid": "891a0bb8-dc1c-a256-53b4-654ce9122712", 
+									"m_localSqt": [
+										0,
+										0,
+										7.94601,
+										1,
+										-0,
+										0,
+										-0,
+										1,
+										1,
+										1,
+										1
+ 									], 
+									"m_parent": "0-0-0-0-00000", 
+									"m_children": [
+
+ 									]
+								}
+							}, 
+							"m_components": [
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::MeshComponent"
+									}, 
+									"object": {
+										"m_guid": "5e5a3d38-d22c-47aa-e519-78ba3b0c70ec", 
+										"m_mesh": {
+											"m_id": "00385246407c6392"
+										}, 
+										"m_material": {
+											"m_id": "00e2709146873d55"
+										}
+									}
+								}
+ 							], 
+							"m_maxHP": 100, 
+							"m_meshPhase1": {
+								"m_id": "00385246407c6392"
+							}, 
+							"m_materialPhase1": {
+								"m_id": "00e2709146873d55"
+							}, 
+							"m_meshPhase2": {
+								"m_id": "0094b547d587bbaf"
+							}, 
+							"m_materialPhase2": {
+								"m_id": "00e6b88258049e89"
+							}, 
+							"m_meshPhase3": {
+								"m_id": "0011a1a348ac2be5"
+							}, 
+							"m_materialPhase3": {
+								"m_id": "00978f445e8ae739"
+							}, 
+							"m_counterBulletMaterial": {
+								"m_id": "ffffffffffffffff"
+							}, 
+							"m_currentHealthComp": {
+								"m_guid": "0-0-0-0-00000"
+							}, 
+							"m_totalHealthComp": {
+								"m_guid": "0-0-0-0-00000"
+							}, 
+							"m_collComp": {
+								"m_guid": "0-0-0-0-00000"
+							}
+						}
 					}
  				], 
 				"m_roots": [
 					"68de0f0d-41dc-2b0e-c138-fd4183f7dbc1",
 					"6ad3e079-d73a-cbd5-ac9-1a281003a938",
-					"15b694c4-6fba-1fd3-d8dc-fbd165ef6d21"
+					"15b694c4-6fba-1fd3-d8dc-fbd165ef6d21",
+					"88c846fa-a186-b847-5ab5-a15698fe9d0"
  				]
 			}
 		}

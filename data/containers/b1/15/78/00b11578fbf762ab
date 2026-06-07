@@ -17,6 +17,8 @@
 		"0011a1a348ac2be5",
 		"00978f445e8ae739",
 		"008fbe89ece4fa7c",
+		"00cce432d9835173",
+		"00a042ca152ee229",
 		"ffffffffffffffff"
  	], 
 	"objects": [
@@ -321,6 +323,12 @@
 							}, 
 							"m_engineEffect": {
 								"m_id": "008fbe89ece4fa7c"
+							}, 
+							"m_bulletMesh": {
+								"m_id": "00cce432d9835173"
+							}, 
+							"m_bulletMaterial": {
+								"m_id": "00a042ca152ee229"
 							}, 
 							"m_counterBulletMaterial": {
 								"m_id": "ffffffffffffffff"

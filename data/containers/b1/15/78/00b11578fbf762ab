@@ -44,6 +44,7 @@
 								}, 
 								"object": {
 									"m_guid": "61430962-ac8c-2881-434d-8e27ce7ab6c2", 
+									"m_enabled": true, 
 									"m_localSqt": [
 										0,
 										-1,
@@ -89,6 +90,7 @@
 								}, 
 								"object": {
 									"m_guid": "3d5d926-cc13-bc08-167f-50c28110e9b4", 
+									"m_enabled": true, 
 									"m_localSqt": [
 										0,
 										1,
@@ -116,6 +118,7 @@
 									}, 
 									"object": {
 										"m_guid": "bcae8dcf-7aaf-f258-dd44-3ccdc5f5b401", 
+										"m_enabled": true, 
 										"m_debugName": "currentHealth", 
 										"m_texture": {
 											"m_id": "00a23e74063b49b6"
@@ -137,6 +140,7 @@
 									}, 
 									"object": {
 										"m_guid": "2175a90c-df87-ed48-e40e-76c05f3ba46", 
+										"m_enabled": true, 
 										"m_debugName": "totalHealth", 
 										"m_texture": {
 											"m_id": "00ed2a9940c024af"
@@ -158,6 +162,7 @@
 									}, 
 									"object": {
 										"m_guid": "e626eea-d7b3-7f81-8471-17cff7412925", 
+										"m_enabled": true, 
 										"m_mesh": {
 											"m_id": "00b6e55fae2e12b7"
 										}, 
@@ -173,6 +178,7 @@
 									}, 
 									"object": {
 										"m_guid": "f67d652a-b3f2-369a-267b-90bb4f586d18", 
+										"m_enabled": true, 
 										"m_center": [
 											0,
 											0,
@@ -220,6 +226,7 @@
 								}, 
 								"object": {
 									"m_guid": "e272e9b5-8379-acb4-c3df-480667a60884", 
+									"m_enabled": true, 
 									"m_localSqt": [
 										0,
 										12.2448,
@@ -247,6 +254,7 @@
 									}, 
 									"object": {
 										"m_guid": "36c0ae54-3b7a-590a-3a08-2e6c2b0a5ab3", 
+										"m_enabled": true, 
 										"m_direction": [
 											1,
 											-1,
@@ -288,6 +296,7 @@
 								}, 
 								"object": {
 									"m_guid": "891a0bb8-dc1c-a256-53b4-654ce9122712", 
+									"m_enabled": true, 
 									"m_localSqt": [
 										0,
 										0,
@@ -311,25 +320,11 @@
 								{
 									"header": {
 										"header-version": 1, 
-										"typename": "Systems::RenderableComponent"
-									}, 
-									"object": {
-										"m_guid": "23bc6d96-5b1d-5854-40bd-a1577b074454", 
-										"m_mesh": {
-											"m_id": "00385246407c6392"
-										}, 
-										"m_material": {
-											"m_id": "00e2709146873d55"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
 										"typename": "Systems::UIBaseComponent"
 									}, 
 									"object": {
 										"m_guid": "651dc5aa-186c-f48f-5a77-4aede25468c4", 
+										"m_enabled": true, 
 										"m_debugName": "currentHP", 
 										"m_texture": {
 											"m_id": "00a23e74063b49b6"
@@ -351,6 +346,7 @@
 									}, 
 									"object": {
 										"m_guid": "96252ce6-54d4-4e64-11e-8983a01020d1", 
+										"m_enabled": true, 
 										"m_debugName": "totalHP", 
 										"m_texture": {
 											"m_id": "00ed2a9940c024af"
@@ -363,6 +359,54 @@
 											900,
 											20
  										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::RenderableComponent"
+									}, 
+									"object": {
+										"m_guid": "338b1035-55f9-5ed8-be35-cb09d451bdf2", 
+										"m_enabled": true, 
+										"m_mesh": {
+											"m_id": "00385246407c6392"
+										}, 
+										"m_material": {
+											"m_id": "00e2709146873d55"
+										}
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::RenderableComponent"
+									}, 
+									"object": {
+										"m_guid": "10e97f71-104e-b096-bacc-c7c93d3a455d", 
+										"m_enabled": true, 
+										"m_mesh": {
+											"m_id": "0094b547d587bbaf"
+										}, 
+										"m_material": {
+											"m_id": "00e6b88258049e89"
+										}
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::RenderableComponent"
+									}, 
+									"object": {
+										"m_guid": "50a5ca68-de72-56d3-b8fd-4e2e675eb89f", 
+										"m_enabled": true, 
+										"m_mesh": {
+											"m_id": "0011a1a348ac2be5"
+										}, 
+										"m_material": {
+											"m_id": "00978f445e8ae739"
+										}
 									}
 								}
  							], 

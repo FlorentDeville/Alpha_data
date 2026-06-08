@@ -414,20 +414,11 @@
 							"m_meshPhase1": {
 								"m_id": "00385246407c6392"
 							}, 
-							"m_materialPhase1": {
-								"m_id": "00e2709146873d55"
-							}, 
 							"m_meshPhase2": {
 								"m_id": "0094b547d587bbaf"
 							}, 
-							"m_materialPhase2": {
-								"m_id": "00e6b88258049e89"
-							}, 
 							"m_meshPhase3": {
 								"m_id": "0011a1a348ac2be5"
-							}, 
-							"m_materialPhase3": {
-								"m_id": "00978f445e8ae739"
 							}, 
 							"m_engineEffect": {
 								"m_id": "008fbe89ece4fa7c"
@@ -449,6 +440,15 @@
 							}, 
 							"m_collComp": {
 								"m_guid": "0-0-0-0-00000"
+							}, 
+							"m_phase1Renderable": {
+								"m_guid": "338b1035-55f9-5ed8-be35-cb09d451bdf2"
+							}, 
+							"m_phase2Renderable": {
+								"m_guid": "10e97f71-104e-b096-bacc-c7c93d3a455d"
+							}, 
+							"m_phase3Renderable": {
+								"m_guid": "50a5ca68-de72-56d3-b8fd-4e2e675eb89f"
 							}
 						}
 					}

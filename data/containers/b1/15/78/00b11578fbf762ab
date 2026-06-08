@@ -19,8 +19,7 @@
 		"0011a1a348ac2be5",
 		"00978f445e8ae739",
 		"008fbe89ece4fa7c",
-		"00a042ca152ee229",
-		"ffffffffffffffff"
+		"00a042ca152ee229"
  	], 
 	"objects": [
 		{
@@ -323,9 +322,51 @@
 											"m_id": "00e2709146873d55"
 										}
 									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "651dc5aa-186c-f48f-5a77-4aede25468c4", 
+										"m_debugName": "currentHP", 
+										"m_texture": {
+											"m_id": "00a23e74063b49b6"
+										}, 
+										"m_position": [
+											0,
+											-390
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::UIBaseComponent"
+									}, 
+									"object": {
+										"m_guid": "96252ce6-54d4-4e64-11e-8983a01020d1", 
+										"m_debugName": "totalHP", 
+										"m_texture": {
+											"m_id": "00ed2a9940c024af"
+										}, 
+										"m_position": [
+											0,
+											-400
+ 										], 
+										"m_size": [
+											900,
+											20
+ 										]
+									}
 								}
  							], 
-							"m_maxHP": 100, 
+							"m_maxHP": 1000, 
 							"m_meshPhase1": {
 								"m_id": "00385246407c6392"
 							}, 
@@ -354,13 +395,13 @@
 								"m_id": "00a042ca152ee229"
 							}, 
 							"m_counterBulletMaterial": {
-								"m_id": "ffffffffffffffff"
+								"m_id": "00070fcbe9871480"
 							}, 
 							"m_currentHealthComp": {
-								"m_guid": "0-0-0-0-00000"
+								"m_guid": "651dc5aa-186c-f48f-5a77-4aede25468c4"
 							}, 
 							"m_totalHealthComp": {
-								"m_guid": "0-0-0-0-00000"
+								"m_guid": "96252ce6-54d4-4e64-11e-8983a01020d1"
 							}, 
 							"m_collComp": {
 								"m_guid": "0-0-0-0-00000"

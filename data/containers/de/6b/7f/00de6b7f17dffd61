@@ -8,11 +8,11 @@
 		"00a23e74063b49b6",
 		"00b6e55fae2e12b7",
 		"00c85b6f9d871df0",
+		"00cce432d9835173",
+		"00070fcbe9871480",
 		"00101a3766d17550",
 		"009020f7feaaaff0",
-		"00cce432d9835173",
 		"00799a2117285b99",
-		"00070fcbe9871480",
 		"00b428810c2cb614",
 		"004bbb947b45f653",
 		"00a3a6d60416ebbe"
@@ -258,6 +258,12 @@
 							}, 
 							"m_totalHealthComp": {
 								"m_guid": "bc5b6cc9-36d9-aeff-bdb1-09918806b3f6"
+							}, 
+							"m_counteredBulletMesh": {
+								"m_id": "00cce432d9835173"
+							}, 
+							"m_counteredBulletMaterial": {
+								"m_id": "00070fcbe9871480"
 							}
 						}
 					},

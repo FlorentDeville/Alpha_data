@@ -10,6 +10,8 @@
 		"00ed2a9940c024af",
 		"00b6e55fae2e12b7",
 		"00c85b6f9d871df0",
+		"00cce432d9835173",
+		"00070fcbe9871480",
 		"00385246407c6392",
 		"00e2709146873d55",
 		"0094b547d587bbaf",
@@ -17,7 +19,6 @@
 		"0011a1a348ac2be5",
 		"00978f445e8ae739",
 		"008fbe89ece4fa7c",
-		"00cce432d9835173",
 		"00a042ca152ee229",
 		"ffffffffffffffff"
  	], 
@@ -165,6 +166,22 @@
 											"m_id": "00c85b6f9d871df0"
 										}
 									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "f67d652a-b3f2-369a-267b-90bb4f586d18", 
+										"m_center": [
+											0,
+											0,
+											0,
+											0
+ 										], 
+										"m_radius": 1
+									}
 								}
  							], 
 							"m_speed": 10, 
@@ -180,6 +197,12 @@
 							}, 
 							"m_totalHealthComp": {
 								"m_guid": "2175a90c-df87-ed48-e40e-76c05f3ba46"
+							}, 
+							"m_counteredBulletMesh": {
+								"m_id": "00cce432d9835173"
+							}, 
+							"m_counteredBulletMaterial": {
+								"m_id": "00070fcbe9871480"
 							}
 						}
 					},

@@ -82,6 +82,7 @@
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00cce432d9835173,bullet,Mesh
 00cd3bded6d1fddd,narshe_tileset_emissive,MaterialInstance
+00d76136573e9493,victory,Texture
 00d77c03cc79d276,godray_mask,Texture
 00db09877247f9cb,test_translucent,Material
 00dd777612e662e3,ground,Texture

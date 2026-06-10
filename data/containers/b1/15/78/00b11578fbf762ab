@@ -49,7 +49,7 @@
 									"m_localSqt": [
 										0,
 										-1,
-										-15.7461,
+										-12.3002,
 										1,
 										-0,
 										0,
@@ -93,7 +93,7 @@
 									"m_guid": "3d5d926-cc13-bc08-167f-50c28110e9b4", 
 									"m_enabled": true, 
 									"m_localSqt": [
-										0,
+										-0.404114,
 										1,
 										0,
 										1,
@@ -184,9 +184,26 @@
 											0,
 											0,
 											0,
-											0
+											1
  										], 
 										"m_radius": 2
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "7cc92bef-24fe-4d88-a37c-0d3b1c30e565", 
+										"m_enabled": true, 
+										"m_center": [
+											0,
+											4,
+											0,
+											1
+ 										], 
+										"m_radius": 3
 									}
 								}
  							], 

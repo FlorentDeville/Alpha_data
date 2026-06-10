@@ -24,16 +24,16 @@
 						0,
 						0,
 						1,
-						2,
+						7.5,
 						1,
-						2
+						7.5
  					], 
 					"m_texture": {
 						"m_id": "000c16c5f1e0d42e"
 					}, 
 					"m_speed": [
 						0,
-						10,
+						5,
 						0
  					], 
 					"m_acceleration": [
@@ -41,8 +41,8 @@
 						0,
 						0
  					], 
-					"m_lifetime": 10, 
-					"m_spawnRate": 10
+					"m_lifetime": 1, 
+					"m_spawnRate": 1000
 				}
 			}
 		}

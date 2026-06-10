@@ -19,6 +19,7 @@
 		"0011a1a348ac2be5",
 		"00978f445e8ae739",
 		"008fbe89ece4fa7c",
+		"008cf26487d53c44",
 		"00a042ca152ee229",
 		"00d76136573e9493"
  	], 
@@ -440,6 +441,9 @@
 							}, 
 							"m_engineEffect": {
 								"m_id": "008fbe89ece4fa7c"
+							}, 
+							"m_transitionEffect": {
+								"m_id": "008cf26487d53c44"
 							}, 
 							"m_bulletMesh": {
 								"m_id": "00cce432d9835173"

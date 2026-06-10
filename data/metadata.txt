@@ -46,6 +46,7 @@
 0078c27c11fefae9,test_dirlight,Level
 00799a2117285b99,bullet-emissive,MaterialInstance
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
+008cf26487d53c44,ichi_hiding_smoke_1,ParticleEffect
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 008fbe89ece4fa7c,ichi_engine,ParticleEffect
 009020f7feaaaff0,red-phong,MaterialInstance

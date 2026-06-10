@@ -1,0 +1,50 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "008cf26487d53c44"
+	}, 
+	"hard-asset-refs": [
+		"000c16c5f1e0d42e"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::ParticleEffectAsset"
+			}, 
+			"object": {
+				"m_id": "008cf26487d53c44", 
+				"m_emitter": {
+					"m_transform": [
+						0,
+						0,
+						0,
+						1,
+						0,
+						0,
+						0,
+						1,
+						2,
+						1,
+						2
+ 					], 
+					"m_texture": {
+						"m_id": "000c16c5f1e0d42e"
+					}, 
+					"m_speed": [
+						0,
+						10,
+						0
+ 					], 
+					"m_acceleration": [
+						0,
+						0,
+						0
+ 					], 
+					"m_lifetime": 10, 
+					"m_spawnRate": 10
+				}
+			}
+		}
+ 	]
+}

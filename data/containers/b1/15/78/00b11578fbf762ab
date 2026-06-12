@@ -183,7 +183,7 @@
 										"m_enabled": true, 
 										"m_center": [
 											0,
-											0,
+											1,
 											0,
 											1
  										], 
@@ -200,11 +200,28 @@
 										"m_enabled": true, 
 										"m_center": [
 											0,
-											4,
+											3,
 											0,
 											1
  										], 
-										"m_radius": 3
+										"m_radius": 2
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::CollisionSphereComponent"
+									}, 
+									"object": {
+										"m_guid": "ec9ec95c-2b06-9cbd-cc53-81621880f283", 
+										"m_enabled": true, 
+										"m_center": [
+											0,
+											5,
+											0,
+											1
+ 										], 
+										"m_radius": 2
 									}
 								}
  							], 
@@ -393,7 +410,20 @@
 										}, 
 										"m_material": {
 											"m_id": "00e2709146873d55"
-										}
+										}, 
+										"m_lsTx": [
+											0,
+											0,
+											0,
+											1,
+											0,
+											0,
+											0,
+											1,
+											1,
+											1,
+											1
+ 										]
 									}
 								},
 								{
@@ -409,7 +439,20 @@
 										}, 
 										"m_material": {
 											"m_id": "00e6b88258049e89"
-										}
+										}, 
+										"m_lsTx": [
+											0,
+											0,
+											0,
+											1,
+											0,
+											0,
+											0,
+											1,
+											1,
+											1,
+											1
+ 										]
 									}
 								},
 								{
@@ -425,7 +468,20 @@
 										}, 
 										"m_material": {
 											"m_id": "00978f445e8ae739"
-										}
+										}, 
+										"m_lsTx": [
+											0,
+											0,
+											0,
+											1,
+											0,
+											0,
+											0,
+											1,
+											1,
+											1,
+											1
+ 										]
 									}
 								}
  							], 

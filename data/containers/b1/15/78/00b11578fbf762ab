@@ -292,9 +292,9 @@
 										"m_guid": "36c0ae54-3b7a-590a-3a08-2e6c2b0a5ab3", 
 										"m_enabled": true, 
 										"m_direction": [
-											1,
+											0,
 											-1,
-											1,
+											0,
 											0
  										], 
 										"m_ambient": [

@@ -232,7 +232,7 @@
 								-30,
 								0
  							], 
-							"m_maxHp": 100, 
+							"m_maxHp": 1000, 
 							"m_currentHealthComp": {
 								"m_guid": "bcae8dcf-7aaf-f258-dd44-3ccdc5f5b401"
 							}, 

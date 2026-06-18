@@ -27,6 +27,7 @@
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
 0054a9eef43292a3,ground_snow,Texture
 0055655d550e0258,vertex_color_base,Material
+0055ed6e04df36b1,dash_circle_instance,MaterialInstance
 0057ccdf7c7bb74f,test7,Level
 00594be5f286cc3a,narshe_Roof_6x3_A,Mesh
 005b05c4ec2c6524,narshe_Roof_3x1_A,Mesh

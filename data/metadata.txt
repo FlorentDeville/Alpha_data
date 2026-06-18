@@ -46,6 +46,7 @@
 0070b0c53157c8c7,test-emissive,Material
 00781e3d89bd9f93,narshe_Wall_3x1_C,Mesh
 0078c27c11fefae9,test_dirlight,Level
+0078fd1616ace545,phong_green,MaterialInstance
 00799a2117285b99,bullet-emissive,MaterialInstance
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
 008cf26487d53c44,ichi_hiding_smoke_1,ParticleEffect

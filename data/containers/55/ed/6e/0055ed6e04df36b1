@@ -1,0 +1,93 @@
+{
+	"header": {
+		"header-version": 1, 
+		"id": "0055ed6e04df36b1"
+	}, 
+	"hard-asset-refs": [
+		"003183728b70b1cc"
+ 	], 
+	"objects": [
+		{
+			"header": {
+				"header-version": 1, 
+				"typename": "Systems::MaterialInstanceAsset"
+			}, 
+			"object": {
+				"m_id": "0055ed6e04df36b1", 
+				"m_baseMaterial": {
+					"m_id": "003183728b70b1cc"
+				}, 
+				"m_perMaterialParameters": [
+					{
+						"m_name": "innerCircleRadius", 
+						"m_size": 4, 
+						"m_offset": 0, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							-102,
+							-103,
+							-103,
+							62
+ 						]
+					},
+					{
+						"m_name": "outerCircleRadius", 
+						"m_size": 4, 
+						"m_offset": 4, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							0,
+							0,
+							0,
+							63
+ 						]
+					},
+					{
+						"m_name": "gradientLength", 
+						"m_size": 4, 
+						"m_offset": 8, 
+						"m_type": "9917117270b7f823", 
+						"m_strType": "float", 
+						"m_value": [
+							-51,
+							-52,
+							76,
+							61
+ 						]
+					},
+					{
+						"m_name": "diffuse", 
+						"m_size": 16, 
+						"m_offset": 16, 
+						"m_type": "b0a1a50b1639e8ff", 
+						"m_strType": "color", 
+						"m_value": [
+							0,
+							0,
+							0,
+							0,
+							-122,
+							-62,
+							117,
+							62,
+							113,
+							61,
+							-118,
+							62,
+							-117,
+							-21,
+							-47,
+							62
+ 						]
+					}
+ 				], 
+				"m_texturesBindingInfo": [
+
+ 				], 
+				"m_parametersSchemaHash": "c42c12069bdfad04"
+			}
+		}
+ 	]
+}

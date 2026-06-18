@@ -23,7 +23,7 @@
 		"00a042ca152ee229",
 		"00d76136573e9493",
 		"00c50261b5ea66a9",
-		"00aa8feaec98cc42"
+		"0055ed6e04df36b1"
  	], 
 	"objects": [
 		{
@@ -636,12 +636,12 @@
 									}, 
 									"object": {
 										"m_guid": "e8d6aed3-6570-357a-272d-17a496e692e", 
-										"m_enabled": false, 
+										"m_enabled": true, 
 										"m_mesh": {
 											"m_id": "00c50261b5ea66a9"
 										}, 
 										"m_material": {
-											"m_id": "00aa8feaec98cc42"
+											"m_id": "0055ed6e04df36b1"
 										}
 									}
 								}

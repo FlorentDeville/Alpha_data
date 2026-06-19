@@ -2,6 +2,7 @@
 00032e55c19b562c,narshe_Roof_1x3,Mesh
 000367e7a2346ef2,skybox_nightsky,MaterialInstance
 0005d4e662f41a08,grid,Texture
+00066adcae52a632,player_engine_effect,Texture
 00070fcbe9871480,bullet_counter_emissive,MaterialInstance
 00096fc7832ff926,skybox_bluesky,MaterialInstance
 000c16c5f1e0d42e,smoke_texture,Texture
@@ -23,6 +24,7 @@
 0036ea306ecbcba1,god_ray,Material
 00385246407c6392,ichi_phase1,Mesh
 003d374c39862c85,narshe_Brick_Wall_1x3,Mesh
+0040c4b589ce38e7,player_engine,ParticleEffect
 0045e10300a5c40a,narshe_Roof_3x2_A,Mesh
 004bbb947b45f653,grid_grey,MaterialInstance
 0052a33e26d8f44a,narshe_Wall_3x3,Mesh
@@ -51,8 +53,6 @@
 00799a2117285b99,bullet-emissive,MaterialInstance
 007d6c8986f6061e,player,Mesh
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
-00858d4e04d5b808,player_engine_effect,Texture
-008b80f4e956b1ca,player_engine,ParticleEffect
 008cf26487d53c44,ichi_hiding_smoke_1,ParticleEffect
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
 008fbe89ece4fa7c,ichi_engine,ParticleEffect

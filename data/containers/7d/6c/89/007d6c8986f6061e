@@ -8606,7 +8606,23 @@
 					658
  				], 
 				"m_attachPoints": [
-
+					{
+						"m_locator": [
+							0,
+							-0.646462,
+							0,
+							1,
+							0,
+							0,
+							0,
+							1,
+							1,
+							1,
+							1
+ 						], 
+						"m_name": "engine", 
+						"m_nameSid": "2457223111d1332f"
+					}
  				], 
 				"m_importUvMirrorVertical": true
 			}

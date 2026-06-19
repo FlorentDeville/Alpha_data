@@ -15,6 +15,7 @@
 0021162eee167a3e,god_ray_instance,MaterialInstance
 002888a2dc3a9d98,narshe,Level
 0028f63b84b5381a,test_snow,ParticleEffect
+002c463c6e425a60,player_diffuse,Texture
 00310ad4be08ab59,smoke,ParticleEffect
 003183728b70b1cc,dash_circle,Material
 0031f1cdf7867d6c,skybox_daylight,Cubemap
@@ -48,6 +49,7 @@
 0078c27c11fefae9,test_dirlight,Level
 0078fd1616ace545,phong_green,MaterialInstance
 00799a2117285b99,bullet-emissive,MaterialInstance
+007d6c8986f6061e,player,Mesh
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
 008cf26487d53c44,ichi_hiding_smoke_1,ParticleEffect
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh
@@ -82,6 +84,7 @@
 00c8042a4b688cec,narshe_Wall_2x1_B,Mesh
 00c85b6f9d871df0,yellow-phong,MaterialInstance
 00cb6038b35525af,wood_floor,Texture
+00cb61a2f7dc850d,player,MaterialInstance
 00cc393374489b2f,snowflake,Texture
 00ccb518144a2399,narshe_tileset,MaterialInstance
 00cce432d9835173,bullet,Mesh

@@ -8,8 +8,8 @@
 		"004bbb947b45f653",
 		"00a23e74063b49b6",
 		"00ed2a9940c024af",
-		"00b6e55fae2e12b7",
-		"00c85b6f9d871df0",
+		"007d6c8986f6061e",
+		"00cb61a2f7dc850d",
 		"00cce432d9835173",
 		"00070fcbe9871480",
 		"00385246407c6392",
@@ -103,7 +103,7 @@
 										1,
 										-0,
 										0,
-										-0,
+										0,
 										1,
 										1,
 										1,
@@ -170,10 +170,10 @@
 										"m_guid": "e626eea-d7b3-7f81-8471-17cff7412925", 
 										"m_enabled": true, 
 										"m_mesh": {
-											"m_id": "00b6e55fae2e12b7"
+											"m_id": "007d6c8986f6061e"
 										}, 
 										"m_material": {
-											"m_id": "00c85b6f9d871df0"
+											"m_id": "00cb61a2f7dc850d"
 										}
 									}
 								},
@@ -695,7 +695,7 @@
 										"m_guid": "3db972cc-db5c-dc01-8489-6216a848ec3d", 
 										"m_enabled": true, 
 										"m_mesh": {
-											"m_id": "00b6e55fae2e12b7"
+											"m_id": "007d6c8986f6061e"
 										}, 
 										"m_material": {
 											"m_id": "0078fd1616ace545"

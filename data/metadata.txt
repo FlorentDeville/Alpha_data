@@ -51,6 +51,7 @@
 00799a2117285b99,bullet-emissive,MaterialInstance
 007d6c8986f6061e,player,Mesh
 0080e7038df640ea,narshe_Wall_3x1_A,Mesh
+00858d4e04d5b808,player_engine_effect,Texture
 008b80f4e956b1ca,player_engine,ParticleEffect
 008cf26487d53c44,ichi_hiding_smoke_1,ParticleEffect
 008e6231cf6f2487,narshe_Window_Light_1x3,Mesh

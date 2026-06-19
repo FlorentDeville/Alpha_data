@@ -4,7 +4,7 @@
 		"id": "008b80f4e956b1ca"
 	}, 
 	"hard-asset-refs": [
-		"000c16c5f1e0d42e"
+		"00858d4e04d5b808"
  	], 
 	"objects": [
 		{
@@ -29,7 +29,7 @@
 						1
  					], 
 					"m_texture": {
-						"m_id": "000c16c5f1e0d42e"
+						"m_id": "00858d4e04d5b808"
 					}, 
 					"m_speed": [
 						0,
@@ -42,7 +42,7 @@
 						0
  					], 
 					"m_lifetime": 0.1, 
-					"m_spawnRate": 10
+					"m_spawnRate": 100
 				}
 			}
 		}

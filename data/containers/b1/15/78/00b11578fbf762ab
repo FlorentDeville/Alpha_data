@@ -103,7 +103,7 @@
 										1,
 										-0,
 										0,
-										0,
+										-0,
 										1,
 										1,
 										1,
@@ -164,22 +164,6 @@
 								{
 									"header": {
 										"header-version": 1, 
-										"typename": "Systems::MeshComponent"
-									}, 
-									"object": {
-										"m_guid": "e626eea-d7b3-7f81-8471-17cff7412925", 
-										"m_enabled": true, 
-										"m_mesh": {
-											"m_id": "007d6c8986f6061e"
-										}, 
-										"m_material": {
-											"m_id": "00cb61a2f7dc850d"
-										}
-									}
-								},
-								{
-									"header": {
-										"header-version": 1, 
 										"typename": "Systems::CollisionSphereComponent"
 									}, 
 									"object": {
@@ -226,6 +210,35 @@
 											1
  										], 
 										"m_radius": 2
+									}
+								},
+								{
+									"header": {
+										"header-version": 1, 
+										"typename": "Systems::RenderableComponent"
+									}, 
+									"object": {
+										"m_guid": "6842b582-5225-118-aba0-ad9be1a74c2b", 
+										"m_enabled": true, 
+										"m_mesh": {
+											"m_id": "007d6c8986f6061e"
+										}, 
+										"m_material": {
+											"m_id": "00cb61a2f7dc850d"
+										}, 
+										"m_lsTx": [
+											0,
+											0,
+											0,
+											1,
+											0.34202,
+											0,
+											-0,
+											0.939693,
+											1,
+											1,
+											1
+ 										]
 									}
 								}
  							], 

@@ -79,6 +79,7 @@
 00b428810c2cb614,cube,Mesh
 00b6e55fae2e12b7,base_cylinder,Mesh
 00b8ea5ca0c077ae,narshe_Roof_2x3,Mesh
+00bb98dc174d07c7,ichi_ground,Mesh
 00bfa563dab3d27e,skybox_night,Cubemap
 00bff898d9314574,test_time_animation_instance,MaterialInstance
 00c50261b5ea66a9,base_quad,Mesh
@@ -97,6 +98,7 @@
 00dd777612e662e3,ground,Texture
 00ddcdadc03f7503,vertex_color,MaterialInstance
 00de6b7f17dffd61,proto,Level
+00df8bb105853a40,ichi_ground,MaterialInstance
 00dfe8bb44487971,narshe_Window_1x3,Mesh
 00e2709146873d55,ichi_phase1,MaterialInstance
 00e2b523867b10f3,narshe_Gable_6,Mesh
